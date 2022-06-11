@@ -44,13 +44,24 @@ const Signin = () => {
             <div className="big-div1">
                 <div className="big-div2">
                     <div className="big-div3">
-                        <div className="signin">
+
+                        <div className="center">
+                        <h2 className="head1">Sign In</h2>
                             <form action="" className="formp">
-                                <h2 className="head">Bunk4Study</h2>
-                                <input className="input" ref={emailref} type="email"  placeholder='Email' />
-                                <input ref={passwordref} type="password" className="input1" placeholder='Password' />
-                                <button onClick={signIn} className="signin_pointer">Sign in</button>
-                                <h6 className="h6">Not yet register?<span onClick={signUp} className="signin_link">Sign up</span></h6>
+                            <div className="txt_field">
+                                    <input  type="email"  ref={emailref} required />
+                                    <span></span>
+                                    <label>E-mai address</label>
+                                </div>
+                                <div className="txt_field">
+                                    <input type="password" ref={passwordref} required />
+                                    <span></span>
+                                    <label>Create Password</label>
+                                </div>
+                                
+                                <div className="pass1">forget<a className="link" href="#">Password?</a></div>
+                                <button onClick={signIn} className="signin_pointer">Sign In</button>
+                                <h6 className="h6">Don't have an account?<span onClick={signUp} className="signin_link">Sign up</span></h6>
                             </form>
                         </div>
                     </div>

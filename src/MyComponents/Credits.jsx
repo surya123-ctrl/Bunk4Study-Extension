@@ -1,6 +1,6 @@
 import React from "react";
 import "../MyComponents/style/Credits.css";
-import Surya from "../Images/Surya.png";
+import Surya from "../Images/surya_img.jpeg";
 import Kunal from "../Images/Kunal.png";
 import Utkarsh from "../Images/Utkarsh.png";
 import AdityaShivaji from "../Images/AdityaShivaji.png";
@@ -48,14 +48,18 @@ const Credits = () => {
       </p>
       <div className="card-container">
         <div class="card">
-          <a target="_blank" href="https://github.com/surya123-ctrl/" rel="noreferrer">
-          <img id="user" src={Surya} alt="HR" />
+          <a
+            target="_blank"
+            href="https://github.com/surya123-ctrl/"
+            rel="noreferrer"
+          >
+            <img id="user" src={Surya} alt="HR" />
 
-          <div class="card-content">
-            <h4>Surya Pratap Singh</h4>
-            <h5>Frontend Developer</h5>
-            <p>Chandigarh University</p>
-          </div>
+            <div class="card-content">
+              <h4>Surya Pratap Singh</h4>
+              <h5>Frontend Developer</h5>
+              <p>Chandigarh University, Punjab</p>
+            </div>
           </a>
         </div>
 
@@ -70,14 +74,18 @@ const Credits = () => {
         </div>
 
         <div class="card">
-          <a target="_blank" href="https://github.com/utkarsh-dixit-git/" rel="noreferrer">
-          <img id="user" src={Utkarsh} alt="Dev" />
+          <a
+            target="_blank"
+            href="https://github.com/utkarsh-dixit-git/"
+            rel="noreferrer"
+          >
+            <img id="user" src={Utkarsh} alt="Dev" />
 
-          <div class="card-content">
-            <h4>Utkarsh Dixit</h4>
-            <h5>Frontend Developer</h5>
-            <p>O.P. Jindal University, Raigarh</p>
-          </div>
+            <div class="card-content">
+              <h4>Utkarsh Dixit</h4>
+              <h5>Frontend Developer</h5>
+              <p>O.P. Jindal University, Raigarh</p>
+            </div>
           </a>
         </div>
 
@@ -92,14 +100,18 @@ const Credits = () => {
         </div>
 
         <div class="card">
-          <a href="http://github.com/pritomdutta89" target="_blank" rel="noopener noreferrer">
-          <img id="user" src={Pritom} alt="Dev" />
+          <a
+            href="http://github.com/pritomdutta89"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img id="user" src={Pritom} alt="Dev" />
 
-          <div class="card-content">
-            <h4>Pritom Dutta</h4>
-            <h5>Frontend Developer</h5>
-            <p>Government College of Engineering and Leather Technology</p>
-          </div>
+            <div class="card-content">
+              <h4>Pritom Dutta</h4>
+              <h5>Frontend Developer</h5>
+              <p>Government College of Engineering and Leather Technology</p>
+            </div>
           </a>
         </div>
 
@@ -114,38 +126,50 @@ const Credits = () => {
         </div>
 
         <div class="card">
-          <a href="http://github.com/aditya9855" target="_blank" rel="noopener noreferrer">
-          <img id="user" src={Aditya} alt="Dev" />
+          <a
+            href="http://github.com/aditya9855"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img id="user" src={Aditya} alt="Dev" />
 
-          <div class="card-content">
-            <h4>Aditya Singh</h4>
-            <h5>Frontend Developer</h5>
-            <p>Dr B R Ambedkar National Institute of Technology, Jalandhar</p>
-          </div>
+            <div class="card-content">
+              <h4>Aditya Singh</h4>
+              <h5>Frontend Developer</h5>
+              <p>Dr B R Ambedkar National Institute of Technology, Jalandhar</p>
+            </div>
           </a>
         </div>
 
         <div class="card">
-        <a target="_blank" href="https://github.com/asmitaporwal/" rel="noreferrer">
-          <img id="user" src={Asmita} alt="Dev" />
+          <a
+            target="_blank"
+            href="https://github.com/asmitaporwal/"
+            rel="noreferrer"
+          >
+            <img id="user" src={Asmita} alt="Dev" />
 
-          <div class="card-content">
-            <h4>Asmita Porwal</h4>
-            <h5>Frontend Developer</h5>
-            <p>Jaypee University of engineering and technology, Guna</p>
-          </div>
+            <div class="card-content">
+              <h4>Asmita Porwal</h4>
+              <h5>Frontend Developer</h5>
+              <p>Jaypee University of engineering and technology, Guna</p>
+            </div>
           </a>
         </div>
 
         <div class="card">
-        <a target="_blank" href="https://github.com/Khushi340/" rel="noreferrer">
-          <img id="user" src={Khushi} alt="Dev" />
+          <a
+            target="_blank"
+            href="https://github.com/Khushi340/"
+            rel="noreferrer"
+          >
+            <img id="user" src={Khushi} alt="Dev" />
 
-          <div class="card-content">
-            <h4>Khushi Agrawal</h4>
-            <h5>Frontend Developer</h5>
-            <p>Veer Surendra Sai University Technology, Burla</p>
-          </div>
+            <div class="card-content">
+              <h4>Khushi Agrawal</h4>
+              <h5>Frontend Developer</h5>
+              <p>Veer Surendra Sai University Technology, Burla</p>
+            </div>
           </a>
         </div>
 

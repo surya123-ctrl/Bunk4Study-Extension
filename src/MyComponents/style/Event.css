@@ -1,0 +1,40 @@
+.giveaway {
+  font-size: 2rem !important;
+  margin: -3%;
+  color: rgb(255, 0, 38);
+  font-weight: 800;
+}
+
+img {
+  max-width: 15%;
+  max-height: 15%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.text {
+  text-align: left;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  flex: 1;
+}
+
+.margin {
+  margin: 1em;
+}
+
+.para {
+  padding-left: 1%;
+  text-align: center;
+  font-size: 15px;
+}
+.para a {
+  color: rgb(255, 0, 0);
+}
+.para a:hover {
+  border-bottom: 1px solid red;
+}

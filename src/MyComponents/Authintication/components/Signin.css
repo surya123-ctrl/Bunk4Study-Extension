@@ -1,0 +1,162 @@
+/* .signin{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(239, 243, 243);
+    border-radius: 10px;
+    box-shadow: 2px 3px 7px rgb(212, 212, 212);
+    
+} */
+.big-div2{
+    height: 100vh;
+    width: 28%;
+    background-color: #f2f1f2;
+    background-color:  #fbfbfb;
+    justify-content: center;
+    padding-top: 3%;
+    padding-left: 11%;
+    
+}
+.big-div1{
+    
+    display: flex;
+    justify-content: flex-start;
+        
+    align-content: center;
+    width: auto;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/61/86/FxRXSd.jpg);
+    background-position: right;
+    background-size: 70vw;
+    background-color: #fbfbfb;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.signin {
+   
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgb(102, 106, 102) 0px 3px 15px;
+    margin: 25px;
+    width: 320px;
+    height: 400px;
+
+}
+
+/* h1{
+    margin-right: 90px;
+} */
+
+/* .formp{
+    margin-left: 20px;
+} */
+
+/* .formp input{
+    margin-left: 20px;
+} */
+
+/* .signin>form{
+    display:grid;
+    flex-direction: column;
+} */
+.input{
+    background-color: rgb(225, 227, 227);
+    border: 2px solid rgb(135, 132, 132);
+    border-radius: 10px;
+    
+}
+.input1{
+    background-color: rgb(225, 227, 227);
+    border: 2px solid rgb(135, 132, 132);
+    border-radius: 10px;
+    margin-top: 0.6rem;
+}
+.signin>form>input{
+    margin-bottom: 1rem;
+    
+    width: 15rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+.head{
+    padding-top: 3rem;
+    margin-bottom: 2.5rem;
+    font-size: 45px;
+}
+
+.signin_pointer{
+    cursor: pointer;
+    width: 120px;
+    border-radius: 26px;
+    padding: 6px;
+    
+    margin-top: 1.5rem;
+    margin-left: 10px;
+    
+    background: rgb(234, 61, 9);
+    color: rgb(255, 255, 255);
+    
+    margin-bottom: 10px;
+}
+.h6{
+    padding-top: 1.5rem;
+}
+
+.signin_link{
+   cursor: pointer;
+}
+
+.signin_link:hover{
+    text-decoration: underline;
+}
+ @media (max-width: 480px){
+    .big-div1{
+        color:  #010506;
+        box-sizing: border-box;
+        background-image: none;
+        width: 100vw;
+        
+    }
+    .big-div2{
+
+        background-image: linear-gradient(to right top, #23f20d, #00ed78, #00e5af, #00d9d0, #12cada);
+        width: 100vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding: auto;
+        
+    }
+    .big-div3{
+        justify-content: center;
+        
+        
+    }
+    .head{
+        font-size: 2.3rem;
+        font-weight: bold;
+        
+    }
+    .signin{
+        
+        align-items: center;
+        margin: auto;
+        margin-top: 3rem;
+        display: flex;
+        orientation: portrait;
+        
+    }
+    .signin_pointer{
+        background-image: linear-gradient(to right top, #23f20d, #00ed78, #00e5af, #00d9d0, #12cada);
+    }
+
+
+} 

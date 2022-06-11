@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React, { useState, useEffect } from 'react';
 import { auth } from "./MyComponents/Authintication/firebase";
 import Signin from "./MyComponents/Authintication/components/Signin";
+import Signup from "./MyComponents/Authintication/components/Signup";
 import Signout from "./MyComponents/Authintication/Signout";
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -86,6 +87,7 @@ function App() {
           <Route path="/MeBranch" element={<MeBranch />} />
           <Route path="/Signout" element={<Signout />} />
           <Route path="/Signin" element={<Signin />} />
+          <Route path="/signup" element={<Signup />} />
 
           {/* <Navigate to="/" /> */}
           {/* <Navigate to="/" /> */}

@@ -92,6 +92,7 @@ const Credits = () => {
         </div>
 
         <div class="card">
+          <a href="http://github.com/pritomdutta89" target="_blank" rel="noopener noreferrer">
           <img id="user" src={Pritom} alt="Dev" />
 
           <div class="card-content">
@@ -99,6 +100,7 @@ const Credits = () => {
             <h5>Frontend Developer</h5>
             <p>Government College of Engineering and Leather Technology</p>
           </div>
+          </a>
         </div>
 
         <div class="card">
@@ -112,6 +114,7 @@ const Credits = () => {
         </div>
 
         <div class="card">
+          <a href="http://github.com/aditya9855" target="_blank" rel="noopener noreferrer">
           <img id="user" src={Aditya} alt="Dev" />
 
           <div class="card-content">
@@ -119,6 +122,7 @@ const Credits = () => {
             <h5>Frontend Developer</h5>
             <p>Dr B R Ambedkar National Institute of Technology, Jalandhar</p>
           </div>
+          </a>
         </div>
 
         <div class="card">

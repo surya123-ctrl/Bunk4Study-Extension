@@ -1,6 +1,6 @@
 import React from "react";
 import "../MyComponents/style/Credits.css";
-import Surya from "../Images/surya_img.jpeg";
+import Surya from "../Images/Surya.png";
 import Kunal from "../Images/Kunal.png";
 import Utkarsh from "../Images/Utkarsh.png";
 import AdityaShivaji from "../Images/AdityaShivaji.png";

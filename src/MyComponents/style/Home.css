@@ -25,7 +25,7 @@
     left: 1.9rem;
 }
 #first {
-    background: linear-gradient(rgba(143, 148, 191, 0.7), rgba(38, 106, 138, 0.1));
+    background: linear-gradient(rgba(23 78 98 / 70%), rgba(255, 255, 255, 0.1));
     margin-bottom: 0rem;
     text-align-last: left;
     padding: 2.5rem;
@@ -35,7 +35,7 @@
 }
 
 #second {
-    background: linear-gradient(rgba(143, 148, 191, 0.7), rgba(38, 106, 138, 0.1));
+    background: linear-gradient(rgba(23 78 98 / 70%), rgba(255, 255, 255, 0.1));
     margin-bottom: 0rem;
     text-align-last: left;
     padding: 2.5rem;
@@ -44,7 +44,7 @@
 }
 
 #third {
-    background: linear-gradient(rgba(143, 148, 191, 0.7), rgba(38, 106, 138, 0.1));
+    background: linear-gradient(rgba(23 78 98 / 70%), rgba(255, 255, 255, 0.1));
     padding: 2.5rem;
     text-align-last: left;
     border-radius: 10px;

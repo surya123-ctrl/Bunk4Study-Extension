@@ -1,12 +1,25 @@
 import React, { useRef } from 'react';
-import { auth } from '../firebase';
+import { auth, provider} from '../firebase';
 import './Signin.css';
 import { useNavigate } from "react-router-dom";
+import GoogleButton from "react-google-button";
 
 const Signin = () => {
     const emailref = useRef(null);
     const passwordref = useRef(null);
     const navigate = useNavigate();
+
+    const GoogleSignIn = ()=>{
+        auth.signInWithPopup(provider)
+        .then(result=>{
+           console.log(result);
+          })
+        .catch(error=>{
+            console.log(error);
+            alert(error);
+        }
+        )
+    }
 
     const signUp = (e) => {
         e.preventDefault();
@@ -62,7 +75,11 @@ const Signin = () => {
                                 <div className="pass1">forget<a className="link" href="#">Password?</a></div>
                                 <button onClick={signIn} className="signin_pointer">Sign In</button>
                                 <h6 className="h6">Don't have an account?<span onClick={signUp} className="signin_link">Sign up</span></h6>
+                               
                             </form>
+                            <div className="g-btn" >
+                                   <span onClick={GoogleSignIn} ><GoogleButton type="dark" /></span> 
+                            </div>
                         </div>
                     </div>
                 </div>

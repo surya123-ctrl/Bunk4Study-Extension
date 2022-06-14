@@ -1,6 +1,6 @@
 import React from 'react';
 import './signup.css';
-import GoogleButton from "react-google-button";
+// import GoogleButton from "react-google-button";
 
 
 
@@ -34,13 +34,12 @@ const signUp = () => {
                                 <div className="pass">Already have an account?<a className="link" href="#">Login</a></div>
                                 <button type='submit' className="signin_pointer">Sign up</button>
                                 <hr />
-                                <div className="g-btn">
+                                {/* <div className="g-btn">
                                     <GoogleButton
                                         type="dark"
 
                                     />
-
-                                </div>
+                                </div> */}
 
 
                             </form>

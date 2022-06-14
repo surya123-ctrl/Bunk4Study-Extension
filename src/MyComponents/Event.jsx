@@ -5,16 +5,13 @@ import logo from "../Images/Tshirt.jpeg";
 import MovingComponent from "react-moving-text";
 const Event = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#f7eecf" }}>
       <h1 className="giveaway">
         {" "}
         <span class="giveaway">
           Giveaway <span style={{ fontSize: "30px" }}>&hearts;</span>
         </span>
       </h1>
-      {/* <div class="alert alert-danger" role="alert">
-        All 10% Of Total Registered Student will Get TShirt
-      </div> */}
       <MovingComponent
         type="slideInFromLeft"
         duration="2000ms"

@@ -87,7 +87,7 @@ function App() {
           <Route path="/MeBranch" element={<MeBranch />} />
           <Route path="/Signout" element={<Signout />} />
           <Route path="/Signin" element={<Signin />} />
-          <Route path="/signup" element={<Signup />} />
+          {/* <Route path="/signup" element={<Signup />} /> */}
 
           {/* <Navigate to="/" /> */}
           {/* <Navigate to="/" /> */}

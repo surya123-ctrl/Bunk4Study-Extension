@@ -12,7 +12,7 @@ const Header = (props) => {
         <div class="container-fluid">
           <a
             class="navbar-brand d-flex justify-content-start me-auto fw-bold"
-            href="/"
+            href="/" to="/"
           >
             <img
               src={navlogo}
@@ -38,27 +38,27 @@ const Header = (props) => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link nav-link me-2" aria-current="page" href="/">
+                <a class="nav-link nav-link me-2" aria-current="page" to="/" href="/">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link me-2" href="About">
+                <a class="nav-link nav-link me-2" to="About" href="About">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link me-2" href="Question">
+                <a class="nav-link nav-link me-2" to="Question" href="Question">
                   Questions
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link me-2" href="Notes">
+                <a class="nav-link nav-link me-2" to="Notes" href="Notes">
                   Notes
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link me-2" href="ContactUs">
+                <a class="nav-link nav-link me-2" to="ContactUs" href="ContactUs">
                   Contact Us
                 </a>
               </li>

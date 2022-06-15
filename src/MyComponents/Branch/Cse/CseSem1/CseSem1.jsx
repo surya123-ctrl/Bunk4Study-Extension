@@ -1,8 +1,17 @@
 import React from "react";
 
-const Sem12021 = () => {
+const Sem1 = () => {
   return (
     <>
+      <div style={{ backgroundColor: "#Dbe6ea" }}>
+        <h1 class="mb-1">
+          SEMESTER 1 <br />
+          Select Your Subject
+          <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </h1>
+      </div>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -23,40 +32,44 @@ const Sem12021 = () => {
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1ZUdDwiwJnAV-aR7gmyIrRePOwctDbjMe/view?usp=sharing"
+                href="https://drive.google.com/file/d/1TZ95G_0lKa1_GuJC1psD98rCj67-fMRr/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year 2021
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1TZ95G_0lKa1_GuJC1psD98rCj67-fMRr/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZUdDwiwJnAV-aR7gmyIrRePOwctDbjMe/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper2
+                  Year2020
                 </button>
               </a>
               <br />
               <a
                 href="https://drive.google.com/file/d/1jzTLGv0RHetuHJRt-FGBGCHCSuJXhn2q/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper3
+                  Year2019
                 </button>
               </a>
               <br />
               <a
                 href="https://drive.google.com/file/d/14QxrP5tBB6I4bd3kbPhZYo5Ty60LT4eY/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper4
+                  YearAll
                 </button>
               </a>
               <br />
@@ -82,31 +95,34 @@ const Sem12021 = () => {
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/12nvj6oVuLifWg8JIGYguuLQVSCwq_xP-/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
               <a
                 href="https://drive.google.com/file/d/1hwOhHju8nFYm3AV3mIMS5Lx6dFZv6cC2/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper2
+                  Year2
                 </button>
               </a>
               <br />
               <a
                 href="https://drive.google.com/file/d/1pDrDUbPwLJVtTei7mz6RbfdBLjdLogOm/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper3
+                  Year3
                 </button>
               </a>
               <br />
@@ -132,49 +148,54 @@ const Sem12021 = () => {
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1oGtknDP1Q5Hd4gng3KyvUN48A1xF4cBH/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
               <a
                 href="https://drive.google.com/file/d/1BcCOFAUyOzdBUgOOyDXYKobigioku3E7/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper2
+                  Year2
                 </button>
               </a>
               <br />
               <a
                 href="https://drive.google.com/file/d/15pEuCRozdz8fmgMo1wsjJcMeRWd01gBW/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper3
+                  Year3
                 </button>
               </a>
               <br />
               <a
                 href="https://drive.google.com/file/d/133p7KqGcdTd9xTVuPhHIOpwgiXyB6CeW/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper4
+                  Year4
                 </button>
               </a>
               <br />
               <a
                 href="https://drive.google.com/file/d/1iuQN_25rf0atAIMXSNB86xdRXFuPE5q0/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper5
+                  Year5
                 </button>
               </a>
               <br />
@@ -200,13 +221,14 @@ const Sem12021 = () => {
             aria-labelledby="headingFour"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1CvjZbNet-be4q3EnChs52uamO9w-OXqe/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -232,13 +254,14 @@ const Sem12021 = () => {
             aria-labelledby="headingFive"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1cOUrzCVDEhIUS0KfVdVvxyWL5xSCwcCQ/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -264,13 +287,14 @@ const Sem12021 = () => {
             aria-labelledby="headingSix"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1wYE-RonwpQc1JML0cSX1fw7IpPmMSKdc/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -296,13 +320,14 @@ const Sem12021 = () => {
             aria-labelledby="headingSeven"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1raAOu_9FNZ3ks2s64wG729-zroA5ljB0/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -329,13 +354,14 @@ const Sem12021 = () => {
             aria-labelledby="headingEight"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1XJrqzTpoMGOlHp07VR1WDgTFYCLftFar/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -362,13 +388,14 @@ const Sem12021 = () => {
             aria-labelledby="headingNine"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1ZPCvd3h2MVxfc0lMesI1K3ZDbhnOj8g3/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -386,7 +413,7 @@ const Sem12021 = () => {
               aria-expanded="false"
               aria-controls="collapseTen"
             >
-              ELECTICAL TECHNOLOGY
+              ELECTRICAL TECHNOLOGY
             </button>
           </h2>
           <div
@@ -395,16 +422,16 @@ const Sem12021 = () => {
             aria-labelledby="headingTen"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1b6_pHQBIc5_ZCYQce0H43-rm2ocLvPzJ/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
-              <br />
             </div>
           </div>
         </div>
@@ -413,4 +440,4 @@ const Sem12021 = () => {
   );
 };
 
-export default Sem12021;
+export default Sem1;

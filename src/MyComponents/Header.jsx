@@ -8,90 +8,7 @@ import Signout from "./Authintication/Signout";
 const Header = (props) => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-          <a
-            class="navbar-brand d-flex justify-content-start me-auto fw-bold"
-            href="/"
-            to="/"
-          >
-            <img
-              src={navlogo}
-              alt="op"
-              width="150"
-              height="200"
-              className="d-inline-block align-text-top"
-            />
-            Bunk4Study
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i className="bx bx-menu open fw-bold text-dark"></i>
-            <i className="bx bx-x close fw-bold text-dark"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link nav-link me-2"
-                  aria-current="page"
-                  to="/"
-                  href="/"
-                >
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-link me-2" to="About" href="About">
-                  About
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-link me-2" to="Question" href="Question">
-                  Questions
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-link me-2" to="Notes" href="Notes">
-                  Notes
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link nav-link me-2"
-                  to="ContactUs"
-                  href="ContactUs"
-                >
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-            <i
-              className="bi bi-bell-fill text-dark me-3 fs-2 mx-4 d-inline-block align-text-top"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasRight"
-              aria-controls="offcanvasRight"
-            ></i>
-            {props.User ? (
-              <NavLink to="Signout">
-                <i className="bx bx-user-check text-dark me-3 fs-2  d-inline-block align-text-top"></i>
-              </NavLink>
-            ) : (
-              <NavLink to="Signin">
-                <i className="bx bx-user text-dark me-3 fs-2  d-inline-block align-text-top"></i>
-              </NavLink>
-            )}
-          </div>
-        </div>
-      </nav>
-      {/* <nav className="navbar navbar-expand-lg sticky-top">
+      <nav className="navbar navbar-expand-lg sticky-top">
         <div className="container-fluid">
           <NavLink
             className="navbar-brand d-flex justify-content-start me-auto fw-bold"
@@ -169,7 +86,7 @@ const Header = (props) => {
             )}
           </div>
         </div>
-      </nav> */}
+      </nav>
       <div
         class="offcanvas offcanvas-end"
         tabindex="-1"

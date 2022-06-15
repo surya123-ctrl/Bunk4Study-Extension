@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sem12019 = () => {
+const Sem12020 = () => {
   return (
     <>
       <div class="accordion" id="accordionExample">
@@ -25,10 +25,8 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/1xo9hgqFwUgeIO9inaLxpacn6VjqVJWMP/view?usp=sharing"
-                target="_blank"
-                download
-                rel="noreferrer"
+                href="https://drive.google.com/file/d/1OJISavkfg3xHI2zNTSEEyTajzUOusl7Y/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
@@ -36,9 +34,8 @@ const Sem12019 = () => {
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1EFJszkL0b7-cFu8cAcgREzo-A4-ng1vK/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
+                href="https://drive.google.com/file/d/19vmKIU1kjCsU5j3TtdtkwQ_7DrDTEGmP/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper2
@@ -46,42 +43,11 @@ const Sem12019 = () => {
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1uaF2rLw3sPP8C6qVsf6F41xuYoehQwZ2/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
+                href="https://drive.google.com/file/d/1R9PHBuoMapeGlIsXjODdhqXi_nMDvJ5-/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper3
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1SKiTKAieU7kn9iba3uhvIllgyWmHo2Mn/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper4
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1Nnf1FPp8Xvjo1y3Z10Z1tuG-Th5XEfOG/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper5
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1STknZ6sUzz42PJMx6OiT1EEnIGYW-S_6/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper6
                 </button>
               </a>
               <br />
@@ -109,9 +75,8 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/1QJn90GetDiCEo84qqNfsJXhh2smYQvLW/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
+                href="https://drive.google.com/file/d/1YfLK-7yR9ZiOMLRiwdU7xGvZ--Tn1KA-/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
@@ -119,22 +84,11 @@ const Sem12019 = () => {
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1TDXgZs-ygIVWc4wOKHAYhg2jFBmjWswE/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
+                href="https://drive.google.com/file/d/1JRuuGP8zPP2AmNNzjJbQ9pc3o8yOp-Nf/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper2
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1rwL-xsuFe0gI7XRAFO98mGvAaUbwNV2K/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper3
                 </button>
               </a>
               <br />
@@ -162,9 +116,8 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/1gl0T2VeZZHBLWlX_Dfmfl9tqeaAussal/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
+                href="https://drive.google.com/file/d/1KIjubJFdQx9LkW8Xksmo4VkvsjaS9xWO/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
@@ -172,9 +125,8 @@ const Sem12019 = () => {
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/14-wUtc6euEx7j8jEUIrgu-r9vgx4F3Xq/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
+                href="https://drive.google.com/file/d/1JzT7qf4Icaipv1wJQV-JrbhPfnaPmyyH/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper2
@@ -182,58 +134,11 @@ const Sem12019 = () => {
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/14-wUtc6euEx7j8jEUIrgu-r9vgx4F3Xq/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
+                href="https://drive.google.com/file/d/1VFgmE8YWH4VSXdi6C87YGqtxOio6-1eB/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper3
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1CsLQLfcH6wvOhRqZPUzGoRUPMNPXGrnm/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper4
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1o1uqiNuMuXWQCCp6BhttiefWAMwTddum/view?usp=sharing"
-                target="_blank"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper5
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1BxCDCCdYApNeQNY4TsTta2O87TNwTnZP/view?usp=sharing"
-                target="_blank"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper6
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1oLbuorwjiijyPU93bzR52tFHP1t24MMw/view?usp=sharing"
-                target="_blank"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper7
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/16na-bJ1OPWwBGb9IJDpSmXwi0-UsAUlq/view?usp=sharing"
-                target="_blank"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper8
                 </button>
               </a>
               <br />
@@ -261,8 +166,8 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/1xqfAEwO2Yn-3TdrO_DDLuqT0ylpWhpoG/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/file/d/1LeTl4H4vAwek94WnSmEqoBpATx9Cf4nu/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
@@ -270,8 +175,8 @@ const Sem12019 = () => {
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1fyb7_MjxuWL33icwc1rxGNy0bFWBkNre/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/file/d/1h3wAawtsFsCvAhAG9Ugd1DcwmeWBNj14/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper2
@@ -302,8 +207,8 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/1Oo8RVKkAPqNUOx_LDiu0jf_tNE0FRTnH/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/file/d/1XwGuF7ZBOWGkBwLK1QJonvY_hcXYvzyN/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
@@ -334,8 +239,8 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/138YvCqu7r2qeycg29OGrG7H42C5akyJ2/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/file/d/1wYE-RonwpQc1JML0cSX1fw7IpPmMSKdc/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
@@ -366,8 +271,8 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/1zYk0ed6IHc6LtFa-Wm_jyypl0sekCbzi/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/file/d/1raAOu_9FNZ3ks2s64wG729-zroA5ljB0/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
@@ -399,8 +304,8 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/1ipQ6V8SNxPOhM3H-OYmdVAKK1xfsmkgj/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/file/d/1L-BE1OuKVavkruw4GaOZknLnIOL-F_pI/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
@@ -432,8 +337,8 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/1LcyrCjSv6bxMKKB5Bk_zFtHalXxd75iE/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/file/d/1eUcVb_zSnTJJGJXx_giu5WwJE1vsy5_V/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
@@ -454,7 +359,7 @@ const Sem12019 = () => {
               aria-expanded="false"
               aria-controls="collapseTen"
             >
-              ELECTRICAL TECHNOLOGY
+              ELECTICAL TECHNOLOGY
             </button>
           </h2>
           <div
@@ -465,11 +370,20 @@ const Sem12019 = () => {
           >
             <div class="accordion-body">
               <a
-                href="https://drive.google.com/file/d/1z1-gTHKhID6xeQoW7lgQFOycJlep0Pfz/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/file/d/1P6j_ex1D5hDhQTLeb3XkXyk38ow3X3DL/view?usp=sharing"
+                target="_blank" rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
                   Paper1
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1zhPLBwgiqnxT5FHDM2ZDv6zmyWs7sJdx/view?usp=sharing"
+                target="_blank" rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  Paper2
                 </button>
               </a>
               <br />

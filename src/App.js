@@ -1,7 +1,10 @@
+/* eslint-disable no-unused-vars */
+// eslint-disable-next-line no-unused-vars
 import logo from './logo.svg';
 import React, { useState, useEffect } from 'react';
 import { auth } from "./MyComponents/Authintication/firebase";
 import Signin from "./MyComponents/Authintication/components/Signin";
+// eslint-disable-next-line no-unused-vars
 import Signup from "./MyComponents/Authintication/components/Signup";
 import Signout from "./MyComponents/Authintication/Signout";
 import './App.css';
@@ -17,13 +20,22 @@ import Notes from './MyComponents/Notes';
 import Question from './MyComponents/Question';
 import Footer from './MyComponents/Footer';
 import Event from './MyComponents/Event';
-import Sem1 from './MyComponents/firstyear/semester1/Sem1';
-import CseBranch from './MyComponents/Branch/CseBranch';
-import Sem12020 from './MyComponents/firstyear/semester1/Sem12020';
-import Sem12021 from './MyComponents/firstyear/semester1/Sem12021';
-import Sem12019 from './MyComponents/firstyear/semester1/Sem12021';
-import EceBranch from './MyComponents/Branch/EceBranch';
-import MeBranch from './MyComponents/Branch/MeBranch';
+import CseBranch from './MyComponents/Branch/Cse/CseBranch';
+import EceBranch from './MyComponents/Branch/Ece/EceBranch';
+import MeBranch from './MyComponents/Branch/Me/MeBranch';
+import CeBranch from './MyComponents/Branch/Ce/CeBranch';
+import EeBranch from './MyComponents/Branch/Ee/EeBranch';
+import BeBranch from './MyComponents/Branch/Be/BeBranch';
+import CseSem1 from './MyComponents/Branch/Cse/CseSem1/CseSem1';
+import CseSem2 from './MyComponents/Branch/Cse/CseSem2/CseSem2';
+import CseSem3 from './MyComponents/Branch/Cse/CseSem3/CseSem3';
+import CseSem4 from './MyComponents/Branch/Cse/CseSem4/CseSem4';
+import CseSem5 from './MyComponents/Branch/Cse/CseSem5/CseSem5';
+import CseSem6 from './MyComponents/Branch/Cse/CseSem6/CseSem6';
+import CseSem7 from './MyComponents/Branch/Cse/CseSem7/CseSem7';
+import CseSem8 from './MyComponents/Branch/Cse/CseSem8/CseSem8';
+import CseSem12019 from './MyComponents/Branch/Cse/CseSem1/CseSem12019';
+import CseSem12020 from './MyComponents/Branch/Cse/CseSem1/CseSem12020';
 import ScrollToTop from './MyComponents/scrollToTop';
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 
@@ -78,13 +90,22 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/Credits" element={<Credits />} />
           <Route path="/Event" element={<Event />} />
-          <Route path="/Sem12020" element={<Sem12020 />} />
-          <Route path="/Sem12021" element={<Sem12021 />} />
-          <Route path="/Sem12019" element={<Sem12019 />} />
-          <Route path="/Sem1" element={<Sem1 />} />
+          <Route path="/CseSem1" element={<CseSem1/>} />
+          <Route path="/CseSem2" element={<CseSem2/>} />
+          <Route path="/CseSem3" element={<CseSem3/>} />
+          <Route path="/CseSem4" element={<CseSem4/>} />
+          <Route path="/CseSem5" element={<CseSem5/>} />
+          <Route path="/CseSem6" element={<CseSem6/>} />
+          <Route path="/CseSem7" element={<CseSem7/>} />
+          <Route path="/CseSem8" element={<CseSem8/>} />
+          <Route path="/Sem12019" element={<CseSem12019 />} />
+          <Route path="/Sem12020" element={<CseSem12020 />} />
           <Route path="/CseBranch" element={<CseBranch />} />
           <Route path="/EceBranch" element={<EceBranch />} />
           <Route path="/MeBranch" element={<MeBranch />} />
+          <Route path="/CeBranch" element={<CeBranch />} />
+          <Route path="/EeBranch" element={<EeBranch />} />
+          <Route path="/BeBranch" element={<BeBranch />} />
           <Route path="/Signout" element={<Signout />} />
           <Route path="/Signin" element={<Signin />} />
           {/* <Route path="/signup" element={<Signup />} /> */}

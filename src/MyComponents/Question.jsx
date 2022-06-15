@@ -1,4 +1,5 @@
 import React from "react";
+import "./style/Question.css";
 import { Link } from "react-router-dom";
 
 const Question = () => {
@@ -10,33 +11,52 @@ const Question = () => {
           <span class="visually-hidden">Loading...</span>
         </div>
       </h1>
-
-      <h2>
+      <div className="Branch">
         <Link to={"/CseBranch"}>
           <button type="button" class="btn btn-primary">
-            Computer Science
+            Computer Science Engineering
           </button>
         </Link>
-      </h2>
 
-      <h2>
         <Link to={"/EceBranch"}>
-          <button type="button" class="btn btn-primary">
-            Electronics and Communications Engineering
+          <button type="button" class="btn btn-success">
+            Electronics & Communications Engineering
           </button>
         </Link>
-      </h2>
 
-      <h2>
         <Link to={"/MeBranch"}>
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-danger">
             Mechanical Engineering
           </button>
         </Link>
-      </h2>
 
-      <br />
-      <br />
+        <Link to={"/EeBranch"}>
+          <button type="button" class="btn btn-secondary">
+            Electrical Engineering
+          </button>
+        </Link>
+
+        <Link to={"/CeBranch"}>
+          <button type="button" class="btn btn-info">
+            Civil Engineering
+          </button>
+        </Link>
+
+        <Link to={"/BeBranch"}>
+          <button type="button" class="btn btn-warning">
+            Bio - Tech Engineering
+          </button>
+        </Link>
+
+        <Link to={""}>
+          <button type="button" class="btn btn-outline-light">
+            Coming Soon.....
+            <div class="spinner-border text-danger" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };

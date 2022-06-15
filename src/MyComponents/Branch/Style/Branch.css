@@ -1,0 +1,21 @@
+.sem, #sub {
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.sem .btn {
+    padding: 100px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#sub .btn {
+    padding:20px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 200;
+}

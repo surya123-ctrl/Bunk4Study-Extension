@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <>
+    <div style={{ backgroundColor: "#Dbe6ea" }}>
       <Link to={"/Blog"}>
         {" "}
         <button class="btn btn-outline-success btn-lg my-2">
@@ -26,26 +26,33 @@ const About = () => {
             <p class="leading-relaxed text-lg">
               We started Bunk4Study because in college everyone has to focus on
               extra study to get placement not on syllabus. But to take degree
-              from college student have to pass semesters exam as we are also
-              college student and also face same problem. After year of
-              experience we came through result that to prepare for semester one
-              night before the exam the best way is go through previous year
-              paper. Now problem arises it is very hectic work time taking to
-              find previous year paper from library and asking seniors. That's
-              why we are here for you to support you to find previous year paper
-              in single click for different colleges without any hardwork. Along
-              the way, we are also working on different branches like notes,
-              study courses and many different sectors but right now we are
-              focusing on Question paper For different branches. We want to be
-              your last night study mentor who helps you in Passing semester
-              exam and you can focus on your placement studies without any fear
-              of back in semester exam.
+              from college student have to pass semester exams as we are also
+              college student and also face the same problem. After year of
+              experience we came through the result that to prepare for semester
+              one night before the exam the best way to is to go through
+              previous year paper. Now problem arises it is very hectic work
+              time taking to find previous year paper from library and asking
+              seniors. That’s why we are here for you to support you to find
+              previous year paper in single click for different colleges without
+              any hardwork. Along the way we are also working on different
+              branches like notes, study courses and many different sectors but
+              right now we are focusing on Question Paper for different
+              branches. We want to be your last night study mentor who helps you
+              in passing semester exams and you can focus on your placement
+              studies without any fear of back in semester exams. Every students
+              download the question papers, notes and study material in this
+              website. It is helpful for those students who don’t give much time
+              in college studies and take more time placements will get more
+              benefits in examinations. Every student pass in exam with good
+              marks and he/she don’t spend much time in finding the question
+              paper on different sites rather than all can find study materials
+              in Bunk4Study. So all can get benefits in Bunk4Study.
             </p>
             <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"></span>
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

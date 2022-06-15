@@ -5,7 +5,6 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-
 }
 
 .btn,
@@ -38,13 +37,11 @@ button {
   color: grey !important;
 }
 
-
-
-button[aria-expanded="false"]>.close {
+button[aria-expanded="false"] > .close {
   display: none;
 }
 
-button[aria-expanded="true"]>.open {
+button[aria-expanded="true"] > .open {
   display: none;
 }
 
@@ -59,16 +56,12 @@ button[aria-expanded="true"]>.open {
   box-shadow: none !important;
 }
 
-@media(max-width: 991px) {
-
+@media (max-width: 991px) {
   .bx-user-check,
   .bx-user {
     margin-top: 0.7rem !important;
   }
-
-
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

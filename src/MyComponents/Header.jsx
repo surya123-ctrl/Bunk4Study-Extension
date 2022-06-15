@@ -12,7 +12,8 @@ const Header = (props) => {
         <div class="container-fluid">
           <a
             class="navbar-brand d-flex justify-content-start me-auto fw-bold"
-            href="/" to="/"
+            href="/"
+            to="/"
           >
             <img
               src={navlogo}
@@ -38,7 +39,12 @@ const Header = (props) => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link nav-link me-2" aria-current="page" to="/" href="/">
+                <a
+                  class="nav-link nav-link me-2"
+                  aria-current="page"
+                  to="/"
+                  href="/"
+                >
                   Home
                 </a>
               </li>
@@ -58,7 +64,11 @@ const Header = (props) => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link me-2" to="ContactUs" href="ContactUs">
+                <a
+                  class="nav-link nav-link me-2"
+                  to="ContactUs"
+                  href="ContactUs"
+                >
                   Contact Us
                 </a>
               </li>
@@ -165,6 +175,7 @@ const Header = (props) => {
         tabindex="-1"
         id="offcanvasRight"
         aria-labelledby="offcanvasRightLabel"
+        style={{ backgroundColor: "#Dbe6ea" }}
       >
         <div class="offcanvas-header">
           <h5 id="offcanvasRightLabel">Notifications</h5>

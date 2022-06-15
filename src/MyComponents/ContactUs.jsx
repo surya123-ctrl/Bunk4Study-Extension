@@ -37,14 +37,17 @@ const ContactUs = () => {
   }, 5000);
 
   return (
-    <form action="" onSubmit={sendEmail}>
+    <form action="" onSubmit={sendEmail} style={{ backgroundColor: "#Dbe6ea" }}>
       <section class="text-gray-600 body-font relative">
         <div class="container px-5 py-8 mx-auto">
           <div class="flex flex-col text-center w-full mb-3">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-0 mt-0 text-gray-900">
               Contact Us
             </h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base fw-bold ">
+            <p
+              class="lg:w-2/3 mx-auto leading-relaxed text-base fw-bold "
+              style={{ marginBottom: "5px" }}
+            >
               Message Any Doubt Below{" "}
               <i class="bi bi-arrow-down-square-fill ms-1"></i>
             </p>

@@ -13,39 +13,34 @@ import Pranay from "../Images/Pranay.png";
 import Zafeer from "../Images/Zafeer.png";
 const Credits = () => {
   return (
-    <>
+    <div style={{ backgroundColor: "#Dbe6ea" }}>
       <div class="container">
         <h1>
           Welcome to the <br />
           Bunk4Study
         </h1>
         <p class="text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit et
-          facilis ullam iusto expedita eligendi repellendus architecto odit,
-          itaque maiores, officia tenetur unde quia odio ipsa! At officiis
-          pariatur ad. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Eveniet suscipit magni sed. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Deserunt, id voluptatibus distinctio amet mollitia
-          assumenda. Aperiam, inventore. Est, omnis veritatis. Enim possimus
-          quasi minus facere adipisci expedita provident aperiam! Accusamus,
-          labore et!
+          Bunk4Study welcome all the students and helps them to secure his/her
+          bright future. It is commonly named as Bunk for Study. For avoidance
+          of study, Students bunk the classes in school days so to maintain the
+          decorum of students i.e. for study of placements and student’s study
+          in the class don’t be affected, Bunk4Study site is there. Students
+          bunk the classes and side by side there college study don’t be loss,
+          all the things will get smoother either their college study as well as
+          placements. If anyone face any problem regarding study materials,
+          notes, question papers then warm welcome to the site of Bunk4Study.
         </p>
         <h1>Our Story</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sunt
-          obcaecati error ducimus perferendis deserunt odio deleniti architecto
-          laudantium reiciendis, reprehenderit dolores magni porro cumque quidem
-          esse optio blanditiis cobaserporis alias! Assumenda! Lorem ipsum dolor
-          sit, amet consectetur adipisicing elit. Possimus adipisci laboriosam
-          obcaecati tenetur vero maiores, in asperiores exercitationem inventore
-          qui accusamus?
+          Our team members have worked across this site of Bunk4Study. All the
+          interns who work here are freshers, graduates. They are newbies to the
+          world without any proper exposure to the wholesome battleground into
+          which they are entering. By offer an internship makes them feel
+          flexible and work on it. It makes them a good fit for field into which
+          they want to go and grab an opportunity in career.
         </p>
       </div>
       <h1>Our Team</h1>
-      <p>
-        Meet Our Founder, HR, Team Lead, Content writers, Designers and
-        Developers
-      </p>
       <div className="card-container">
         <div class="card">
           <a
@@ -193,7 +188,7 @@ const Credits = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

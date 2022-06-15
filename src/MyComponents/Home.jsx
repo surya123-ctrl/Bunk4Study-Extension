@@ -248,7 +248,10 @@ const Home = () => {
         </div>
       </section>
       {/* Utkarsh Code Ends for those 3 divs  */}
-      <section class="text-gray-600 body-font">
+      <section
+        class="text-gray-600 body-font"
+        style={{ backgroundColor: "#Dbe6ea" }}
+      >
         <div class="container px-5 py-24 mx-auto">
           <div id="demo" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">

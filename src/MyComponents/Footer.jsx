@@ -5,7 +5,7 @@ import navlogo from "../Images/navlogo.png";
 import "../MyComponents/style/Footer.css";
 const Footer = () => {
   return (
-    <>
+    <div style={{ backgroundColor: "#Dbe6ea" }}>
       <footer className="footer">
         <div className="footer-inside">
           <div className="left-footer">
@@ -88,7 +88,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 

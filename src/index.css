@@ -155,4 +155,8 @@ i {
   .right-footer .footer-part {
     display: block;
   }
+  .right-footer .footer-part p {
+    display: block;
+    margin-left: auto;
+  }
 }

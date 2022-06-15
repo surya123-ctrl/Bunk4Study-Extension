@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import "../MyComponents/style/Navbar.css";
 import navlogo from "../Images/navlogo.png";
 import { Link } from "react-router-dom";
 import Signin from "./Authintication/components/Signin";
 import Signout from "./Authintication/Signout";
+function NavBar() {
+  const [click, setClick] = useState(false);
 
-const Header = (props) => {
+  const handleClick = () => setClick(!click);
   return (
     <>
-      <nav className="navbar navbar-expand-lg sticky-top">
-        <div className="container-fluid">
+      <nav className="navbar">
+        <div className="nav-container">
           <NavLink
             className="navbar-brand d-flex justify-content-start me-auto fw-bold"
             to="/"
@@ -24,58 +27,70 @@ const Header = (props) => {
             Bunk4Study
           </NavLink>
 
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i className="bx bx-menu open fw-bold text-dark"></i>
-            <i className="bx bx-x close fw-bold text-dark"></i>
-          </button>
-
-          <div
-            className="collapse navbar-collapse justify-content-center"
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <NavLink className="nav-link me-2" exact="true" to="/" >
-                  Home
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link me-2" to="About">
-                  About
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link me-2" to="Question">
-                  Question
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link me-2" to="Notes">
-                  Notes
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link me-2" to="ContactUs">
-                  ContactUs
-                </NavLink>
-              </li>
-            </ul>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-link me-2"
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-link me-2"
+                onClick={handleClick}
+              >
+                About
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/question"
+                activeClassName="active"
+                className="nav-link me-2"
+                onClick={handleClick}
+              >
+                Question
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/notes"
+                activeClassName="active"
+                className="nav-link me-2"
+                onClick={handleClick}
+              >
+                Notes
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contactus"
+                activeClassName="active"
+                className="nav-link me-2"
+                onClick={handleClick}
+              >
+                Contact Us
+              </NavLink>
+            </li>
             <i
+              id="bell"
               className="bi bi-bell-fill text-dark me-3 fs-2 mx-4 d-inline-block align-text-top"
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasRight"
               aria-controls="offcanvasRight"
             ></i>
-
-            {props.User ? (
+            {handleClick.User ? (
               <NavLink to="Signout">
                 <i className="bx bx-user-check text-dark me-3 fs-2  d-inline-block align-text-top"></i>
               </NavLink>
@@ -84,6 +99,10 @@ const Header = (props) => {
                 <i className="bx bx-user text-dark me-3 fs-2  d-inline-block align-text-top"></i>
               </NavLink>
             )}
+          </ul>
+
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
         </div>
       </nav>
@@ -117,5 +136,5 @@ const Header = (props) => {
       </div>
     </>
   );
-};
-export default Header;
+}
+export default NavBar;

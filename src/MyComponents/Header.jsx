@@ -3,7 +3,9 @@ import { NavLink } from "react-router-dom";
 import "../MyComponents/style/Navbar.css";
 import navlogo from "../Images/navlogo.png";
 import { Link } from "react-router-dom";
+// eslint-disable-next-line no-unused-vars
 import Signin from "./Authintication/components/Signin";
+// eslint-disable-next-line no-unused-vars
 import Signout from "./Authintication/Signout";
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -91,11 +93,17 @@ function NavBar() {
               aria-controls="offcanvasRight"
             ></i>
             {handleClick.User ? (
-              <NavLink to="Signout">
+              <NavLink to="Signout"
+              activeClassName="active"
+              className="nav-link me-2"
+              onClick={handleClick}>
                 <i className="bx bx-user-check text-dark me-3 fs-2  d-inline-block align-text-top"></i>
               </NavLink>
             ) : (
-              <NavLink to="Signin">
+              <NavLink to="Signin"
+              activeClassName="active"
+              className="nav-link me-2"
+              onClick={handleClick}>
                 <i className="bx bx-user text-dark me-3 fs-2  d-inline-block align-text-top"></i>
               </NavLink>
             )}

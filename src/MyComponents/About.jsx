@@ -47,7 +47,7 @@ const About = () => {
       </section>
       <Link to={"/Blog"}>
         {" "}
-        <button class="btn btn-outline-success btn-lg my-2 our-blogs">
+        <button class="btn btn-outline-success btn-lg my-2 our-blogs" title="Click Here To See our Blogs">
           Our Blogs
         </button>
       </Link>

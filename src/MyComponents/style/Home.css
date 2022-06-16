@@ -11,7 +11,7 @@
   width: 100%;
   position: relative;
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #first h2,
@@ -31,6 +31,7 @@
   text-align-last: left;
   padding: 2.5rem;
   position: relative;
+  margin-top: 5rem;
   border-radius: 0 0 10px 10px;
   width: 100%;
 }
@@ -50,6 +51,7 @@
   text-align-last: left;
   border-radius: 10px;
   width: 100%;
+  margin-bottom: 4rem;
 }
 
 .carousel-inner {

@@ -19,43 +19,63 @@ const Home = () => {
               <div className="col-md-40 pt-5 pt-lg-0 order-2 order-lg-1">
                 <h1>
                   How Are You!!
-                  <strong className="brand-name">Bunkian</strong>
-                  <br />
-                  <Link to={"/Event"}>
-                    {" "}
+                  <strong className="brand-name"> Bunkian </strong>
+                <Link to={"/Event"}>
                     <button type="button" class="btn btn-danger btn-lg">
                       TShirt Giveaway
                     </button>
                   </Link>
                 </h1>
-                <h2 className="my-3">Let's Go</h2>
 
-                <h1>
-                  <b>MDU QUESTION PAPER</b>{" "}
+                <div className="MDU">
+                  
+                  MDU QUESTION PAPER
+                  
                   <div class="spinner-grow text-danger" role="status">
                     <span class="visually-hidden">Loading...</span>
                   </div>
-                </h1>
-                <h1>
-                  To Download Question Papers Go To <b>Question</b> tab in
-                  navbar{" "}
-                  <span class="badge bg-light">
-                    <Link to={"/Question"}>Click Here</Link>
-                  </span>
-                </h1>
+                  <div>
+                    <Link to={"/CseBranch"}>
+                      <button type="button" class="btn btn-primary">
+                        Computer Science Engineering
+                      </button>
+                    </Link>
+
+                    <Link to={"/EceBranch"}>
+                      <button type="button" class="btn btn-primary">
+                        Electronics & Communications Engineering
+                      </button>
+                    </Link>
+                    
+
+                    <Link to={"/MeBranch"}>
+                      <button type="button" class="btn btn-primary">
+                        Mechanical Engineering
+                      </button>
+                    </Link>
+
+                    <Link to={"/EeBranch"}>
+                      <button type="button" class="btn btn-primary">
+                        Electrical Engineering
+                      </button>
+                    </Link>
+
+                    <Link to={"/CeBranch"}>
+                      <button type="button" class="btn btn-primary">
+                        Civil Engineering
+                      </button>
+                    </Link>
+
+                    <Link to={"/Question"}>
+                      <button type="button" class="btn btn-primary">
+                        Others
+                      </button>
+                    </Link>
+                  </div>
+                </div>
 
                 <section class="text-gray-600 body-font">
                   <div class="container px-5 py-24 mx-auto">
-                    <div class="flex flex-col text-center w-full mb-20">
-                      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-                        You're in Good Circle
-                      </h1>
-                      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Hundreds of thousands of students from around the state
-                        are already using Bunk4study to score good marks and
-                        improve their grades.
-                      </p>
-                    </div>
                     <div class="flex flex-wrap -m-4 text-center">
                       <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div

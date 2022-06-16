@@ -116,6 +116,44 @@
     top: -14rem;
 }
 
+.MDU {
+    float: left !important;
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    padding: 10px;
+    font-size: 45px;
+}
+
+.MDU .btn {
+    text-align: center;
+    align-items: center;
+    background-color: #1e222d80;
+    border: none;
+    border-radius: 56px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: grid;
+    height: 48px;
+    padding: 6px 16px 6px 12px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:992px) {
     .carousel-inner {
         width: 300px;

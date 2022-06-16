@@ -121,7 +121,6 @@ i {
   font-weight: bold;
   border-bottom: 1px solid #565387;
 }
-
 @media (max-width: 991px) {
   .navbar-brand {
     font-size: 1.5rem !important;

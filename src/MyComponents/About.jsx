@@ -5,13 +5,6 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
-      <Link to={"/Blog"}>
-        {" "}
-        <button class="btn btn-outline-success btn-lg my-2">
-          Our Blogs <br /> Click here to View Our Blog Page
-        </button>
-      </Link>
-
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div>
@@ -52,6 +45,12 @@ const About = () => {
           </div>
         </div>
       </section>
+      <Link to={"/Blog"}>
+        {" "}
+        <button class="btn btn-outline-success btn-lg my-2 our-blogs">
+          Our Blogs
+        </button>
+      </Link>
     </div>
   );
 };

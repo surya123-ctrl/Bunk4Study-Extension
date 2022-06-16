@@ -1,8 +1,14 @@
 * {
-    text-align: center;
-  }
-  h1 {
-    margin: 32px;
-    padding: 5%;
-    font-size: 145%;
-  }
+  text-align: center;
+}
+h1 {
+  margin: 32px;
+  padding: 5%;
+  font-size: 145%;
+}
+.our-blogs {
+  margin-bottom: 2rem;
+}
+section {
+  margin-bottom: -5rem;
+}

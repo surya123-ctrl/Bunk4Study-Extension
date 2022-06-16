@@ -3,6 +3,7 @@ import "../MyComponents/style/Home.css";
 import first from "../Images/first.svg";
 import second from "../Images/second.svg";
 import third from "../Images/third.svg";
+import gift from "../Images/happy-birthday.jpg";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 const Home = () => {
@@ -17,57 +18,72 @@ const Home = () => {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="col-md-40 pt-5 pt-lg-0 order-2 order-lg-1">
-                <h1>
+                <h1 className="bunk-heading">
                   How Are You!!
                   <strong className="brand-name"> Bunkian </strong>
-                <Link to={"/Event"}>
-                    <button type="button" class="btn btn-danger btn-lg">
-                      TShirt Giveaway
-                    </button>
-                  </Link>
+                  <div className="gift-container">
+                    <Link to={"/Event"}>
+                      <img src={gift} alt="" className="gift" />
+                    </Link>
+                  </div>
                 </h1>
 
                 <div className="MDU">
-                  
                   MDU QUESTION PAPER
-                  
                   <div class="spinner-grow text-danger" role="status">
                     <span class="visually-hidden">Loading...</span>
                   </div>
-                  <div>
+                  <div className="branches-name">
                     <Link to={"/CseBranch"}>
-                      <button type="button" class="btn btn-primary">
-                        Computer Science Engineering
+                      <button
+                        type="button"
+                        class="btn btn-primary short-button"
+                      >
+                        CSE
                       </button>
                     </Link>
 
                     <Link to={"/EceBranch"}>
-                      <button type="button" class="btn btn-primary">
-                        Electronics & Communications Engineering
+                      <button
+                        type="button"
+                        class="btn btn-primary short-button"
+                      >
+                        ECE
                       </button>
                     </Link>
-                    
 
                     <Link to={"/MeBranch"}>
-                      <button type="button" class="btn btn-primary">
-                        Mechanical Engineering
+                      <button
+                        type="button"
+                        class="btn btn-primary short-button"
+                      >
+                        ME
                       </button>
                     </Link>
 
                     <Link to={"/EeBranch"}>
-                      <button type="button" class="btn btn-primary">
-                        Electrical Engineering
+                      <button
+                        type="button"
+                        class="btn btn-primary short-button"
+                      >
+                        EE
                       </button>
                     </Link>
 
                     <Link to={"/CeBranch"}>
-                      <button type="button" class="btn btn-primary">
-                        Civil Engineering
+                      <button
+                        type="button"
+                        class="btn btn-primary short-button"
+                      >
+                        CE
                       </button>
                     </Link>
 
                     <Link to={"/Question"}>
-                      <button type="button" class="btn btn-primary">
+                      <button
+                        type="button"
+                        class="btn btn-primary short-button"
+                      >
                         Others
                       </button>
                     </Link>

@@ -97,14 +97,14 @@ function NavBar() {
               activeClassName="active"
               className="nav-link me-2"
               onClick={handleClick}>
-                <i className="bx bx-user-check text-dark me-3 fs-2  d-inline-block align-text-top"></i>
+                <i id="userlog" className="bx bx-user-check text-dark me-3 fs-2  d-inline-block align-text-top"></i>
               </NavLink>
             ) : (
               <NavLink to="Signin"
               activeClassName="active"
               className="nav-link me-2"
               onClick={handleClick}>
-                <i className="bx bx-user text-dark me-3 fs-2  d-inline-block align-text-top"></i>
+                <i id="userlog" className="bx bx-user text-dark me-3 fs-2  d-inline-block align-text-top"></i>
               </NavLink>
             )}
           </ul>

@@ -88,6 +88,7 @@ function NavBar() {
             <i
               id="bell"
               className="bi bi-bell-fill text-dark me-3 fs-2 mx-4 d-inline-block align-text-top"
+              onClick={handleClick}
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasRight"
               aria-controls="offcanvasRight"

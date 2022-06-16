@@ -19,7 +19,12 @@ const Home = () => {
               <div className="col-md-40 pt-5 pt-lg-0 order-2 order-lg-1">
                 <h1>
                   How Are You!!
-                  <strong className="brand-name"> Bunkian</strong>
+                  <strong className="brand-name"> Bunkian </strong>
+                <Link to={"/Event"}>
+                    <button type="button" class="btn btn-danger btn-lg">
+                      TShirt Giveaway
+                    </button>
+                  </Link>
                 </h1>
 
                 <div className="MDU">

@@ -37,7 +37,7 @@ const ContactUs = () => {
   }, 5000);
 
   return (
-    <form action="" onSubmit={sendEmail} style={{ backgroundColor: "#Dbe6ea" }}>
+    <form action="" netlify onSubmit={sendEmail} style={{ backgroundColor: "#Dbe6ea" }}>
       <section class="text-gray-600 body-font relative">
         <div class="container px-5 py-8 mx-auto">
           <div class="flex flex-col text-center w-full mb-3">

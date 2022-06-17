@@ -141,11 +141,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 35%;
+  width: 70%;
 }
 .short-button {
   background-color: #1e222d80;
   border: none;
+  border-radius: 30px;
+  padding: 25px;
   margin: 5px;
   transition: 0.5s;
   -webkit-transition: 0.5s;

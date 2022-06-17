@@ -38,8 +38,9 @@ const Home = () => {
                       <button
                         type="button"
                         class="btn btn-primary short-button"
+                        title="Computer Science Engineering"
                       >
-                        CSE
+                        Computer Science
                       </button>
                     </Link>
 
@@ -47,8 +48,9 @@ const Home = () => {
                       <button
                         type="button"
                         class="btn btn-primary short-button"
+                        title="Electronics and Communications Engineering"
                       >
-                        ECE
+                        Electronics and Communications
                       </button>
                     </Link>
 
@@ -56,8 +58,9 @@ const Home = () => {
                       <button
                         type="button"
                         class="btn btn-primary short-button"
+                        title="Mechanical Engineering"
                       >
-                        ME
+                        Mechanical
                       </button>
                     </Link>
 
@@ -65,8 +68,9 @@ const Home = () => {
                       <button
                         type="button"
                         class="btn btn-primary short-button"
+                        title="Electrical Engineering"
                       >
-                        EE
+                        Electrical
                       </button>
                     </Link>
 
@@ -74,8 +78,9 @@ const Home = () => {
                       <button
                         type="button"
                         class="btn btn-primary short-button"
+                        title="Civil Engineering"
                       >
-                        CE
+                        Civil
                       </button>
                     </Link>
 
@@ -83,6 +88,7 @@ const Home = () => {
                       <button
                         type="button"
                         class="btn btn-primary short-button"
+                        title="Click here to visit the QUESTIONS page"
                       >
                         Others
                       </button>

@@ -40,7 +40,7 @@ const Home = () => {
                         class="btn btn-primary short-button"
                         title="Computer Science Engineering"
                       >
-                        Computer Science
+                        CSE
                       </button>
                     </Link>
 
@@ -50,7 +50,7 @@ const Home = () => {
                         class="btn btn-primary short-button"
                         title="Electronics and Communications Engineering"
                       >
-                        Electronics and Communications
+                        ECE
                       </button>
                     </Link>
 
@@ -60,7 +60,7 @@ const Home = () => {
                         class="btn btn-primary short-button"
                         title="Mechanical Engineering"
                       >
-                        Mechanical
+                        ME
                       </button>
                     </Link>
 
@@ -70,7 +70,7 @@ const Home = () => {
                         class="btn btn-primary short-button"
                         title="Electrical Engineering"
                       >
-                        Electrical
+                        EE
                       </button>
                     </Link>
 
@@ -80,7 +80,7 @@ const Home = () => {
                         class="btn btn-primary short-button"
                         title="Civil Engineering"
                       >
-                        Civil
+                        CE
                       </button>
                     </Link>
 

@@ -44,7 +44,7 @@ ul {
   display: flex;
   list-style: none;
   text-align: center;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 
 .nav-links {
@@ -85,7 +85,7 @@ ul {
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1204px) {
   .nav-menu {
     display: flex;
     flex-direction: column;

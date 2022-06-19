@@ -1,6 +1,5 @@
 import React from "react";
 import "../MyComponents/style/Event.css";
-import logo from "../Images/Tshirt.jpeg";
 // import MovingText from "react-moving-text";
 import MovingComponent from "react-moving-text";
 const Event = () => {
@@ -27,7 +26,11 @@ const Event = () => {
         All 10% Of Total Registered Student will Get TShirt
       </MovingComponent>
       <div className="image">
-        <img src={logo} alt="Logo" class="w3-grayscale-min w3-opacity-min  " />
+        <img
+          src="https://i.imgur.com/b9lpzIF.jpg"
+          alt="Logo"
+          class="w3-grayscale-min w3-opacity-min tshirt"
+        />
       </div>
       <h4>Rules:-</h4>
       <p className="para">

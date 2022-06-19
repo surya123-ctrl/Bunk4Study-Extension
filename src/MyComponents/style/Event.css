@@ -38,3 +38,8 @@ img {
 .para a:hover {
   border-bottom: 1px solid red;
 }
+@media (max-width: 420px) {
+  .tshirt {
+    max-width: 42%;
+  }
+}

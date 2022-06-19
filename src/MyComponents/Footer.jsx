@@ -1,7 +1,6 @@
 // import './Footer.css';
 import React from "react";
 import { Link } from "react-router-dom";
-import navlogo from "../Images/navlogo.png";
 import "../MyComponents/style/Footer.css";
 const Footer = () => {
   return (
@@ -9,7 +8,12 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-inside">
           <div className="left-footer">
-            <img className="image" src={navlogo} alt="logo" href="/" />
+            <img
+              className="image"
+              src="https://i.imgur.com/8w7Vp9R.png"
+              alt="logo"
+              href="/"
+            />
             <p className="text1">© 2022 Bunk4Study</p>
             <p className="text2">
               Bunk4Study was &lt;/&gt; with ❤️ by BUNKERS 2022®

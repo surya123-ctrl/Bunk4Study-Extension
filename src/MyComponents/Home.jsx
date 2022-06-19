@@ -3,7 +3,6 @@ import "../MyComponents/style/Home.css";
 import first from "../Images/first.svg";
 import second from "../Images/second.svg";
 import third from "../Images/third.svg";
-import gift from "../Images/happy-birthday.jpg";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 const Home = () => {
@@ -23,7 +22,11 @@ const Home = () => {
                   <strong className="brand-name"> Bunkian </strong>
                   <div className="gift-container">
                     <Link to={"/Event"}>
-                      <img src={gift} alt="" className="gift" />
+                      <img
+                        src="https://i.imgur.com/QhuCNop.png"
+                        alt=""
+                        className="gift"
+                      />
                     </Link>
                   </div>
                 </h1>

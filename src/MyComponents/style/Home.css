@@ -115,6 +115,7 @@
 }
 .gift {
   float: right;
+  max-width: 10%;
 }
 .gift-container :hover .gift {
   opacity: 0.6;
@@ -190,7 +191,7 @@
 }
 @media (max-width: 520px) {
   .gift {
-    max-width: 30%;
+    max-width: 22%;
   }
 }
 @media (max-width: 427px) {

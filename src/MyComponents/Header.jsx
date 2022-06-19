@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../MyComponents/style/Navbar.css";
-import navlogo from "../Images/navlogo.png";
 import { Link } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import Signin from "./Authintication/components/Signin";
@@ -20,7 +19,7 @@ function NavBar() {
             to="/"
           >
             <img
-              src={navlogo}
+              src="https://i.imgur.com/8w7Vp9R.png"
               alt="op"
               width="150"
               height="200"
@@ -94,18 +93,28 @@ function NavBar() {
               aria-controls="offcanvasRight"
             ></i>
             {handleClick.User ? (
-              <NavLink to="Signout"
-              activeClassName="active"
-              className="nav-link me-2"
-              onClick={handleClick}>
-                <i id="userlog" className="bx bx-user-check text-dark me-3 fs-2  d-inline-block align-text-top"></i>
+              <NavLink
+                to="Signout"
+                activeClassName="active"
+                className="nav-link me-2"
+                onClick={handleClick}
+              >
+                <i
+                  id="userlog"
+                  className="bx bx-user-check text-dark me-3 fs-2  d-inline-block align-text-top"
+                ></i>
               </NavLink>
             ) : (
-              <NavLink to="Signin"
-              activeClassName="active"
-              className="nav-link me-2"
-              onClick={handleClick}>
-                <i id="userlog" className="bx bx-user text-dark me-3 fs-2  d-inline-block align-text-top"></i>
+              <NavLink
+                to="Signin"
+                activeClassName="active"
+                className="nav-link me-2"
+                onClick={handleClick}
+              >
+                <i
+                  id="userlog"
+                  className="bx bx-user text-dark me-3 fs-2  d-inline-block align-text-top"
+                ></i>
               </NavLink>
             )}
           </ul>

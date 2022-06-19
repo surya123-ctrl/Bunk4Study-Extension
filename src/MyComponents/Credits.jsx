@@ -1,16 +1,5 @@
 import React from "react";
 import "../MyComponents/style/Credits.css";
-import Surya from "../Images/Surya.png";
-import Kunal from "../Images/Kunal.png";
-import Utkarsh from "../Images/Utkarsh.png";
-import AdityaShivaji from "../Images/AdityaShivaji.png";
-import Pritom from "../Images/Pritom.png";
-import Shubham from "../Images/Shubham.png";
-import Aditya from "../Images/Aditya.png";
-import Asmita from "../Images/Asmita.png";
-import Khushi from "../Images/Khushi.png";
-import Pranay from "../Images/Pranay.png";
-import Zafeer from "../Images/Zafeer.png";
 const Credits = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
@@ -48,7 +37,11 @@ const Credits = () => {
             href="https://github.com/surya123-ctrl/"
             rel="noreferrer"
           >
-            <img id="user" src={Surya} alt="HR" />
+            <img
+              id="user"
+              src="https://i.imgur.com/Qiqe0a4.jpg"
+              alt="Team Lead"
+            />
 
             <div class="card-content">
               <h4>Surya Pratap Singh</h4>
@@ -59,7 +52,7 @@ const Credits = () => {
         </div>
 
         <div class="card">
-          <img id="user" src={Kunal} alt="Team Lead" />
+          <img id="user" src="https://i.imgur.com/eVCnHDX.png" alt="Dev" />
 
           <div class="card-content">
             <h4>Kunal Bhardwaj</h4>
@@ -74,7 +67,7 @@ const Credits = () => {
             href="https://github.com/utkarsh-dixit-git/"
             rel="noreferrer"
           >
-            <img id="user" src={Utkarsh} alt="Dev" />
+            <img id="user" src="https://i.imgur.com/yUqCsJd.jpg" alt="Dev" />
 
             <div class="card-content">
               <h4>Utkarsh Dixit</h4>
@@ -85,7 +78,7 @@ const Credits = () => {
         </div>
 
         <div class="card">
-          <img id="user" src={AdityaShivaji} alt="Dev" />
+          <img id="user" src="https://i.imgur.com/ExsggMZ.png" alt="Dev" />
 
           <div class="card-content">
             <h4>Aditya Shivaji Devdhe</h4>
@@ -100,7 +93,7 @@ const Credits = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img id="user" src={Pritom} alt="Dev" />
+            <img id="user" src="https://i.imgur.com/XjOM7KA.png" alt="Dev" />
 
             <div class="card-content">
               <h4>Pritom Dutta</h4>
@@ -111,7 +104,7 @@ const Credits = () => {
         </div>
 
         <div class="card">
-          <img id="user" src={Shubham} alt="Dev" />
+          <img id="user" src="https://i.imgur.com/RTq5O0o.jpg" alt="Dev" />
 
           <div class="card-content">
             <h4>Shubham</h4>
@@ -126,7 +119,7 @@ const Credits = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img id="user" src={Aditya} alt="Dev" />
+            <img id="user" src="https://i.imgur.com/KOpFNqB.png" alt="Dev" />
 
             <div class="card-content">
               <h4>Aditya Singh</h4>
@@ -142,7 +135,7 @@ const Credits = () => {
             href="https://github.com/asmitaporwal/"
             rel="noreferrer"
           >
-            <img id="user" src={Asmita} alt="Dev" />
+            <img id="user" src="https://i.imgur.com/gzlxQF1.png" alt="Dev" />
 
             <div class="card-content">
               <h4>Asmita Porwal</h4>
@@ -158,7 +151,7 @@ const Credits = () => {
             href="https://github.com/Khushi340/"
             rel="noreferrer"
           >
-            <img id="user" src={Khushi} alt="Dev" />
+            <img id="user" src="https://i.imgur.com/y1OeApM.png" alt="Dev" />
 
             <div class="card-content">
               <h4>Khushi Agrawal</h4>
@@ -169,7 +162,7 @@ const Credits = () => {
         </div>
 
         <div class="card">
-          <img id="user" src={Pranay} alt="Dev" />
+          <img id="user" src="https://i.imgur.com/ZUUpvvX.png" alt="Dev" />
 
           <div class="card-content">
             <h4>Pranay Shah</h4>
@@ -179,7 +172,7 @@ const Credits = () => {
         </div>
 
         <div class="card">
-          <img id="user" src={Zafeer} alt="Dev" />
+          <img id="user" src="https://i.imgur.com/NJGIbwy.png" alt="Dev" />
 
           <div class="card-content">
             <h4>Zafeer Rangoonwala </h4>

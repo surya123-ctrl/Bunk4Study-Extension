@@ -1,6 +1,4 @@
 import React from "react";
-import blogPic from "../Images/Blogger.svg.png";
-import mediumPic from "../Images/mediumPic.png";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 import "../MyComponents/style/Blog.css";
 const About = () => {
@@ -20,7 +18,11 @@ const About = () => {
           rel="noreferrer"
         >
           <button className="medium button">
-            <img src={mediumPic} alt="" className="medium-pic" />
+            <img
+              src="https://i.imgur.com/dI94U4Q.png"
+              alt=""
+              className="medium-pic"
+            />
             Medium
           </button>
         </a>
@@ -30,7 +32,11 @@ const About = () => {
           rel="noreferrer"
         >
           <button className="blogger button">
-            <img src={blogPic} alt="" className="blog-pic" />
+            <img
+              src="https://i.imgur.com/o7MljYL.png"
+              alt=""
+              className="blog-pic"
+            />
             Blogger
           </button>
         </a>

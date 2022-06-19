@@ -19,7 +19,7 @@ const signUp = () => {
                                 <div className="txt_field">
                                     <input type="text" required />
                                     <span></span>
-                                    <label>E-mai address</label>
+                                    <label>E-mail address</label>
                                 </div>
                                 <div className="txt_field">
                                     <input type="password" required />

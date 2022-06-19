@@ -13,6 +13,8 @@
   display: inline;
   margin: 17px;
   padding: 10px 3px;
+  border-radius: 15px;
+  background: #Dbe6ea;
 }
 .card a {
   color: #111;

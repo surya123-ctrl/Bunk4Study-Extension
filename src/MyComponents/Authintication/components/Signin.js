@@ -64,17 +64,17 @@ const Signin = () => {
                             <div className="txt_field">
                                     <input  type="email"  ref={emailref} required />
                                     <span></span>
-                                    <label>E-mai address</label>
+                                    <label> E-mail  Address </label>
                                 </div>
                                 <div className="txt_field">
                                     <input type="password" ref={passwordref} required />
                                     <span></span>
-                                    <label>Create Password</label>
+                                    <label> Create Password </label>
                                 </div>
                                 
-                                <div className="pass1">forget<a className="link" href="#">Password?</a></div>
-                                <button onClick={signIn} className="signin_pointer">Sign In</button>
-                                <h6 className="h6">Don't have an account?<span onClick={signUp} className="signin_link">Sign up</span></h6>
+                                <div className="pass1"><a className="link" href="#"> Forget Password? </a></div>
+                                <button onClick={signIn} className="signin_pointer"> Sign In </button>
+                                <h6 className="h6"> Don't have an account? <span onClick={signUp} className="signin_link"> Sign up </span></h6>
                                
                             </form>
                             <div className="g-btn" >

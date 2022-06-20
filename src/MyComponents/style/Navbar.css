@@ -92,15 +92,16 @@ ul {
     width: 100%;
     border-top: 1px solid #fff;
     position: absolute;
-    top: 80px;
-    left: -110%;
+    top: -410%;
+    left: 0;
     opacity: 1;
     transition: all 0.5s ease;
   }
 
   .nav-menu.active {
     background: #f8f9f9;
-    left: 0px;
+    top: 5rem;
+    left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;

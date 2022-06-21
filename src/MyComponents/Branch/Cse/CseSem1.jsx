@@ -1,8 +1,18 @@
 import React from "react";
+import "../Style/Branch.css"
 
-const Sem12020 = () => {
+const Sem1 = () => {
   return (
     <>
+      <div style={{ backgroundColor: "#Dbe6ea" }}>
+        <h1 class="mb-1">
+          SEMESTER 1 <br />
+          Select Your Subject
+          <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </h1>
+      </div>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -11,7 +21,7 @@ const Sem12020 = () => {
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
-              aria-expanded="false"
+              aria-expanded="true"
               aria-controls="collapseOne"
             >
               MATH -I (Calculus and Matrices)
@@ -23,31 +33,44 @@ const Sem12020 = () => {
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1OJISavkfg3xHI2zNTSEEyTajzUOusl7Y/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1CHKLbzp4RMoIFchXqBi94Y2aFVvbebX7/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  2009
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/19vmKIU1kjCsU5j3TtdtkwQ_7DrDTEGmP/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1wKgi40h5L8kj_HIH-m-dYUkGCQnJBUan/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper2
+                  2010
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1R9PHBuoMapeGlIsXjODdhqXi_nMDvJ5-/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1jzTLGv0RHetuHJRt-FGBGCHCSuJXhn2q/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper3
+                  2020
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/14QxrP5tBB6I4bd3kbPhZYo5Ty60LT4eY/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2021
                 </button>
               </a>
               <br />
@@ -62,7 +85,7 @@ const Sem12020 = () => {
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
               aria-expanded="false"
-              aria-controls="collapseTwelve"
+              aria-controls="collapseTwo"
             >
               PROGRAMMING FOR PROBLEM SOLVING
             </button>
@@ -73,22 +96,34 @@ const Sem12020 = () => {
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1YfLK-7yR9ZiOMLRiwdU7xGvZ--Tn1KA-/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/12nvj6oVuLifWg8JIGYguuLQVSCwq_xP-/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1JRuuGP8zPP2AmNNzjJbQ9pc3o8yOp-Nf/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1hwOhHju8nFYm3AV3mIMS5Lx6dFZv6cC2/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper2
+                  Year2
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1pDrDUbPwLJVtTei7mz6RbfdBLjdLogOm/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  Year3
                 </button>
               </a>
               <br />
@@ -114,31 +149,54 @@ const Sem12020 = () => {
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1KIjubJFdQx9LkW8Xksmo4VkvsjaS9xWO/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1oGtknDP1Q5Hd4gng3KyvUN48A1xF4cBH/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1JzT7qf4Icaipv1wJQV-JrbhPfnaPmyyH/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1BcCOFAUyOzdBUgOOyDXYKobigioku3E7/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper2
+                  Year2
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1VFgmE8YWH4VSXdi6C87YGqtxOio6-1eB/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/15pEuCRozdz8fmgMo1wsjJcMeRWd01gBW/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper3
+                  Year3
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/133p7KqGcdTd9xTVuPhHIOpwgiXyB6CeW/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  Year4
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1iuQN_25rf0atAIMXSNB86xdRXFuPE5q0/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  Year5
                 </button>
               </a>
               <br />
@@ -164,22 +222,14 @@ const Sem12020 = () => {
             aria-labelledby="headingFour"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1LeTl4H4vAwek94WnSmEqoBpATx9Cf4nu/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1CvjZbNet-be4q3EnChs52uamO9w-OXqe/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1h3wAawtsFsCvAhAG9Ugd1DcwmeWBNj14/view?usp=sharing"
-                target="_blank" rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper2
+                  Year1
                 </button>
               </a>
               <br />
@@ -205,13 +255,14 @@ const Sem12020 = () => {
             aria-labelledby="headingFive"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1XwGuF7ZBOWGkBwLK1QJonvY_hcXYvzyN/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1cOUrzCVDEhIUS0KfVdVvxyWL5xSCwcCQ/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -237,13 +288,14 @@ const Sem12020 = () => {
             aria-labelledby="headingSix"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1wYE-RonwpQc1JML0cSX1fw7IpPmMSKdc/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -269,13 +321,14 @@ const Sem12020 = () => {
             aria-labelledby="headingSeven"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
                 href="https://drive.google.com/file/d/1raAOu_9FNZ3ks2s64wG729-zroA5ljB0/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -302,13 +355,14 @@ const Sem12020 = () => {
             aria-labelledby="headingEight"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1L-BE1OuKVavkruw4GaOZknLnIOL-F_pI/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1XJrqzTpoMGOlHp07VR1WDgTFYCLftFar/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -335,13 +389,14 @@ const Sem12020 = () => {
             aria-labelledby="headingNine"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1eUcVb_zSnTJJGJXx_giu5WwJE1vsy5_V/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1ZPCvd3h2MVxfc0lMesI1K3ZDbhnOj8g3/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
               <br />
@@ -359,7 +414,7 @@ const Sem12020 = () => {
               aria-expanded="false"
               aria-controls="collapseTen"
             >
-              ELECTICAL TECHNOLOGY
+              ELECTRICAL TECHNOLOGY
             </button>
           </h2>
           <div
@@ -368,25 +423,16 @@ const Sem12020 = () => {
             aria-labelledby="headingTen"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1P6j_ex1D5hDhQTLeb3XkXyk38ow3X3DL/view?usp=sharing"
-                target="_blank" rel="noreferrer"
+                href="https://drive.google.com/file/d/1b6_pHQBIc5_ZCYQce0H43-rm2ocLvPzJ/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Paper1
+                  Year1
                 </button>
               </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1zhPLBwgiqnxT5FHDM2ZDv6zmyWs7sJdx/view?usp=sharing"
-                target="_blank" rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Paper2
-                </button>
-              </a>
-              <br />
             </div>
           </div>
         </div>
@@ -395,4 +441,4 @@ const Sem12020 = () => {
   );
 };
 
-export default Sem12020;
+export default Sem1;

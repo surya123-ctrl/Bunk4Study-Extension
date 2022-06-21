@@ -1,9 +1,15 @@
-.sem, #sub {
+.sem,
+#sub {
     justify-content: center;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 20px;
+}
+
+.accordion-button {
+    font-size: 25px;
+    padding: 50px;
 }
 
 .sem .btn {
@@ -15,7 +21,7 @@
 }
 
 #sub .btn {
-    padding:20px;
+    padding: 20px;
     margin: 10px;
     font-size: 25px;
     font-weight: 200;

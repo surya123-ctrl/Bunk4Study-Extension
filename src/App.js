@@ -18,6 +18,7 @@ import Blog from "./MyComponents/Blog";
 import ContactUs from "./MyComponents/ContactUs";
 import Credits from "./MyComponents/Credits";
 import Notes from "./MyComponents/Notes";
+import Upload from "./MyComponents/Upload";
 import Privacy from "./MyComponents/Privacy";
 import Question from "./MyComponents/Question";
 import Footer from "./MyComponents/Footer";
@@ -28,16 +29,14 @@ import MeBranch from "./MyComponents/Branch/Me/MeBranch";
 import CeBranch from "./MyComponents/Branch/Ce/CeBranch";
 import EeBranch from "./MyComponents/Branch/Ee/EeBranch";
 import BeBranch from "./MyComponents/Branch/Be/BeBranch";
-import CseSem1 from "./MyComponents/Branch/Cse/CseSem1/CseSem1";
-import CseSem2 from "./MyComponents/Branch/Cse/CseSem2/CseSem2";
-import CseSem3 from "./MyComponents/Branch/Cse/CseSem3/CseSem3";
-import CseSem4 from "./MyComponents/Branch/Cse/CseSem4/CseSem4";
-import CseSem5 from "./MyComponents/Branch/Cse/CseSem5/CseSem5";
-import CseSem6 from "./MyComponents/Branch/Cse/CseSem6/CseSem6";
-import CseSem7 from "./MyComponents/Branch/Cse/CseSem7/CseSem7";
-import CseSem8 from "./MyComponents/Branch/Cse/CseSem8/CseSem8";
-import CseSem12019 from "./MyComponents/Branch/Cse/CseSem1/CseSem12019";
-import CseSem12020 from "./MyComponents/Branch/Cse/CseSem1/CseSem12020";
+import CseSem1 from "./MyComponents/Branch/Cse/CseSem1";
+import CseSem2 from "./MyComponents/Branch/Cse/CseSem2";
+import CseSem3 from "./MyComponents/Branch/Cse/CseSem3";
+import CseSem4 from "./MyComponents/Branch/Cse/CseSem4";
+import CseSem5 from "./MyComponents/Branch/Cse/CseSem5";
+import CseSem6 from "./MyComponents/Branch/Cse/CseSem6";
+import CseSem7 from "./MyComponents/Branch/Cse/CseSem7";
+import CseSem8 from "./MyComponents/Branch/Cse/CseSem8";
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
@@ -77,6 +76,7 @@ function App() {
           <Route path="/Blog" element={<Blog />} />
           <Route path="/Question" element={<Question />} />
           <Route path="/Notes" element={<Notes />} />
+          <Route path="/Upload" element={<Upload />} />
           <Route path="/Privacy" element={<Privacy />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/Credits" element={<Credits />} />
@@ -89,8 +89,6 @@ function App() {
           <Route path="/CseSem6" element={<CseSem6 />} />
           <Route path="/CseSem7" element={<CseSem7 />} />
           <Route path="/CseSem8" element={<CseSem8 />} />
-          <Route path="/Sem12019" element={<CseSem12019 />} />
-          <Route path="/Sem12020" element={<CseSem12020 />} />
           <Route path="/CseBranch" element={<CseBranch />} />
           <Route path="/EceBranch" element={<EceBranch />} />
           <Route path="/MeBranch" element={<MeBranch />} />

@@ -49,7 +49,7 @@ const Question = () => {
         </Link>
 
         <Link to={""}>
-          <button type="button" class="btn btn-outline-light">
+          <button type="button" class="btn btn-light">
             Coming Soon.....
             <div class="spinner-border text-danger" role="status">
               <span class="visually-hidden">Loading...</span>

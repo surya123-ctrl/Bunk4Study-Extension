@@ -52,6 +52,7 @@ const About = () => {
           }
         </ReactReadMoreReadLess>
       </article>
+      <br />
     </div>
   );
 };

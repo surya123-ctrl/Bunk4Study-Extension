@@ -41,10 +41,10 @@ const Footer = () => {
             </div>
             <div className="footer-part">
               <p>
-                <Link to={"/Question"}>Privacy Policy</Link>
+                <Link to={"/privacy"}>Privacy Policy</Link>
               </p>
               <p>
-                <Link to={"/ContactUs"}>Terms & Conditons</Link>
+                <Link to={"/privacy"}>Terms & Conditons</Link>
               </p>
             </div>
             <div className="footer-icons">

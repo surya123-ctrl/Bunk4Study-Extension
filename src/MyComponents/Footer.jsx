@@ -39,6 +39,14 @@ const Footer = () => {
                 <Link to={"/ContactUs"}>Contact Us</Link>
               </p>
             </div>
+            <div className="footer-part">
+              <p>
+                <Link to={"/Question"}>Privacy Policy</Link>
+              </p>
+              <p>
+                <Link to={"/ContactUs"}>Terms & Conditons</Link>
+              </p>
+            </div>
             <div className="footer-icons">
               <a
                 class="text-gray-500"

@@ -60,7 +60,7 @@ a:active {
   width: 83.3%;
   padding: 18px 18px;
   border-radius: 10px;
-  height: 230px;
+  height: 320px;
 }
 .footer-inside {
   display: flex;
@@ -133,7 +133,7 @@ i {
 }
 @media (max-width: 625px) {
   .footer {
-    height: auto;
+    height: 600px;
   }
   .footer-inside {
     display: block;
@@ -157,5 +157,15 @@ i {
   .right-footer .footer-part p {
     display: block;
     margin-left: auto;
+  }
+}
+@media (max-width: 420px) {
+  .footer {
+    height: auto;
+  }
+}
+@media (max-width: 321px) {
+  .footer {
+    height: auto;
   }
 }

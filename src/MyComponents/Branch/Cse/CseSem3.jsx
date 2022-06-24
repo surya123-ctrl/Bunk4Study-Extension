@@ -34,42 +34,12 @@ const Sem3 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1TZ95G_0lKa1_GuJC1psD98rCj67-fMRr/view?usp=sharing"
+                href="https://drive.google.com/file/d/1uWM134ekaSHUlK-wwSrWtx_hCT55AsvW/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year 2021
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1ZUdDwiwJnAV-aR7gmyIrRePOwctDbjMe/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year2020
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1jzTLGv0RHetuHJRt-FGBGCHCSuJXhn2q/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year2019
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/14QxrP5tBB6I4bd3kbPhZYo5Ty60LT4eY/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  YearAll
+                  2021
                 </button>
               </a>
               <br />
@@ -97,35 +67,16 @@ const Sem3 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/12nvj6oVuLifWg8JIGYguuLQVSCwq_xP-/view?usp=sharing"
+                href="https://drive.google.com/file/d/1vVZNEjt_B_pcJ7eqRdmJWHfq1jspgkxF/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year1
+                  2021
                 </button>
               </a>
               <br />
-              <a
-                href="https://drive.google.com/file/d/1hwOhHju8nFYm3AV3mIMS5Lx6dFZv6cC2/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year2
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1pDrDUbPwLJVtTei7mz6RbfdBLjdLogOm/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year3
-                </button>
-              </a>
-              <br />
+              
             </div>
           </div>
         </div>
@@ -150,54 +101,16 @@ const Sem3 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1oGtknDP1Q5Hd4gng3KyvUN48A1xF4cBH/view?usp=sharing"
+                href="https://drive.google.com/file/d/1xqGFtCplNeKMCjH4vf_oKI3LHEm2IAY2/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year1
+                  2021
                 </button>
               </a>
               <br />
-              <a
-                href="https://drive.google.com/file/d/1BcCOFAUyOzdBUgOOyDXYKobigioku3E7/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year2
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/15pEuCRozdz8fmgMo1wsjJcMeRWd01gBW/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year3
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/133p7KqGcdTd9xTVuPhHIOpwgiXyB6CeW/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year4
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1iuQN_25rf0atAIMXSNB86xdRXFuPE5q0/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year5
-                </button>
-              </a>
+              
               <br />
             </div>
           </div>
@@ -223,12 +136,12 @@ const Sem3 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1CvjZbNet-be4q3EnChs52uamO9w-OXqe/view?usp=sharing"
+                href="https://drive.google.com/file/d/1uMnzCw2zLS1bcwh-mt4aIl9LUtxdgyUf/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year1
+                  2021
                 </button>
               </a>
               <br />
@@ -256,12 +169,45 @@ const Sem3 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1cOUrzCVDEhIUS0KfVdVvxyWL5xSCwcCQ/view?usp=sharing"
+                href="https://drive.google.com/file/d/155llctnyjbsVygJ8Q_aXNU_9eeKTC-vI/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year1
+                  2021
+                </button>
+              </a>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              Digital Analog Communication
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body" id="sub">
+              <a
+                href="https://drive.google.com/file/d/16qXXMvnPqTIDiTX3vaNyzK-NQustWC__/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2021
                 </button>
               </a>
               <br />

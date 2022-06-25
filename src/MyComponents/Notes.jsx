@@ -9,6 +9,42 @@ const Notes = () => {
       <Link to={"/upload"}>
         <button className="btn btn-info my-4">Upload Notes and Papers</button>
       </Link>
+      <div className="Branch">
+        <Link to={"/MDUN"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Maharshi Dayanand University
+          </button>
+        </Link>
+
+        <Link to={"/DCRUN"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Deenbandhu Chhotu Ram University
+          </button>
+        </Link>
+
+        <Link to={"/GJUN"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Guru Jambheshwar University
+          </button>
+        </Link>
+        <Link to={"/JCBUN"}>
+          <button type="button" class="btn btn-outline-secondary">
+            J.C. Bose University
+          </button>
+        </Link>
+
+        <Link to={"/CDLUN"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Chaudhary Devi Lal University
+          </button>
+        </Link>
+
+        <Link to={"/KUN"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Kurukshetra University
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };

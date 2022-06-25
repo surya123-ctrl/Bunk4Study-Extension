@@ -44,7 +44,7 @@ const Footer = () => {
                 <Link to={"/privacy"}>Privacy Policy</Link>
               </p>
               <p>
-                <Link to={"/privacy"}>Terms & Conditons</Link>
+                <Link to={"/faq"}>The FAQ Page</Link>
               </p>
             </div>
             <div className="footer-icons">

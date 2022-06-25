@@ -21,6 +21,18 @@ import Notes from "./MyComponents/Notes";
 import Upload from "./MyComponents/Upload";
 import Privacy from "./MyComponents/Privacy";
 import Question from "./MyComponents/Question";
+import MDU from "./MyComponents/MDU";
+import JCBU from "./MyComponents/JCBU";
+import DCRU from "./MyComponents/DCRU";
+import GJU from "./MyComponents/GJU";
+import CDLU from "./MyComponents/CDLU";
+import KU from "./MyComponents/KU";
+import MDUN from "./MyComponents/MDUN";
+import JCBUN from "./MyComponents/JCBUN";
+import DCRUN from "./MyComponents/DCRUN";
+import GJUN from "./MyComponents/GJUN";
+import CDLUN from "./MyComponents/CDLUN";
+import KUN from "./MyComponents/KUN";
 import Footer from "./MyComponents/Footer";
 import Event from "./MyComponents/Event";
 import CseBranch from "./MyComponents/Branch/Cse/CseBranch";
@@ -75,6 +87,18 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/Question" element={<Question />} />
+          <Route path="/MDU" element={<MDU />} />
+          <Route path="/JCBU" element={<JCBU />} />
+          <Route path="/DCRU" element={<DCRU />} />
+          <Route path="/GJU" element={<GJU />} />
+          <Route path="/CDLU" element={<CDLU />} />
+          <Route path="/KU" element={<KU />} />
+          <Route path="/MDUN" element={<MDUN />} />
+          <Route path="/JCBUN" element={<JCBUN />} />
+          <Route path="/DCRUN" element={<DCRUN />} />
+          <Route path="/GJUN" element={<GJUN />} />
+          <Route path="/CDLUN" element={<CDLUN />} />
+          <Route path="/KUN" element={<KUN/>} />
           <Route path="/Notes" element={<Notes />} />
           <Route path="/Upload" element={<Upload />} />
           <Route path="/Privacy" element={<Privacy />} />

@@ -1,0 +1,16 @@
+section {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+.mail {
+  color: blue;
+}
+.heads {
+  margin-bottom: 0;
+  font-size: 36px;
+}
+h1 {
+  margin: 0;
+  color: black;
+}

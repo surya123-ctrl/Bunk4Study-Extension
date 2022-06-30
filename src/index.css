@@ -169,3 +169,20 @@ i {
     height: auto;
   }
 }
+.qta {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.ans-bank p {
+  font-size: 13px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+}
+@media (max-width: 300px) {
+  .ans-bank p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

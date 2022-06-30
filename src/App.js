@@ -21,7 +21,20 @@ import Notes from "./MyComponents/Notes";
 import Upload from "./MyComponents/Upload";
 import Privacy from "./MyComponents/Privacy";
 import Faq from "./MyComponents/Faq";
-import Giveaway from "./MyComponents/Giveaway"
+import Giveaway from "./MyComponents/Giveaway";
+import Q1 from "./MyComponents/Q1";
+import Q2 from "./MyComponents/Q2";
+import Q3 from "./MyComponents/Q3";
+import Q4 from "./MyComponents/Q4";
+import Q5 from "./MyComponents/Q5";
+import Q6 from "./MyComponents/Q6";
+import Q7 from "./MyComponents/Q7";
+import Q8 from "./MyComponents/Q8";
+import Q9 from "./MyComponents/Q9";
+import Q10 from "./MyComponents/Q10";
+import Q11 from "./MyComponents/Q11";
+import Q12 from "./MyComponents/Q12";
+import Q13 from "./MyComponents/Q13";
 import Question from "./MyComponents/Question";
 import MDU from "./MyComponents/MDU";
 import JCBU from "./MyComponents/JCBU";
@@ -106,6 +119,19 @@ function App() {
           <Route path="/Privacy" element={<Privacy />} />
           <Route path="/Faq" element={<Faq />} />
           <Route path="/Giveaway" element={<Giveaway />} />
+          <Route path="/Q1" element={<Q1 />} />
+          <Route path="/Q2" element={<Q2 />} />
+          <Route path="/Q3" element={<Q3 />} />
+          <Route path="/Q4" element={<Q4 />} />
+          <Route path="/Q5" element={<Q5 />} />
+          <Route path="/Q6" element={<Q6 />} />
+          <Route path="/Q7" element={<Q7 />} />
+          <Route path="/Q8" element={<Q8 />} />
+          <Route path="/Q9" element={<Q9 />} />
+          <Route path="/Q10" element={<Q10 />} />
+          <Route path="/Q11" element={<Q11 />} />
+          <Route path="/Q12" element={<Q12 />} />
+          <Route path="/Q13" element={<Q13 />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/Credits" element={<Credits />} />
           <Route path="/Event" element={<Event />} />

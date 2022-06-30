@@ -20,6 +20,7 @@ import Credits from "./MyComponents/Credits";
 import Notes from "./MyComponents/Notes";
 import Upload from "./MyComponents/Upload";
 import Privacy from "./MyComponents/Privacy";
+import Faq from "./MyComponents/Faq";
 import Question from "./MyComponents/Question";
 import MDU from "./MyComponents/MDU";
 import JCBU from "./MyComponents/JCBU";
@@ -102,6 +103,7 @@ function App() {
           <Route path="/Notes" element={<Notes />} />
           <Route path="/Upload" element={<Upload />} />
           <Route path="/Privacy" element={<Privacy />} />
+          <Route path="/Faq" element={<Faq />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/Credits" element={<Credits />} />
           <Route path="/Event" element={<Event />} />

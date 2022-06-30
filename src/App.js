@@ -21,6 +21,7 @@ import Notes from "./MyComponents/Notes";
 import Upload from "./MyComponents/Upload";
 import Privacy from "./MyComponents/Privacy";
 import Faq from "./MyComponents/Faq";
+import Giveaway from "./MyComponents/Giveaway"
 import Question from "./MyComponents/Question";
 import MDU from "./MyComponents/MDU";
 import JCBU from "./MyComponents/JCBU";
@@ -99,11 +100,12 @@ function App() {
           <Route path="/DCRUN" element={<DCRUN />} />
           <Route path="/GJUN" element={<GJUN />} />
           <Route path="/CDLUN" element={<CDLUN />} />
-          <Route path="/KUN" element={<KUN/>} />
+          <Route path="/KUN" element={<KUN />} />
           <Route path="/Notes" element={<Notes />} />
           <Route path="/Upload" element={<Upload />} />
           <Route path="/Privacy" element={<Privacy />} />
           <Route path="/Faq" element={<Faq />} />
+          <Route path="/Giveaway" element={<Giveaway />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/Credits" element={<Credits />} />
           <Route path="/Event" element={<Event />} />

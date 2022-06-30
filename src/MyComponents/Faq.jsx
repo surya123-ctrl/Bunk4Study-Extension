@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "../MyComponents/style/Faq.css";
 const Faq = () => {
   return (
     <div className="container">
-      <p style={{ fontSize: "2rem", color: "red", marginBottom: "5rem" }}>
-        Hey how are you!
+      <p className="center-button">
+        <Link to={"/Giveaway"} className="button">
+          Giveaway
+        </Link>
       </p>
     </div>
   );

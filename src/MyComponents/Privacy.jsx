@@ -3,7 +3,7 @@ import "../MyComponents/style/Privacy.css";
 const Privacy = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
-      <section>
+      <section className="privacy">
         <h1 className="heads">Disclaimer</h1>
         <p>
           Be sure to read our privacy policy & disclaimer before engaging with
@@ -56,7 +56,7 @@ const Privacy = () => {
           disclaimer and agree to its terms.
         </p>
         <h1 className="heads">Update</h1>
-        <p>
+        <p className="mb-0 pb-4">
           When we update or make any changes to our privacy, those changes will
           be prominently posted here.
         </p>

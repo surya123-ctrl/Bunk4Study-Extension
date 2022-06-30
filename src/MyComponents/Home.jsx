@@ -32,7 +32,7 @@ const Home = () => {
                 </h1>
 
                 <div className="MDU">
-                  MDU QUESTION PAPER
+                  Question Bank &nbsp;
                   <div class="spinner-grow text-danger" role="status">
                     <span class="visually-hidden">Loading...</span>
                   </div>

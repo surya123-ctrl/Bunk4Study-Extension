@@ -6,54 +6,44 @@ const Question = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <h1 class="mb-1">
-        <b>DOWNLOAD YOUR QUESTIONS PAPERS</b>
+        <b>Select Your College</b>
         <div class="spinner-grow text-primary" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
       </h1>
       <div className="Branch">
-        <Link to={"/CseBranch"}>
-          <button type="button" class="btn btn-primary">
-            Computer Science Engineering
+        <Link to={"/MDU"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Maharshi Dayanand University
           </button>
         </Link>
 
-        <Link to={"/EceBranch"}>
-          <button type="button" class="btn btn-success">
-            Electronics & Communications Engineering
+        <Link to={"/DCRU"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Deenbandhu Chhotu Ram University
           </button>
         </Link>
 
-        <Link to={"/MeBranch"}>
-          <button type="button" class="btn btn-danger">
-            Mechanical Engineering
+        <Link to={"/GJU"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Guru Jambheshwar University
+          </button>
+        </Link>
+        <Link to={"/JCBU"}>
+          <button type="button" class="btn btn-outline-secondary">
+            J.C. Bose University
           </button>
         </Link>
 
-        <Link to={"/EeBranch"}>
-          <button type="button" class="btn btn-secondary">
-            Electrical Engineering
+        <Link to={"/CDLU"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Chaudhary Devi Lal University
           </button>
         </Link>
 
-        <Link to={"/CeBranch"}>
-          <button type="button" class="btn btn-info">
-            Civil Engineering
-          </button>
-        </Link>
-
-        <Link to={"/BeBranch"}>
-          <button type="button" class="btn btn-warning">
-            Bio - Tech Engineering
-          </button>
-        </Link>
-
-        <Link to={""}>
-          <button type="button" class="btn btn-light">
-            Coming Soon.....
-            <div class="spinner-border text-danger" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
+        <Link to={"/KU"}>
+          <button type="button" class="btn btn-outline-secondary">
+            Kurukshetra University
           </button>
         </Link>
       </div>

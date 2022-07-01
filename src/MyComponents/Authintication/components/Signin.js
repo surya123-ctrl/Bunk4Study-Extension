@@ -3,6 +3,8 @@ import { auth, provider} from '../firebase';
 import './Signin.css';
 import { useNavigate } from "react-router-dom";
 import GoogleButton from "react-google-button";
+// import Signup from "./Signup";
+import { NavLink } from "react-router-dom";
 
 const Signin = () => {
     const emailref = useRef(null);
@@ -21,20 +23,22 @@ const Signin = () => {
         )
     }
 
-    const signUp = (e) => {
-        e.preventDefault();
-        auth.createUserWithEmailAndPassword(
-            emailref.current.value,
-            passwordref.current.value
-        ).then(user => {
-            console.log(user)
-        }).catch(err => {
-            console.log(err)
-            alert("Please fill up the above box")
-        })
+    // const signUp = (e) => {
+    //     e.preventDefault();
+    //     auth.createUserWithEmailAndPassword(
+    //         emailref.current.value,
+    //         passwordref.current.value
+    //     ).then(user => {
+    //         console.log(user)
+    //     }).catch(err => {
+    //         console.log(err)
+    //         alert("Please fill up the above box")
+    //     })
 
-        // window.location.reload();
-    }
+    //     // window.location.reload();
+        
+    // }
+
     const signIn = (e) => {
         e.preventDefault();
         auth.signInWithEmailAndPassword(
@@ -49,9 +53,11 @@ const Signin = () => {
 
         // window.location.reload();
     }
+
     if (emailref != null) {
         navigate("/");
     }
+
     return (
         <>
             <div className="big-div1">
@@ -64,18 +70,25 @@ const Signin = () => {
                             <div className="txt_field">
                                     <input  type="email"  ref={emailref} required />
                                     <span></span>
-                                    <label> E-mail  Address </label>
+                                    <label>E-mail address</label>
                                 </div>
                                 <div className="txt_field">
                                     <input type="password" ref={passwordref} required />
                                     <span></span>
-                                    <label> Create Password </label>
+                                    <label>Create Password</label>
                                 </div>
                                 
-                                <div className="pass1"><a className="link" href="#"> Forget Password? </a></div>
-                                <button onClick={signIn} className="signin_pointer"> Sign In </button>
-                                <h6 className="h6"> Don't have an account? <span onClick={signUp} className="signin_link"> Sign up </span></h6>
-                               
+                                <div className="pass1">forget<a className="link" href="#">Password?</a></div>
+                                <button onClick={signIn} className="signin_pointer">Sign In</button>
+                                {/* <h6 className="h6">Don't have an account?<span onClick={signUp} className="signin_link"><Signup/></span></h6> */}
+                                <h6 className="h6">Don't have an account?<span className="signin_link">
+                                <NavLink to="/signup">
+                                         Sign up
+                                 </NavLink>
+                                   
+                                </span> 
+                                 </h6>
+
                             </form>
                             <div className="g-btn" >
                                    <span onClick={GoogleSignIn} ><GoogleButton type="dark" /></span> 

@@ -1,11 +1,7 @@
-/* eslint-disable no-unused-vars */
-// eslint-disable-next-line no-unused-vars
-import logo from "./logo.svg";
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { auth } from "./MyComponents/Authintication/firebase";
 import Signin from "./MyComponents/Authintication/components/Signin";
-// eslint-disable-next-line no-unused-vars
 import Signup from "./MyComponents/Authintication/components/Signup";
 import Signout from "./MyComponents/Authintication/Signout";
 import "./App.css";
@@ -150,8 +146,8 @@ function App() {
           <Route path="/EeBranch" element={<EeBranch />} />
           <Route path="/BeBranch" element={<BeBranch />} />
           <Route path="/Signout" element={<Signout />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/Signin" element={<Signin />} />
-          {/* <Route path="/signup" element={<Signup />} /> */}
 
           <Route path="/user" element={<Navigate to="/" />} />
         </Routes>

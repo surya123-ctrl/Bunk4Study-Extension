@@ -61,7 +61,7 @@ import CseSem6 from "./MyComponents/Branch/Cse/CseSem6";
 import CseSem7 from "./MyComponents/Branch/Cse/CseSem7";
 import CseSem8 from "./MyComponents/Branch/Cse/CseSem8";
 import ScrollToTop from "./MyComponents/scrollToTop";
-import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
 
 function App() {

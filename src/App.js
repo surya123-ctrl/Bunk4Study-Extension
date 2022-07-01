@@ -145,7 +145,7 @@ function App() {
           <Route path="/CeBranch" element={<CeBranch />} />
           <Route path="/EeBranch" element={<EeBranch />} />
           <Route path="/BeBranch" element={<BeBranch />} />
-          <Route path="/Signout" element={<Signout />} />
+          <Route path="/Signup" element={<Signup />} />
           <Route path="/Signout" element={<Signout User={user}/>} />
           <Route path="/Signin" element={<Signin />} />
 

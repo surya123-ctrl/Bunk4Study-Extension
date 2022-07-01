@@ -146,7 +146,7 @@ function App() {
           <Route path="/EeBranch" element={<EeBranch />} />
           <Route path="/BeBranch" element={<BeBranch />} />
           <Route path="/Signout" element={<Signout />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/Signout" element={<Signout User={user}/>} />
           <Route path="/Signin" element={<Signin />} />
 
           <Route path="/user" element={<Navigate to="/" />} />

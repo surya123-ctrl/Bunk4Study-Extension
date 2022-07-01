@@ -7941,10 +7941,10 @@
   "resolved" "https://registry.npmjs.org/node-releases/-/node-releases-2.0.2.tgz"
   "version" "2.0.2"
 
-"nodemon@^2.0.16":
-  "integrity" "sha512-zsrcaOfTWRuUzBn3P44RDliLlp263Z/76FPoHFr3cFFkOz0lTPAcIw8dCzfdVIx/t3AtDYCZRCDkoCojJqaG3w=="
-  "resolved" "https://registry.npmjs.org/nodemon/-/nodemon-2.0.16.tgz"
-  "version" "2.0.16"
+"nodemon@^2.0.18":
+  "integrity" "sha512-uAvrKipi2zAz8E7nkSz4qW4F4zd5fs2wNGsTx+xXlP8KXqd9ucE0vY9wankOsPboeDyuUGN9vsXGV1pLn80l/A=="
+  "resolved" "https://registry.npmjs.org/nodemon/-/nodemon-2.0.18.tgz"
+  "version" "2.0.18"
   dependencies:
     "chokidar" "^3.5.2"
     "debug" "^3.2.7"

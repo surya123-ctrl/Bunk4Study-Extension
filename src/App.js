@@ -46,20 +46,20 @@ import CDLUN from "./MyComponents/College/CDLUN";
 import KUN from "./MyComponents/College/KUN";
 import Footer from "./MyComponents/Footer";
 import Event from "./MyComponents/Event";
-import CseBranch from "./MyComponents/Branch/Cse/CseBranch";
-import EceBranch from "./MyComponents/Branch/Ece/EceBranch";
-import MeBranch from "./MyComponents/Branch/Me/MeBranch";
-import CeBranch from "./MyComponents/Branch/Ce/CeBranch";
-import EeBranch from "./MyComponents/Branch/Ee/EeBranch";
-import BeBranch from "./MyComponents/Branch/Be/BeBranch";
-import CseSem1 from "./MyComponents/Branch/Cse/CseSem1";
-import CseSem2 from "./MyComponents/Branch/Cse/CseSem2";
-import CseSem3 from "./MyComponents/Branch/Cse/CseSem3";
-import CseSem4 from "./MyComponents/Branch/Cse/CseSem4";
-import CseSem5 from "./MyComponents/Branch/Cse/CseSem5";
-import CseSem6 from "./MyComponents/Branch/Cse/CseSem6";
-import CseSem7 from "./MyComponents/Branch/Cse/CseSem7";
-import CseSem8 from "./MyComponents/Branch/Cse/CseSem8";
+import CseBranchMDU from "./MyComponents/Branch/Cse-MDU/CseBranch-MDU";
+import EceBranchMDU from "./MyComponents/Branch/Ece-MDU/EceBranch-MDU";
+import MeBranchMDU from "./MyComponents/Branch/Me-MDU/MeBranch-MDU";
+import CeBranchMDU from "./MyComponents/Branch/Ce-MDU/CeBranch-MDU";
+import EeBranchMDU from "./MyComponents/Branch/Ee-MDU/EeBranch-MDU";
+import BeBranchMDU from "./MyComponents/Branch/Be-MDU/BeBranch-MDU";
+import CseSem1MDU from "./MyComponents/Branch/Cse-MDU/CseSem1-MDU";
+import CseSem2MDU from "./MyComponents/Branch/Cse-MDU/CseSem2-MDU";
+import CseSem3MDU from "./MyComponents/Branch/Cse-MDU/CseSem3-MDU";
+import CseSem4MDU from "./MyComponents/Branch/Cse-MDU/CseSem4-MDU";
+import CseSem5MDU from "./MyComponents/Branch/Cse-MDU/CseSem5-MDU";
+import CseSem6MDU from "./MyComponents/Branch/Cse-MDU/CseSem6-MDU";
+import CseSem7MDU from "./MyComponents/Branch/Cse-MDU/CseSem7-MDU";
+import CseSem8MDU from "./MyComponents/Branch/Cse-MDU/CseSem8-MDU";
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
@@ -131,20 +131,20 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/Credits" element={<Credits />} />
           <Route path="/Event" element={<Event />} />
-          <Route path="/CseSem1" element={<CseSem1 />} />
-          <Route path="/CseSem2" element={<CseSem2 />} />
-          <Route path="/CseSem3" element={<CseSem3 />} />
-          <Route path="/CseSem4" element={<CseSem4 />} />
-          <Route path="/CseSem5" element={<CseSem5 />} />
-          <Route path="/CseSem6" element={<CseSem6 />} />
-          <Route path="/CseSem7" element={<CseSem7 />} />
-          <Route path="/CseSem8" element={<CseSem8 />} />
-          <Route path="/CseBranch" element={<CseBranch />} />
-          <Route path="/EceBranch" element={<EceBranch />} />
-          <Route path="/MeBranch" element={<MeBranch />} />
-          <Route path="/CeBranch" element={<CeBranch />} />
-          <Route path="/EeBranch" element={<EeBranch />} />
-          <Route path="/BeBranch" element={<BeBranch />} />
+          <Route path="/CseSem1MDU" element={<CseSem1MDU />} />
+          <Route path="/CseSem2MDU" element={<CseSem2MDU />} />
+          <Route path="/CseSem3MDU" element={<CseSem3MDU />} />
+          <Route path="/CseSem4MDU" element={<CseSem4MDU />} />
+          <Route path="/CseSem5MDU" element={<CseSem5MDU />} />
+          <Route path="/CseSem6MDU" element={<CseSem6MDU />} />
+          <Route path="/CseSem7MDU" element={<CseSem7MDU />} />
+          <Route path="/CseSem8MDU" element={<CseSem8MDU />} />
+          <Route path="/CseBranchMDU" element={<CseBranchMDU />} />
+          <Route path="/EceBranchMDU" element={<EceBranchMDU />} />
+          <Route path="/MeBranchMDU" element={<MeBranchMDU />} />
+          <Route path="/CeBranchMDU" element={<CeBranchMDU />} />
+          <Route path="/EeBranchMDU" element={<EeBranchMDU />} />
+          <Route path="/BeBranchMDU" element={<BeBranchMDU />} />
           <Route path="/Signup" element={<Signup />} />
           <Route path="/Signout" element={<Signout User={user}/>} />
           <Route path="/Signin" element={<Signin />} />

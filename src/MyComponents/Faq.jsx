@@ -7,7 +7,7 @@ const Faq = () => {
       <p className="center-button mb-0 pb-4">
         <h1>The FAQ Page</h1>
         <Link to={"/Giveaway"} className="btn btn-primary short-button">
-          Giveaway
+          Giveaway Questions
         </Link>
       </p>
     </div>

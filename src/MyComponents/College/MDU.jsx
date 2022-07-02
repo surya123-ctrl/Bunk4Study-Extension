@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/Question.css";
+import "../style/Question.css";
 import { Link } from "react-router-dom";
 
 const MDU = () => {

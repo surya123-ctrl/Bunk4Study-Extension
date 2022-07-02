@@ -1,12 +1,12 @@
 import React from "react";
-import "./style/Question.css";
+import "../style/Question.css";
 import { Link } from "react-router-dom";
 
-const JCBUN = () => {
+const KUN = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <h1 class="mb-1">
-        <b>J.C. Bose University Notes</b>
+        <b>Kurukshetra University Notes</b>
         <div class="spinner-grow text-primary" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
@@ -53,4 +53,4 @@ const JCBUN = () => {
   );
 };
 
-export default JCBUN;
+export default KUN;

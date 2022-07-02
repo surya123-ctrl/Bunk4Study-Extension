@@ -1,5 +1,4 @@
 import React from "react";
-import "../MyComponents/style/Giveaway.css";
 const Q1 = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>

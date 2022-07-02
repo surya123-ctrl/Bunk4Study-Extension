@@ -1,12 +1,12 @@
 import React from "react";
-import "./style/Question.css";
+import "../style/Question.css";
 import { Link } from "react-router-dom";
 
-const MDUN = () => {
+const KU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <h1 class="mb-1">
-        <b>Maharshi Dayanand University Notes</b>
+        <b>Kurukshetra University</b>
         <div class="spinner-grow text-primary" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
@@ -53,4 +53,4 @@ const MDUN = () => {
   );
 };
 
-export default MDUN;
+export default KU;

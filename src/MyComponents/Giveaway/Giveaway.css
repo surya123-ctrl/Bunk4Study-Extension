@@ -7,10 +7,6 @@
   text-align: left;
   font-size: 12px;
 }
-.questions-bank p {
-  font-size: 12px;
-  margin-bottom: 0;
-}
 @media (max-width: 420px) {
   .questions-bank {
     align-items: center;

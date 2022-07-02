@@ -1,12 +1,12 @@
 import React from "react";
-import "./style/Question.css";
+import "../style/Question.css";
 import { Link } from "react-router-dom";
 
-const CDLU = () => {
+const DCRU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <h1 class="mb-1">
-        <b>Chaudhary Devi Lal University</b>
+        <b>Deenbandhu Chhotu Ram University</b>
         <div class="spinner-grow text-primary" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
@@ -53,4 +53,4 @@ const CDLU = () => {
   );
 };
 
-export default CDLU;
+export default DCRU;

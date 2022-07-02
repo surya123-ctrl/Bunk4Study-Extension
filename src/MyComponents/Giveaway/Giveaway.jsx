@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../MyComponents/style/Giveaway.css";
+import "../Giveaway/Giveaway.css";
 const Giveaway = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>

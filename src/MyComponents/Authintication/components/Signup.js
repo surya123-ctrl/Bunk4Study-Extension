@@ -58,9 +58,9 @@ const SignUp = () => {
                                     <span></span>
                                     <label>Confirm Password</label>
                                 </div> */}
-                                <div className="pass">Already have an account?<span className="link">
-                                <NavLink to="/Signin" >
-                                   Signin
+                                <div className="pass">Already have an account?<span className="link signin_link">
+                                <NavLink to="/Signin"  >
+                                   Sign in
                                 </NavLink> 
                                 </span></div>
 

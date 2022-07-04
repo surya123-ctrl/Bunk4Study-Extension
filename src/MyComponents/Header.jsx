@@ -7,7 +7,6 @@ import Signin from "./Authintication/components/Signin";
 // eslint-disable-next-line no-unused-vars
 import Signout from "./Authintication/Signout";
 
-
 function NavBar(props) {
   const [click, setClick] = useState(false);
 
@@ -95,8 +94,7 @@ function NavBar(props) {
               aria-controls="offcanvasRight"
             ></i>
 
-            
-            {handleClick.User || props.User? (
+            {handleClick.User || props.User ? (
               <NavLink
                 to="Signout"
                 activeClassName="active"
@@ -121,7 +119,7 @@ function NavBar(props) {
                 ></i>
               </NavLink>
             )}
-{/* 
+            {/* 
 
             {props.User ? (
               <NavLink to="Signout" title="Signout" activeClassName="active" className="nav-link me-2">

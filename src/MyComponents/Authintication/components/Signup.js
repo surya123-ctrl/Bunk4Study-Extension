@@ -22,7 +22,7 @@ const SignUp = () => {
             console.log(user)
         }).catch(err => {
             console.log(err)
-            alert("Please fill up the above box")
+            alert("Please fill up the above box and enter a valid email address")
         })
 
         // window.location.reload();

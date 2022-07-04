@@ -1,18 +1,19 @@
-.big-div2{
+.big-div2 {
     height: 100vh;
     width: 28%;
     background-color: #f2f1f2;
-    background-color:  #fbfbfb;
+    background-color: #fbfbfb;
     justify-content: center;
     padding-top: 3%;
     padding-left: 11%;
-    
+
 }
-.big-div1{
-    
+
+.big-div1 {
+
     display: flex;
     justify-content: flex-start;
-        
+
     align-content: center;
     width: auto;
     align-items: center;
@@ -25,18 +26,18 @@
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    
-    
+
+
 }
 
-.g-btn{
-    margin-left: 45px;;
+.g-btn {
+    margin-left: 45px;
     padding-left: 20px;
     padding-bottom: 1.2rem;
-    
+
 }
 
-.head1{
+.head1 {
     padding-top: 2.5rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -45,76 +46,66 @@
 }
 
 
-.signin_pointer{
+.signin_pointer {
     cursor: pointer;
     width: 200px;
     border-radius: 26px;
     padding: 6px;
     margin-left: 10px;
     font-size: 1.2rem;
-    
-    background:#51054f;
+    background: #51054f;
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
-    
+
 }
-.h6{
+
+.h6 {
     padding-top: 1rem;
     padding-bottom: 1.5rem;
 }
 
-.pass1{
+.pass1 {
     margin: -5px 0 20px 5px;
     color: #050404;
     cursor: pointer;
     padding-left: 10rem;
 }
 
-.signin_link{
-   cursor: pointer;
+.signin_link {
+    cursor: pointer;
 }
 
-.signin_link:hover{
+.signin_link:hover {
     text-decoration: underline;
 }
- @media (max-width: 480px){
-    .big-div1{
-        color:  #010506;
+
+@media (max-width: 480px) {
+    .big-div1 {
+        color: #010506;
         box-sizing: border-box;
         background-image: none;
-        width: 100vw;
-        
-        
+        margin: 0;
     }
-    .big-div2{
+
+    .big-div2 {
         background-image: url(https://cdn.wallpapersafari.com/61/86/FxRXSd.jpg);
-        orientation:portrait;
+        orientation: portrait;
         background-repeat: no-repeat;
-        background-size:auto;
-        width: 100vw;
-
-
+        background-size: auto;
         justify-content: center;
-        
-        
     }
-    .big-div3{
+
+    .big-div3 {
         justify-content: center;
-       
-        
-        
-        
     }
-    .head{
+
+    .head {
         font-size: 2.3rem;
         font-weight: bold;
-        
+
     }
-   
-    .signin_pointer{
+
+    .signin_pointer {
         width: 120px;
-        
     }
-
-
-} 
+}

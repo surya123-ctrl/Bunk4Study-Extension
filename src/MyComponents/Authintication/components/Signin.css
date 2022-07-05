@@ -109,3 +109,15 @@
         width: 120px;
     }
 }
+@media (max-width: 380px) {
+    .center{
+        max-width: 350px !important;
+        margin-left: -20px;
+    }
+}
+@media (max-width: 325px){
+    .center{
+        max-width: 312px !important;
+        margin-left: -31px;
+    }
+}

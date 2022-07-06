@@ -1,8 +1,8 @@
 import React from "react";
-import "../Style/Branch.css"
+import "..//..//Style/Branch.css";
 import { Link } from "react-router-dom";
 
-const CeBranchMDU = () => {
+const CeBranchGJU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <h1>
@@ -13,49 +13,49 @@ const CeBranchMDU = () => {
       </h1>
 
       <div className="sem">
-        <Link to={"/CeSem1MDU"}>
+        <Link to={"/CeSem1GJU"}>
           <button type="button" class="btn btn-outline-info">
             Semester 1
           </button>
         </Link>
 
-        <Link to={"/CeSem2MDU"}>
+        <Link to={"/CeSem2GJU"}>
           <button type="button" class="btn btn-outline-info">
             Semester 2
           </button>
         </Link>
 
-        <Link to={"/CeSem3MDU"}>
+        <Link to={"/CeSem3GJU"}>
           <button type="button" class="btn btn-outline-info">
             Semester 3
           </button>
         </Link>
 
-        <Link to={"/CeSem4MDU"}>
+        <Link to={"/CeSem4GJU"}>
           <button type="button" class="btn btn-outline-info">
             Semester 4
           </button>
         </Link>
 
-        <Link to={"/CeSem5MDU"}>
+        <Link to={"/CeSem5GJU"}>
           <button type="button" class="btn btn-outline-info">
             Semester 5
           </button>
         </Link>
 
-        <Link to={"/CeSem6MDU"}>
+        <Link to={"/CeSem6GJU"}>
           <button type="button" class="btn btn-outline-info">
             Semester 6
           </button>
         </Link>
 
-        <Link to={"/CeSem7MDU"}>
+        <Link to={"/CeSem7GJU"}>
           <button type="button" class="btn btn-outline-info">
             Semester 7
           </button>
         </Link>
 
-        <Link to={"/CeSem8MDU"}>
+        <Link to={"/CeSem8GJU"}>
           <button type="button" class="btn btn-outline-info">
             Semester 8
           </button>
@@ -67,4 +67,4 @@ const CeBranchMDU = () => {
   );
 };
 
-export default CeBranchMDU;
+export default CeBranchGJU;

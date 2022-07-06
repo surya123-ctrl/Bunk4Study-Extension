@@ -1,8 +1,8 @@
 import React from "react";
-import "../Style/Branch.css"
+import "..//..//Style/Branch.css";
 import { Link } from "react-router-dom";
 
-const MeBranchMDU = () => {
+const MeBranchDCRU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <h1>
@@ -13,49 +13,49 @@ const MeBranchMDU = () => {
       </h1>
 
       <div className="sem">
-        <Link to={"/MeSem1MDU"}>
+        <Link to={"/MeSem1DCRU"}>
           <button type="button" class="btn btn-outline-danger">
             Semester 1
           </button>
         </Link>
 
-        <Link to={"/MeSem2MDU"}>
+        <Link to={"/MeSem2DCRU"}>
           <button type="button" class="btn btn-outline-danger">
             Semester 2
           </button>
         </Link>
 
-        <Link to={"/MeSem3MDU"}>
+        <Link to={"/MeSem3DCRU"}>
           <button type="button" class="btn btn-outline-danger">
             Semester 3
           </button>
         </Link>
 
-        <Link to={"/MeSem4MDU"}>
+        <Link to={"/MeSem4DCRU"}>
           <button type="button" class="btn btn-outline-danger">
             Semester 4
           </button>
         </Link>
 
-        <Link to={"/MeSem5MDU"}>
+        <Link to={"/MeSem5DCRU"}>
           <button type="button" class="btn btn-outline-danger">
             Semester 5
           </button>
         </Link>
 
-        <Link to={"/MeSem6MDU"}>
+        <Link to={"/MeSem6DCRU"}>
           <button type="button" class="btn btn-outline-danger">
             Semester 6
           </button>
         </Link>
 
-        <Link to={"/MeSem7MDU"}>
+        <Link to={"/MeSem7DCRU"}>
           <button type="button" class="btn btn-outline-danger">
             Semester 7
           </button>
         </Link>
 
-        <Link to={"/MeSem8MDU"}>
+        <Link to={"/MeSem8DCRU"}>
           <button type="button" class="btn btn-outline-danger">
             Semester 8
           </button>
@@ -67,4 +67,4 @@ const MeBranchMDU = () => {
   );
 };
 
-export default MeBranchMDU;
+export default MeBranchDCRU;

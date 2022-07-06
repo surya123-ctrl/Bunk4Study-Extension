@@ -1,8 +1,8 @@
 import React from "react";
-import "../Style/Branch.css"
+import "..//..//Style/Branch.css";
 import { Link } from "react-router-dom";
 
-const EeBranchMDU = () => {
+const EeBranchCDLU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <h1>
@@ -13,49 +13,49 @@ const EeBranchMDU = () => {
       </h1>
 
       <div className="sem">
-        <Link to={"/EeSem1MDU"}>
+        <Link to={"/EeSem1CDLU"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 1
           </button>
         </Link>
 
-        <Link to={"/EeSem2MDU"}>
+        <Link to={"/EeSem2CDLU"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 2
           </button>
         </Link>
 
-        <Link to={"/EeSem3MDU"}>
+        <Link to={"/EeSem3CDLU"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 3
           </button>
         </Link>
 
-        <Link to={"/EeSem4MDU"}>
+        <Link to={"/EeSem4CDLU"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 4
           </button>
         </Link>
 
-        <Link to={"/EeSem5MDU"}>
+        <Link to={"/EeSem5CDLU"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 5
           </button>
         </Link>
 
-        <Link to={"/EeSem6MDU"}>
+        <Link to={"/EeSem6CDLU"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 6
           </button>
         </Link>
 
-        <Link to={"/EeSem7MDU"}>
+        <Link to={"/EeSem7CDLU"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 7
           </button>
         </Link>
 
-        <Link to={"/EeSem8MDU"}>
+        <Link to={"/EeSem8CDLU"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 8
           </button>
@@ -67,4 +67,4 @@ const EeBranchMDU = () => {
   );
 };
 
-export default EeBranchMDU;
+export default EeBranchCDLU;

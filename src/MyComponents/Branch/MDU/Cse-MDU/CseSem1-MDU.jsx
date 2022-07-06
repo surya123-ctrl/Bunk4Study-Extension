@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/Branch.css";
+import "..//..//Style/Branch.css";
 
 const Sem1 = () => {
   return (

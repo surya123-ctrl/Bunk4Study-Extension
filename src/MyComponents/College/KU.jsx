@@ -12,37 +12,37 @@ const KU = () => {
         </div>
       </h1>
       <div className="Branch">
-        <Link to={"/CseBranch"}>
+        <Link to={"/CseBranchKU"}>
           <button type="button" class="btn btn-primary">
             Computer Science Engineering
           </button>
         </Link>
 
-        <Link to={"/EceBranch"}>
+        <Link to={"/EceBranchKU"}>
           <button type="button" class="btn btn-success">
             Electronics & Communications Engineering
           </button>
         </Link>
 
-        <Link to={"/MeBranch"}>
+        <Link to={"/MeBranchKU"}>
           <button type="button" class="btn btn-danger">
             Mechanical Engineering
           </button>
         </Link>
 
-        <Link to={"/EeBranch"}>
+        <Link to={"/EeBranchKU"}>
           <button type="button" class="btn btn-secondary">
             Electrical Engineering
           </button>
         </Link>
 
-        <Link to={"/CeBranch"}>
+        <Link to={"/CeBranchKU"}>
           <button type="button" class="btn btn-info">
             Civil Engineering
           </button>
         </Link>
 
-        <Link to={"/BeBranch"}>
+        <Link to={"/BeBranchKU"}>
           <button type="button" class="btn btn-warning">
             Bio - Tech Engineering
           </button>

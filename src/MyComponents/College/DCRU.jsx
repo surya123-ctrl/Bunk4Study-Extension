@@ -12,37 +12,37 @@ const DCRU = () => {
         </div>
       </h1>
       <div className="Branch">
-        <Link to={"/CseBranch"}>
+        <Link to={"/CseBranchDCRU"}>
           <button type="button" class="btn btn-primary">
             Computer Science Engineering
           </button>
         </Link>
 
-        <Link to={"/EceBranch"}>
+        <Link to={"/EceBranchDCRU"}>
           <button type="button" class="btn btn-success">
             Electronics & Communications Engineering
           </button>
         </Link>
 
-        <Link to={"/MeBranch"}>
+        <Link to={"/MeBranchDCRU"}>
           <button type="button" class="btn btn-danger">
             Mechanical Engineering
           </button>
         </Link>
 
-        <Link to={"/EeBranch"}>
+        <Link to={"/EeBranchDCRU"}>
           <button type="button" class="btn btn-secondary">
             Electrical Engineering
           </button>
         </Link>
 
-        <Link to={"/CeBranch"}>
+        <Link to={"/CeBranchDCRU"}>
           <button type="button" class="btn btn-info">
             Civil Engineering
           </button>
         </Link>
 
-        <Link to={"/BeBranch"}>
+        <Link to={"/BeBranchDCRU"}>
           <button type="button" class="btn btn-warning">
             Bio - Tech Engineering
           </button>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/Branch.css"
+import "..//..//Style/Branch.css";
 import { Link } from "react-router-dom";
 
 const CeBranchMDU = () => {

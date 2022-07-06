@@ -12,37 +12,37 @@ const MDUN = () => {
         </div>
       </h1>
       <div className="Branch">
-        <Link to={"/CseBranch"}>
+        <Link to={"/CseBranchMDUN"}>
           <button type="button" class="btn btn-primary">
             Computer Science Engineering
           </button>
         </Link>
 
-        <Link to={"/EceBranch"}>
+        <Link to={"/EceBranchMDUN"}>
           <button type="button" class="btn btn-success">
             Electronics & Communications Engineering
           </button>
         </Link>
 
-        <Link to={"/MeBranch"}>
+        <Link to={"/MeBranchMDUN"}>
           <button type="button" class="btn btn-danger">
             Mechanical Engineering
           </button>
         </Link>
 
-        <Link to={"/EeBranch"}>
+        <Link to={"/EeBranchMDUN"}>
           <button type="button" class="btn btn-secondary">
             Electrical Engineering
           </button>
         </Link>
 
-        <Link to={"/CeBranch"}>
+        <Link to={"/CeBranchMDUN"}>
           <button type="button" class="btn btn-info">
             Civil Engineering
           </button>
         </Link>
 
-        <Link to={"/BeBranch"}>
+        <Link to={"/BeBranchMDUN"}>
           <button type="button" class="btn btn-warning">
             Bio - Tech Engineering
           </button>

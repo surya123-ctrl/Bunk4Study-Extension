@@ -12,37 +12,37 @@ const GJUN = () => {
         </div>
       </h1>
       <div className="Branch">
-        <Link to={"/CseBranch"}>
+        <Link to={"/CseBranchGJUN"}>
           <button type="button" class="btn btn-primary">
             Computer Science Engineering
           </button>
         </Link>
 
-        <Link to={"/EceBranch"}>
+        <Link to={"/EceBranchGJUN"}>
           <button type="button" class="btn btn-success">
             Electronics & Communications Engineering
           </button>
         </Link>
 
-        <Link to={"/MeBranch"}>
+        <Link to={"/MeBranchGJUN"}>
           <button type="button" class="btn btn-danger">
             Mechanical Engineering
           </button>
         </Link>
 
-        <Link to={"/EeBranch"}>
+        <Link to={"/EeBranchGJUN"}>
           <button type="button" class="btn btn-secondary">
             Electrical Engineering
           </button>
         </Link>
 
-        <Link to={"/CeBranch"}>
+        <Link to={"/CeBranchGJUN"}>
           <button type="button" class="btn btn-info">
             Civil Engineering
           </button>
         </Link>
 
-        <Link to={"/BeBranch"}>
+        <Link to={"/BeBranchGJUN"}>
           <button type="button" class="btn btn-warning">
             Bio - Tech Engineering
           </button>

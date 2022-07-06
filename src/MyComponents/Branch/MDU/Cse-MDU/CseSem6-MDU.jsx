@@ -34,42 +34,12 @@ const Sem6 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1TZ95G_0lKa1_GuJC1psD98rCj67-fMRr/view?usp=sharing"
+                href="https://drive.google.com/file/d/1A3jPpV-umtKzam1rxGyU4tRWnk0yTAx5/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year 2021
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1ZUdDwiwJnAV-aR7gmyIrRePOwctDbjMe/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year2020
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1jzTLGv0RHetuHJRt-FGBGCHCSuJXhn2q/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  Year2019
-                </button>
-              </a>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/14QxrP5tBB6I4bd3kbPhZYo5Ty60LT4eY/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" class="btn btn-primary">
-                  YearAll
+                  2021
                 </button>
               </a>
               <br />
@@ -97,32 +67,52 @@ const Sem6 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/12nvj6oVuLifWg8JIGYguuLQVSCwq_xP-/view?usp=sharing"
+                href="https://drive.google.com/file/d/1bdB-mmQcY1n9v3HbY1207rWJbUj5FpaD/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year1
+                  2015
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1hwOhHju8nFYm3AV3mIMS5Lx6dFZv6cC2/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BWvBjGuGVasUkS4dsT3iCEJk1-P_F84e/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year2
+                  2016
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1pDrDUbPwLJVtTei7mz6RbfdBLjdLogOm/view?usp=sharing"
+                href="https://drive.google.com/file/d/1nevkwe0U0iUaeDuO1ZVaCfcvOPFJB20G/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year3
+                  2017
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1DYpiCF5s4NSKbZYBzjLwuEP6CKlahgOk/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2018
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1lz44aWVBV-SfcuolxX2hueZDvs0DlJZM/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2019
                 </button>
               </a>
               <br />
@@ -150,52 +140,52 @@ const Sem6 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1oGtknDP1Q5Hd4gng3KyvUN48A1xF4cBH/view?usp=sharing"
+                href="https://drive.google.com/file/d/1mVEJ0BxTv2Qq1rGqpmLhafDmi8gFt3KA/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year1
+                  2013
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1BcCOFAUyOzdBUgOOyDXYKobigioku3E7/view?usp=sharing"
+                href="https://drive.google.com/file/d/17ptGC9ARj7-tI8jNttxPHC-KqzEJPAwq/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year2
+                  2014
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/15pEuCRozdz8fmgMo1wsjJcMeRWd01gBW/view?usp=sharing"
+                href="https://drive.google.com/file/d/1CDgjVp-PC3Zp0pft9IJ5abHa9JAoxIUa/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year3
+                  2016
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/133p7KqGcdTd9xTVuPhHIOpwgiXyB6CeW/view?usp=sharing"
+                href="https://drive.google.com/file/d/1GSpbPI0g5SWJYD9o5XjB88NsrrYQpUYs/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year4
+                  2017
                 </button>
               </a>
               <br />
               <a
-                href="https://drive.google.com/file/d/1iuQN_25rf0atAIMXSNB86xdRXFuPE5q0/view?usp=sharing"
+                href="https://drive.google.com/file/d/13SYC4UfM2AiPixevJBGIfCC9tO9-oAJ6/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year5
+                  2018
                 </button>
               </a>
               <br />
@@ -223,12 +213,42 @@ const Sem6 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1CvjZbNet-be4q3EnChs52uamO9w-OXqe/view?usp=sharing"
+                href="https://drive.google.com/file/d/114iq2LuEIlPiAf1GF8slNp-YFit-r4mI/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year1
+                  2017
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1TbXGkPaKeRmulSWi1TNVJ-F7KlQ7SYHn/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2018
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1C-la-yXFf5vtNixB5vVLSi14FM7cBVMB/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2019
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1nlyEsuBWJmwTbBY9gAtTWyd-DsD9K9-K/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2020
                 </button>
               </a>
               <br />
@@ -256,12 +276,125 @@ const Sem6 = () => {
           >
             <div class="accordion-body" id="sub">
               <a
-                href="https://drive.google.com/file/d/1cOUrzCVDEhIUS0KfVdVvxyWL5xSCwcCQ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1AGqIufMk2QOs0MG5E06ft0mgs_svldzX/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button type="button" class="btn btn-primary">
-                  Year1
+                  2016
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/15ekaH7nyxWnBEzvguK-56CCphq0sIYQT/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2017
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1-s-XGY5D0dPHB1M3sKztGW_98MKuQQ93/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2018
+                </button>
+              </a>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              System Program and System Administration
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body" id="sub">
+              <a
+                href="https://drive.google.com/file/d/1RxjmpBMArDSJhCWTFO6TBT4u9FXJR4aY/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2013
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/14eK9AoplUo8gXbHzJLszLQzuZwn67GB9/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2014
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1MAzlu4bTOZeA80EdlF2ppcpTK2ArLSXN/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2015
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1ShAF0dXJzZR1W3qRDnvbGB1fpmhtpx5B/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2016
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1KVq-S_JtK4Q-cqmjEByq4mS_jBh3zKWK/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2017
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1RaepXvlEsCPUL5eOLukPR0SDLu-918wc/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2018
+                </button>
+              </a>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/14g3pFRm6a5CIxsvQIrTnBzYIlyw3Yuo9/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2019
                 </button>
               </a>
               <br />

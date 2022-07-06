@@ -86,7 +86,7 @@ const Sem7 = () => {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Ajava
+              Distributed Operating System
             </button>
           </h2>
           <div
@@ -262,6 +262,39 @@ const Sem7 = () => {
               >
                 <button type="button" class="btn btn-primary">
                   Year1
+                </button>
+              </a>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              Data Warehousing and Data Mining
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body" id="sub">
+              <a
+                href="https://drive.google.com/file/d/11Wd4Wr1_VW_396_1olO5eUOs-8vbuM0e/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-primary">
+                  2017
                 </button>
               </a>
               <br />

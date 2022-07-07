@@ -95,6 +95,49 @@ import MeBranchKU from "./MyComponents/Branch/KU/Me-KU/MeBranch-KU";
 import CeBranchKU from "./MyComponents/Branch/KU/Ce-KU/CeBranch-KU";
 import EeBranchKU from "./MyComponents/Branch/KU/Ee-KU/EeBranch-KU";
 import BeBranchKU from "./MyComponents/Branch/KU/Be-KU/BeBranch-KU";
+
+import CseBranchMDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseBranch-MDUN";
+import BeBranchMDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeBranch-MDUN";
+import CeBranchMDUN from "./MyComponents/Notes/MDUN/Ce-MDUN/CeBranch-MDUN";
+import MeBranchMDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeBranch-MDUN";
+import EceBranchMDUN from "./MyComponents/Notes/MDUN/Ece-MDUN/EceBranch-MDUN";
+import EeBranchMDUN from "./MyComponents/Notes/MDUN/Ee-MDUN/EeBranch-MDUN";
+
+import CseBranchCDLUN from "./MyComponents/Notes/CDLUN/Cse-CDLUN/CseBranch-CDLUN";
+import BeBranchCDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeBranch-CDLUN";
+import CeBranchCDLUN from "./MyComponents/Notes/CDLUN/Ce-CDLUN/CeBranch-CDLUN";
+import MeBranchCDLUN from "./MyComponents/Notes/CDLUN/Me-CDLUN/MeBranch-CDLUN";
+import EceBranchCDLUN from "./MyComponents/Notes/CDLUN/Ece-CDLUN/EceBranch-CDLUN";
+import EeBranchCDLUN from "./MyComponents/Notes/CDLUN/Ee-CDLUN/EeBranch-CDLUN";
+
+import CseBranchDCRUN from "./MyComponents/Notes/DCRUN/Cse-DCRUN/CseBranch-DCRUN";
+import BeBranchDCRUN from "./MyComponents/Notes/DCRUN/Be-DCRUN/BeBranch-DCRUN";
+import CeBranchDCRUN from "./MyComponents/Notes/DCRUN/Ce-DCRUN/CeBranch-DCRUN";
+import MeBranchDCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeBranch-DCRUN";
+import EceBranchDCRUN from "./MyComponents/Notes/DCRUN/Ece-DCRUN/EceBranch-DCRUN";
+import EeBranchDCRUN from "./MyComponents/Notes/DCRUN/Ee-DCRUN/EeBranch-DCRUN";
+
+import CseBranchGJUN from "./MyComponents/Notes/GJUN/Cse-GJUN/CseBranch-GJUN";
+import BeBranchGJUN from "./MyComponents/Notes/GJUN/Be-GJUN/BeBranch-GJUN";
+import CeBranchGJUN from "./MyComponents/Notes/GJUN/Ce-GJUN/CeBranch-GJUN";
+import MeBranchGJUN from "./MyComponents/Notes/GJUN/Me-GJUN/MeBranch-GJUN";
+import EceBranchGJUN from "./MyComponents/Notes/GJUN/Ece-GJUN/EceBranch-GJUN";
+import EeBranchGJUN from "./MyComponents/Notes/GJUN/Ee-GJUN/EeBranch-GJUN";
+
+import CseBranchJCBUN from "./MyComponents/Notes/JCBUN/Cse-JCBUN/CseBranch-JCBUN";
+import BeBranchJCBUN from "./MyComponents/Notes/JCBUN/Be-JCBUN/BeBranch-JCBUN";
+import CeBranchJCBUN from "./MyComponents/Notes/JCBUN/Ce-JCBUN/CeBranch-JCBUN";
+import MeBranchJCBUN from "./MyComponents/Notes/JCBUN/Me-JCBUN/MeBranch-JCBUN";
+import EceBranchJCBUN from "./MyComponents/Notes/JCBUN/Ece-JCBUN/EceBranch-JCBUN";
+import EeBranchJCBUN from "./MyComponents/Notes/JCBUN/Ee-JCBUN/EeBranch-JCBUN";
+
+import CseBranchKUN from "./MyComponents/Notes/KUN/Cse-KUN/CseBranch-KUN";
+import BeBranchKUN from "./MyComponents/Notes/KUN/Be-KUN/BeBranch-KUN";
+import CeBranchKUN from "./MyComponents/Notes/KUN/Ce-KUN/CeBranch-KUN";
+import MeBranchKUN from "./MyComponents/Notes/KUN/Me-KUN/MeBranch-KUN";
+import EceBranchKUN from "./MyComponents/Notes/KUN/Ece-KUN/EceBranch-KUN";
+import EeBranchKUN from "./MyComponents/Notes/KUN/Ee-KUN/EeBranch-KUN";
+
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
@@ -215,6 +258,50 @@ function App() {
           <Route path="/CeBranchKU" element={<CeBranchKU />} />
           <Route path="/EeBranchKU" element={<EeBranchKU />} />
           <Route path="/BeBranchKU" element={<BeBranchKU />} />
+          
+          <Route path="/CseBranchMDUN" element={<CseBranchMDUN/>}/>
+          <Route path="/BeBranchMDUN" element={<BeBranchMDUN/>}/>
+          <Route path="/CeBranchMDUN" element={<CeBranchMDUN/>}/>
+          <Route path="/MeBranchMDUN" element={<MeBranchMDUN/>}/>
+          <Route path="/EceBranchMDUN" element={<EceBranchMDUN/>}/>
+          <Route path="/EeBranchMDUN" element={<EeBranchMDUN/>}/>
+
+          <Route path="/CseBranchCDLUN" element={<CseBranchCDLUN/>}/>
+          <Route path="/BeBranchCDLUN" element={<BeBranchCDLUN/>}/>
+          <Route path="/CeBranchCDLUN" element={<CeBranchCDLUN/>}/>
+          <Route path="/MeBranchCDLUN" element={<MeBranchCDLUN/>}/>
+          <Route path="/EceBranchCDLUN" element={<EceBranchCDLUN/>}/>
+          <Route path="/EeBranchCDLUN" element={<EeBranchCDLUN/>}/>
+
+          <Route path="/CseBranchDCRUN" element={<CseBranchDCRUN/>}/>
+          <Route path="/BeBranchDCRUN" element={<BeBranchDCRUN/>}/>
+          <Route path="/CeBranchDCRUN" element={<CeBranchDCRUN/>}/>
+          <Route path="/MeBranchDCRUN" element={<MeBranchDCRUN/>}/>
+          <Route path="/EceBranchDCRUN" element={<EceBranchDCRUN/>}/>
+          <Route path="/EeBranchDCRUN" element={<EeBranchDCRUN/>}/>
+
+          <Route path="/CseBranchGJUN" element={<CseBranchGJUN/>}/>
+          <Route path="/BeBranchGJUN" element={<BeBranchGJUN/>}/>
+          <Route path="/CeBranchGJUN" element={<CeBranchGJUN/>}/>
+          <Route path="/MeBranchGJUN" element={<MeBranchGJUN/>}/>
+          <Route path="/EceBranchGJUN" element={<EceBranchGJUN/>}/>
+          <Route path="/EeBranchGJUN" element={<EeBranchGJUN/>}/>
+
+          <Route path="/CseBranchJCBUN" element={<CseBranchJCBUN/>}/>
+          <Route path="/CeBranchJCBUN" element={<CeBranchJCBUN/>}/>
+          <Route path="/MeBranchJCBUN" element={<MeBranchJCBUN/>}/>
+          <Route path="/BeBranchJCBUN" element={<BeBranchJCBUN/>}/>
+          <Route path="/EceBranchJCBUN" element={<EceBranchJCBUN/>}/>
+          <Route path="/EeBranchJCBUN" element={<EeBranchJCBUN/>}/>
+
+          <Route path="/CseBranchKUN" element={<CseBranchKUN/>}/>
+          <Route path="/BeBranchKUN" element={<BeBranchKUN/>}/>
+          <Route path="/CeBranchKUN" element={<CeBranchKUN/>}/>
+          <Route path="/MeBranchKUN" element={<MeBranchKUN/>}/>
+          <Route path="/EceBranchKUN" element={<EceBranchKUN/>}/>
+          <Route path="/EeBranchKUN" element={<EeBranchKUN/>}/>
+
+
           <Route path="/Signup" element={<Signup />} />
           <Route path="/Signout" element={<Signout User={user}/>} />
           <Route path="/Signin" element={<Signin />} />

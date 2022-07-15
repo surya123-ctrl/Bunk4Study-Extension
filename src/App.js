@@ -356,14 +356,14 @@ import BeSem6JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem6-JCBU";
 import BeSem7JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem7-JCBU";
 import BeSem8JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem8-JCBU";
 
-import CeSem1JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/CeSem1-JCBU";
-import CeSem2JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/CeSem2-JCBU";
-import CeSem3JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/CeSem3-JCBU";
-import CeSem4JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/CeSem4-JCBU";
-import CeSem5JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/CeSem5-JCBU";
-import CeSem6JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/CeSem6-JCBU";
-import CeSem7JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/CeSem7-JCBU";
-import CeSem8JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/CeSem8-JCBU";
+import CeSem1JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem1-JCBU";
+import CeSem2JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem2-JCBU";
+import CeSem3JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem3-JCBU";
+import CeSem4JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem4-JCBU";
+import CeSem5JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem5-JCBU";
+import CeSem6JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem6-JCBU";
+import CeSem7JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem7-JCBU";
+import CeSem8JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem8-JCBU";
 
 import CseSem1JCBU from "./MyComponents/Branch/JCBU/Cse-JCBU/CseSem1-JCBU";
 import CseSem2JCBU from "./MyComponents/Branch/JCBU/Cse-JCBU/CseSem2-JCBU";

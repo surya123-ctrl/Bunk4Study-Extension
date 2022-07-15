@@ -1,10 +1,10 @@
 import React from 'react';
 import HomePage from "./components/Homepage"
 
-const Signout = () => {
+const Signout = (props) => {
   return (
     <>
-          <HomePage/>
+          <HomePage userdata={props.User}/>
     </>
   )
 }

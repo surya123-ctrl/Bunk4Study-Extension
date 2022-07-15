@@ -455,6 +455,60 @@ import MeSem6KU from "./MyComponents/Branch/KU/Me-KU/MeSem6-KU";
 import MeSem7KU from "./MyComponents/Branch/KU/Me-KU/MeSem7-KU";
 import MeSem8KU from "./MyComponents/Branch/KU/Me-KU/MeSem8-KU";
 
+import BeSem1MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem1-MDUN";
+import BeSem2MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem2-MDUN";
+import BeSem3MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem3-MDUN";
+import BeSem4MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem4-MDUN";
+import BeSem5MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem5-MDUN";
+import BeSem6MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem6-MDUN";
+import BeSem7MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem7-MDUN";
+import BeSem8MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem8-MDUN";
+
+import CeSem1MDUN from "./MyComponents/Notes/MDUN/Ce-MDUN/CeSem1-MDUN";
+import CeSem2MDUN from "./MyComponents/Notes/MDUN/Ce-MDUN/CeSem2-MDUN";
+import CeSem3MDUN from "./MyComponents/Notes/MDUN/Ce-MDUN/CeSem3-MDUN";
+import CeSem4MDUN from "./MyComponents/Notes/MDUN/Ce-MDUN/CeSem4-MDUN";
+import CeSem5MDUN from "./MyComponents/Notes/MDUN/Ce-MDUN/CeSem5-MDUN";
+import CeSem6MDUN from "./MyComponents/Notes/MDUN/Ce-MDUN/CeSem6-MDUN";
+import CeSem7MDUN from "./MyComponents/Notes/MDUN/Ce-MDUN/CeSem7-MDUN";
+import CeSem8MDUN from "./MyComponents/Notes/MDUN/Ce-MDUN/CeSem8-MDUN";
+
+import CseSem1MDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseSem1-MDUN";
+import CseSem2MDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseSem2-MDUN";
+import CseSem3MDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseSem3-MDUN";
+import CseSem4MDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseSem4-MDUN";
+import CseSem5MDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseSem5-MDUN";
+import CseSem6MDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseSem6-MDUN";
+import CseSem7MDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseSem7-MDUN";
+import CseSem8MDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseSem8-MDUN";
+
+import EceSem1MDUN from "./MyComponents/Notes/MDUN/Ece-MDUN/EceSem1-MDUN";
+import EceSem2MDUN from "./MyComponents/Notes/MDUN/Ece-MDUN/EceSem2-MDUN";
+import EceSem3MDUN from "./MyComponents/Notes/MDUN/Ece-MDUN/EceSem3-MDUN";
+import EceSem4MDUN from "./MyComponents/Notes/MDUN/Ece-MDUN/EceSem4-MDUN";
+import EceSem5MDUN from "./MyComponents/Notes/MDUN/Ece-MDUN/EceSem5-MDUN";
+import EceSem6MDUN from "./MyComponents/Notes/MDUN/Ece-MDUN/EceSem6-MDUN";
+import EceSem7MDUN from "./MyComponents/Notes/MDUN/Ece-MDUN/EceSem7-MDUN";
+import EceSem8MDUN from "./MyComponents/Notes/MDUN/Ece-MDUN/EceSem8-MDUN";
+
+import EeSem1MDUN from "./MyComponents/Notes/MDUN/Ee-MDUN/EeSem1-MDUN";
+import EeSem2MDUN from "./MyComponents/Notes/MDUN/Ee-MDUN/EeSem2-MDUN";
+import EeSem3MDUN from "./MyComponents/Notes/MDUN/Ee-MDUN/EeSem3-MDUN";
+import EeSem4MDUN from "./MyComponents/Notes/MDUN/Ee-MDUN/EeSem4-MDUN";
+import EeSem5MDUN from "./MyComponents/Notes/MDUN/Ee-MDUN/EeSem5-MDUN";
+import EeSem6MDUN from "./MyComponents/Notes/MDUN/Ee-MDUN/EeSem6-MDUN";
+import EeSem7MDUN from "./MyComponents/Notes/MDUN/Ee-MDUN/EeSem7-MDUN";
+import EeSem8MDUN from "./MyComponents/Notes/MDUN/Ee-MDUN/EeSem8-MDUN";
+
+import MeSem1MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem1-MDUN";
+import MeSem2MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem2-MDUN";
+import MeSem3MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem3-MDUN";
+import MeSem4MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem4-MDUN";
+import MeSem5MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem5-MDUN";
+import MeSem6MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem6-MDUN";
+import MeSem7MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem7-MDUN";
+import MeSem8MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem8-MDUN";
+
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate } from "react-router-dom";
 // import CookieConsent from "react-cookie-consent";
@@ -858,6 +912,60 @@ function App() {
           <Route path="/MeSem6KU" element={<MeSem6KU />} />
           <Route path="/MeSem7KU" element={<MeSem7KU />} />
           <Route path="/MeSem8KU" element={<MeSem8KU />} />
+
+          <Route path="/BeSem1MDUN" element={<BeSem1MDUN />} />
+          <Route path="/BeSem2MDUN" element={<BeSem2MDUN />} />
+          <Route path="/BeSem3MDUN" element={<BeSem3MDUN />} />
+          <Route path="/BeSem4MDUN" element={<BeSem4MDUN />} />
+          <Route path="/BeSem5MDUN" element={<BeSem5MDUN />} />
+          <Route path="/BeSem6MDUN" element={<BeSem6MDUN />} />
+          <Route path="/BeSem7MDUN" element={<BeSem7MDUN />} />
+          <Route path="/BeSem8MDUN" element={<BeSem8MDUN />} />
+
+          <Route path="/CeSem1MDUN" element={<CeSem1MDUN />} />
+          <Route path="/CeSem2MDUN" element={<CeSem2MDUN />} />
+          <Route path="/CeSem3MDUN" element={<CeSem3MDUN />} />
+          <Route path="/CeSem4MDUN" element={<CeSem4MDUN />} />
+          <Route path="/CeSem5MDUN" element={<CeSem5MDUN />} />
+          <Route path="/CeSem6MDUN" element={<CeSem6MDUN />} />
+          <Route path="/CeSem7MDUN" element={<CeSem7MDUN />} />
+          <Route path="/CeSem8MDUN" element={<CeSem8MDUN />} />
+
+          <Route path="/CseSem1MDUN" element={<CseSem1MDUN />} />
+          <Route path="/CseSem2MDUN" element={<CseSem2MDUN />} />
+          <Route path="/CseSem3MDUN" element={<CseSem3MDUN />} />
+          <Route path="/CseSem4MDUN" element={<CseSem4MDUN />} />
+          <Route path="/CseSem5MDUN" element={<CseSem5MDUN />} />
+          <Route path="/CseSem6MDUN" element={<CseSem6MDUN />} />
+          <Route path="/CseSem7MDUN" element={<CseSem7MDUN />} />
+          <Route path="/CseSem8MDUN" element={<CseSem8MDUN />} />
+
+          <Route path="/EceSem1MDUN" element={<EceSem1MDUN />} />
+          <Route path="/EceSem2MDUN" element={<EceSem2MDUN />} />
+          <Route path="/EceSem3MDUN" element={<EceSem3MDUN />} />
+          <Route path="/EceSem4MDUN" element={<EceSem4MDUN />} />
+          <Route path="/EceSem5MDUN" element={<EceSem5MDUN />} />
+          <Route path="/EceSem6MDUN" element={<EceSem6MDUN />} />
+          <Route path="/EceSem7MDUN" element={<EceSem7MDUN />} />
+          <Route path="/EceSem8MDUN" element={<EceSem8MDUN />} />
+
+          <Route path="/EeSem1MDUN" element={<EeSem1MDUN />} />
+          <Route path="/EeSem2MDUN" element={<EeSem2MDUN />} />
+          <Route path="/EeSem3MDUN" element={<EeSem3MDUN />} />
+          <Route path="/EeSem4MDUN" element={<EeSem4MDUN />} />
+          <Route path="/EeSem5MDUN" element={<EeSem5MDUN />} />
+          <Route path="/EeSem6MDUN" element={<EeSem6MDUN />} />
+          <Route path="/EeSem7MDUN" element={<EeSem7MDUN />} />
+          <Route path="/EeSem8MDUN" element={<EeSem8MDUN />} />
+
+          <Route path="/MeSem1MDUN" element={<MeSem1MDUN />} />
+          <Route path="/MeSem2MDUN" element={<MeSem2MDUN />} />
+          <Route path="/MeSem3MDUN" element={<MeSem3MDUN />} />
+          <Route path="/MeSem4MDUN" element={<MeSem4MDUN />} />
+          <Route path="/MeSem5MDUN" element={<MeSem5MDUN />} />
+          <Route path="/MeSem6MDUN" element={<MeSem6MDUN />} />
+          <Route path="/MeSem7MDUN" element={<MeSem7MDUN />} />
+          <Route path="/MeSem8MDUN" element={<MeSem8MDUN />} />
 
           <Route path="/CseBranchMDU" element={<CseBranchMDU />} />
           <Route path="/EceBranchMDU" element={<EceBranchMDU />} />

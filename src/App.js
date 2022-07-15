@@ -52,59 +52,7 @@ import MeBranchMDU from "./MyComponents/Branch/MDU/Me-MDU/MeBranch-MDU";
 import CeBranchMDU from "./MyComponents/Branch/MDU/Ce-MDU/CeBranch-MDU";
 import EeBranchMDU from "./MyComponents/Branch/MDU/Ee-MDU/EeBranch-MDU";
 import BeBranchMDU from "./MyComponents/Branch/MDU/Be-MDU/BeBranch-MDU";
-import CseSem1MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem1-MDU";
-import CseSem2MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem2-MDU";
-import CseSem3MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem3-MDU";
-import CseSem4MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem4-MDU";
-import CseSem5MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem5-MDU";
-import CseSem6MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem6-MDU";
-import CseSem7MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem7-MDU";
-import CseSem8MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem8-MDU";
 
-import MeSem1MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem1-MDU";
-import MeSem2MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem2-MDU";
-import MeSem3MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem3-MDU";
-import MeSem4MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem4-MDU";
-import MeSem5MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem5-MDU";
-import MeSem6MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem6-MDU";
-import MeSem7MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem7-MDU";
-import MeSem8MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem8-MDU";
-
-import EceSem1MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem1-MDU";
-import EceSem2MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem2-MDU";
-import EceSem3MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem3-MDU";
-import EceSem4MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem4-MDU";
-import EceSem5MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem5-MDU";
-import EceSem6MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem6-MDU";
-import EceSem7MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem7-MDU";
-import EceSem8MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem8-MDU";
-
-import CeSem1MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem1-MDU";
-import CeSem2MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem2-MDU";
-import CeSem3MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem3-MDU";
-import CeSem4MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem4-MDU";
-import CeSem5MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem5-MDU";
-import CeSem6MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem6-MDU";
-import CeSem7MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem7-MDU";
-import CeSem8MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem8-MDU";
-
-import BeSem1MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem1-MDU";
-import BeSem2MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem2-MDU";
-import BeSem3MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem3-MDU";
-import BeSem4MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem4-MDU";
-import BeSem5MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem5-MDU";
-import BeSem6MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem6-MDU";
-import BeSem7MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem7-MDU";
-import BeSem8MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem8-MDU";
-
-import EeSem1MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem1-MDU";
-import EeSem2MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem2-MDU";
-import EeSem3MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem3-MDU";
-import EeSem4MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem4-MDU";
-import EeSem5MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem5-MDU";
-import EeSem6MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem6-MDU";
-import EeSem7MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem7-MDU";
-import EeSem8MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem8-MDU";
 
 import CseBranchCDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseBranch-CDLU";
 import EceBranchCDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceBranch-CDLU";
@@ -183,13 +131,121 @@ import MeBranchKUN from "./MyComponents/Notes/KUN/Me-KUN/MeBranch-KUN";
 import EceBranchKUN from "./MyComponents/Notes/KUN/Ece-KUN/EceBranch-KUN";
 import EeBranchKUN from "./MyComponents/Notes/KUN/Ee-KUN/EeBranch-KUN";
 
+import CseSem1MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem1-MDU";
+import CseSem2MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem2-MDU";
+import CseSem3MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem3-MDU";
+import CseSem4MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem4-MDU";
+import CseSem5MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem5-MDU";
+import CseSem6MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem6-MDU";
+import CseSem7MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem7-MDU";
+import CseSem8MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem8-MDU";
+
+import MeSem1MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem1-MDU";
+import MeSem2MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem2-MDU";
+import MeSem3MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem3-MDU";
+import MeSem4MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem4-MDU";
+import MeSem5MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem5-MDU";
+import MeSem6MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem6-MDU";
+import MeSem7MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem7-MDU";
+import MeSem8MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem8-MDU";
+
+import EceSem1MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem1-MDU";
+import EceSem2MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem2-MDU";
+import EceSem3MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem3-MDU";
+import EceSem4MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem4-MDU";
+import EceSem5MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem5-MDU";
+import EceSem6MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem6-MDU";
+import EceSem7MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem7-MDU";
+import EceSem8MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem8-MDU";
+
+import CeSem1MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem1-MDU";
+import CeSem2MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem2-MDU";
+import CeSem3MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem3-MDU";
+import CeSem4MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem4-MDU";
+import CeSem5MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem5-MDU";
+import CeSem6MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem6-MDU";
+import CeSem7MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem7-MDU";
+import CeSem8MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem8-MDU";
+
+import BeSem1MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem1-MDU";
+import BeSem2MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem2-MDU";
+import BeSem3MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem3-MDU";
+import BeSem4MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem4-MDU";
+import BeSem5MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem5-MDU";
+import BeSem6MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem6-MDU";
+import BeSem7MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem7-MDU";
+import BeSem8MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem8-MDU";
+
+import EeSem1MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem1-MDU";
+import EeSem2MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem2-MDU";
+import EeSem3MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem3-MDU";
+import EeSem4MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem4-MDU";
+import EeSem5MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem5-MDU";
+import EeSem6MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem6-MDU";
+import EeSem7MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem7-MDU";
+import EeSem8MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem8-MDU";
+
+import BeSem1CDLU from "./MyComponents/Branch/CDLU/Be-CDLU/BeSem1-CDLU";
+import BeSem2CDLU from "./MyComponents/Branch/CDLU/Be-CDLU/BeSem2-CDLU";
+import BeSem3CDLU from "./MyComponents/Branch/CDLU/Be-CDLU/BeSem3-CDLU";
+import BeSem4CDLU from "./MyComponents/Branch/CDLU/Be-CDLU/BeSem4-CDLU";
+import BeSem5CDLU from "./MyComponents/Branch/CDLU/Be-CDLU/BeSem5-CDLU";
+import BeSem6CDLU from "./MyComponents/Branch/CDLU/Be-CDLU/BeSem6-CDLU";
+import BeSem7CDLU from "./MyComponents/Branch/CDLU/Be-CDLU/BeSem7-CDLU";
+import BeSem8CDLU from "./MyComponents/Branch/CDLU/Be-CDLU/BeSem8-CDLU";
+
+import CeSem1CDLU from "./MyComponents/Branch/CDLU/Ce-CDLU/CeSem1-CDLU";
+import CeSem2CDLU from "./MyComponents/Branch/CDLU/Ce-CDLU/CeSem2-CDLU";
+import CeSem3CDLU from "./MyComponents/Branch/CDLU/Ce-CDLU/CeSem3-CDLU";
+import CeSem4CDLU from "./MyComponents/Branch/CDLU/Ce-CDLU/CeSem4-CDLU";
+import CeSem5CDLU from "./MyComponents/Branch/CDLU/Ce-CDLU/CeSem5-CDLU";
+import CeSem6CDLU from "./MyComponents/Branch/CDLU/Ce-CDLU/CeSem6-CDLU";
+import CeSem7CDLU from "./MyComponents/Branch/CDLU/Ce-CDLU/CeSem7-CDLU";
+import CeSem8CDLU from "./MyComponents/Branch/CDLU/Ce-CDLU/CeSem8-CDLU";
+
+import CseSem1CDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseSem1-CDLU";
+import CseSem2CDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseSem2-CDLU";
+import CseSem3CDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseSem3-CDLU";
+import CseSem4CDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseSem4-CDLU";
+import CseSem5CDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseSem5-CDLU";
+import CseSem6CDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseSem6-CDLU";
+import CseSem7CDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseSem7-CDLU";
+import CseSem8CDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseSem8-CDLU";
+
+import EceSem1CDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceSem1-CDLU";
+import EceSem2CDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceSem2-CDLU";
+import EceSem3CDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceSem3-CDLU";
+import EceSem4CDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceSem4-CDLU";
+import EceSem5CDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceSem5-CDLU";
+import EceSem6CDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceSem6-CDLU";
+import EceSem7CDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceSem7-CDLU";
+import EceSem8CDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceSem8-CDLU";
+
+import EeSem1CDLU from "./MyComponents/Branch/CDLU/Ee-CDLU/EeSem1-CDLU";
+import EeSem2CDLU from "./MyComponents/Branch/CDLU/Ee-CDLU/EeSem2-CDLU";
+import EeSem3CDLU from "./MyComponents/Branch/CDLU/Ee-CDLU/EeSem3-CDLU";
+import EeSem4CDLU from "./MyComponents/Branch/CDLU/Ee-CDLU/EeSem4-CDLU";
+import EeSem5CDLU from "./MyComponents/Branch/CDLU/Ee-CDLU/EeSem5-CDLU";
+import EeSem6CDLU from "./MyComponents/Branch/CDLU/Ee-CDLU/EeSem6-CDLU";
+import EeSem7CDLU from "./MyComponents/Branch/CDLU/Ee-CDLU/EeSem7-CDLU";
+import EeSem8CDLU from "./MyComponents/Branch/CDLU/Ee-CDLU/EeSem8-CDLU";
+
+import MeSem1CDLU from "./MyComponents/Branch/CDLU/Me-CDLU/MeSem1-CDLU";
+import MeSem2CDLU from "./MyComponents/Branch/CDLU/Me-CDLU/MeSem2-CDLU";
+import MeSem3CDLU from "./MyComponents/Branch/CDLU/Me-CDLU/MeSem3-CDLU";
+import MeSem4CDLU from "./MyComponents/Branch/CDLU/Me-CDLU/MeSem4-CDLU";
+import MeSem5CDLU from "./MyComponents/Branch/CDLU/Me-CDLU/MeSem5-CDLU";
+import MeSem6CDLU from "./MyComponents/Branch/CDLU/Me-CDLU/MeSem6-CDLU";
+import MeSem7CDLU from "./MyComponents/Branch/CDLU/Me-CDLU/MeSem7-CDLU";
+import MeSem8CDLU from "./MyComponents/Branch/CDLU/Me-CDLU/MeSem8-CDLU";
+
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate } from "react-router-dom";
 // import CookieConsent from "react-cookie-consent";
 
 function App() {
   const [user, setUser] = useState(null);
-
+  
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((userAuth) => {
       const user = {
@@ -307,6 +363,69 @@ function App() {
           <Route path="/EeSem6MDU" element={<EeSem6MDU />} />
           <Route path="/EeSem7MDU" element={<EeSem7MDU />} />
           <Route path="/EeSem8MDU" element={<EeSem8MDU />} />
+
+          <Route path="/BeSem1CDLU" element={<BeSem1CDLU />} />
+          <Route path="/BeSem2CDLU" element={<BeSem2CDLU />} />
+          <Route path="/BeSem3CDLU" element={<BeSem3CDLU />} />
+          <Route path="/BeSem4CDLU" element={<BeSem4CDLU />} />
+          <Route path="/BeSem5CDLU" element={<BeSem5CDLU />} />
+          <Route path="/BeSem6CDLU" element={<BeSem6CDLU />} />
+          <Route path="/BeSem7CDLU" element={<BeSem7CDLU />} />
+          <Route path="/BeSem8CDLU" element={<BeSem8CDLU />} />
+
+          <Route path="/BeSem1CDLU" element={<BeSem1CDLU />} />
+          <Route path="/BeSem2CDLU" element={<BeSem2CDLU />} />
+          <Route path="/BeSem3CDLU" element={<BeSem3CDLU />} />
+          <Route path="/BeSem4CDLU" element={<BeSem4CDLU />} />
+          <Route path="/BeSem5CDLU" element={<BeSem5CDLU />} />
+          <Route path="/BeSem6CDLU" element={<BeSem6CDLU />} />
+          <Route path="/BeSem7CDLU" element={<BeSem7CDLU />} />
+          <Route path="/BeSem8CDLU" element={<BeSem8CDLU />} />
+
+          <Route path="/CeSem1CDLU" element={<CeSem1CDLU />} />
+          <Route path="/CeSem2CDLU" element={<CeSem2CDLU />} />
+          <Route path="/CeSem3CDLU" element={<CeSem3CDLU />} />
+          <Route path="/CeSem4CDLU" element={<CeSem4CDLU />} />
+          <Route path="/CeSem5CDLU" element={<CeSem5CDLU />} />
+          <Route path="/CeSem6CDLU" element={<CeSem6CDLU />} />
+          <Route path="/CeSem7CDLU" element={<CeSem7CDLU />} />
+          <Route path="/CeSem8CDLU" element={<CeSem8CDLU />} />
+
+          <Route path="/CseSem1CDLU" element={<CseSem1CDLU />} />
+          <Route path="/CseSem2CDLU" element={<CseSem2CDLU />} />
+          <Route path="/CseSem3CDLU" element={<CseSem3CDLU />} />
+          <Route path="/CseSem4CDLU" element={<CseSem4CDLU />} />
+          <Route path="/CseSem5CDLU" element={<CseSem5CDLU />} />
+          <Route path="/CseSem6CDLU" element={<CseSem6CDLU />} />
+          <Route path="/CseSem7CDLU" element={<CseSem7CDLU />} />
+          <Route path="/CseSem8CDLU" element={<CseSem8CDLU />} />
+
+          <Route path="/EceSem1CDLU" element={<EceSem1CDLU />} />
+          <Route path="/EceSem2CDLU" element={<EceSem2CDLU />} />
+          <Route path="/EceSem3CDLU" element={<EceSem3CDLU />} />
+          <Route path="/EceSem4CDLU" element={<EceSem4CDLU />} />
+          <Route path="/EceSem5CDLU" element={<EceSem5CDLU />} />
+          <Route path="/EceSem6CDLU" element={<EceSem6CDLU />} />
+          <Route path="/EceSem7CDLU" element={<EceSem7CDLU />} />
+          <Route path="/EceSem8CDLU" element={<EceSem8CDLU />} />
+
+          <Route path="/EeSem1CDLU" element={<EeSem1CDLU />} />
+          <Route path="/EeSem2CDLU" element={<EeSem2CDLU />} />
+          <Route path="/EeSem3CDLU" element={<EeSem3CDLU />} />
+          <Route path="/EeSem4CDLU" element={<EeSem4CDLU />} />
+          <Route path="/EeSem5CDLU" element={<EeSem5CDLU />} />
+          <Route path="/EeSem6CDLU" element={<EeSem6CDLU />} />
+          <Route path="/EeSem7CDLU" element={<EeSem7CDLU />} />
+          <Route path="/EeSem8CDLU" element={<EeSem8CDLU />} />
+
+          <Route path="/MeSem1CDLU" element={<MeSem1CDLU />} />
+          <Route path="/MeSem2CDLU" element={<MeSem2CDLU />} />
+          <Route path="/MeSem3CDLU" element={<MeSem3CDLU />} />
+          <Route path="/MeSem4CDLU" element={<MeSem4CDLU />} />
+          <Route path="/MeSem5CDLU" element={<MeSem5CDLU />} />
+          <Route path="/MeSem6CDLU" element={<MeSem6CDLU />} />
+          <Route path="/MeSem7CDLU" element={<MeSem7CDLU />} />
+          <Route path="/MeSem8CDLU" element={<MeSem8CDLU />} />
 
           <Route path="/CseBranchMDU" element={<CseBranchMDU />} />
           <Route path="/EceBranchMDU" element={<EceBranchMDU />} />

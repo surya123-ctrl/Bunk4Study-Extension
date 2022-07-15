@@ -312,7 +312,7 @@ function App() {
         <div>
           <Footer />
         </div>
-        <CookieConsent
+        {/* <CookieConsent
           debug={true}
           buttonStyle={{ borderRadius: "5px" }}
           buttonText="GOT IT"
@@ -321,7 +321,7 @@ function App() {
           <Link to={"/privacy"} style={{ "text-decoration": "underline" }}>
             Cookies Policy
           </Link>
-        </CookieConsent>
+        </CookieConsent> */}
       </div>
     </>
   );

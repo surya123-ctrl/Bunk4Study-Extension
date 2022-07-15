@@ -1,7 +1,5 @@
-// import './Footer.css';
 import React from "react";
 import { Link } from "react-router-dom";
-import "../MyComponents/style/Footer.css";
 const Footer = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
@@ -30,21 +28,20 @@ const Footer = () => {
               <p>
                 <Link to={"/Credits"}>Credits</Link>
               </p>
-            </div>
-            <div className="footer-part">
               <p>
                 <Link to={"/Question"}>Question Paper</Link>
               </p>
               <p>
                 <Link to={"/ContactUs"}>Contact Us</Link>
               </p>
-            </div>
-            <div className="footer-part">
               <p>
                 <Link to={"/privacy"}>Privacy Policy</Link>
               </p>
               <p>
-                <Link to={"/faq"}>The FAQ Page</Link>
+                <Link to={"/faq"}>FAQ</Link>
+              </p>
+              <p>
+                <Link to={"/upload"}>Upload</Link>
               </p>
             </div>
             <div className="footer-icons">

@@ -37,53 +37,53 @@ const Home = () => {
                     <span class="visually-hidden">Loading...</span>
                   </div>
                   <div className="branches-name">
-                    <Link to={"/CseBranch"}>
+                    <Link to={"/MDU"}>
                       <button
                         type="button"
                         class="btn btn-primary short-button"
                         title="Computer Science Engineering"
                       >
-                        CSE
+                        MDU
                       </button>
                     </Link>
 
-                    <Link to={"/EceBranch"}>
+                    <Link to={"/CDLU"}>
                       <button
                         type="button"
                         class="btn btn-primary short-button"
                         title="Electronics and Communications Engineering"
                       >
-                        ECE
+                        CDLU
                       </button>
                     </Link>
 
-                    <Link to={"/MeBranch"}>
+                    <Link to={"/DCRU"}>
                       <button
                         type="button"
                         class="btn btn-primary short-button"
                         title="Mechanical Engineering"
                       >
-                        ME
+                        DCRU
                       </button>
                     </Link>
 
-                    <Link to={"/EeBranch"}>
+                    <Link to={"/GJU"}>
                       <button
                         type="button"
                         class="btn btn-primary short-button"
                         title="Electrical Engineering"
                       >
-                        EE
+                        GJU
                       </button>
                     </Link>
 
-                    <Link to={"/CeBranch"}>
+                    <Link to={"/JCBU"}>
                       <button
                         type="button"
                         class="btn btn-primary short-button"
                         title="Civil Engineering"
                       >
-                        CE
+                        JCBU
                       </button>
                     </Link>
 

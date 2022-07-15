@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { auth } from "./MyComponents/Authintication/firebase";
 import Signin from "./MyComponents/Authintication/components/Signin";
@@ -60,6 +60,51 @@ import CseSem5MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem5-MDU";
 import CseSem6MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem6-MDU";
 import CseSem7MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem7-MDU";
 import CseSem8MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem8-MDU";
+
+import MeSem1MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem1-MDU";
+import MeSem2MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem2-MDU";
+import MeSem3MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem3-MDU";
+import MeSem4MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem4-MDU";
+import MeSem5MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem5-MDU";
+import MeSem6MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem6-MDU";
+import MeSem7MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem7-MDU";
+import MeSem8MDU from "./MyComponents/Branch/MDU/Me-MDU/MeSem8-MDU";
+
+import EceSem1MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem1-MDU";
+import EceSem2MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem2-MDU";
+import EceSem3MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem3-MDU";
+import EceSem4MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem4-MDU";
+import EceSem5MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem5-MDU";
+import EceSem6MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem6-MDU";
+import EceSem7MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem7-MDU";
+import EceSem8MDU from "./MyComponents/Branch/MDU/Ece-MDU/EceSem8-MDU";
+
+import CeSem1MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem1-MDU";
+import CeSem2MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem2-MDU";
+import CeSem3MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem3-MDU";
+import CeSem4MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem4-MDU";
+import CeSem5MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem5-MDU";
+import CeSem6MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem6-MDU";
+import CeSem7MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem7-MDU";
+import CeSem8MDU from "./MyComponents/Branch/MDU/Ce-MDU/CeSem8-MDU";
+
+import BeSem1MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem1-MDU";
+import BeSem2MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem2-MDU";
+import BeSem3MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem3-MDU";
+import BeSem4MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem4-MDU";
+import BeSem5MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem5-MDU";
+import BeSem6MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem6-MDU";
+import BeSem7MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem7-MDU";
+import BeSem8MDU from "./MyComponents/Branch/MDU/Be-MDU/BeSem8-MDU";
+
+import EeSem1MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem1-MDU";
+import EeSem2MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem2-MDU";
+import EeSem3MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem3-MDU";
+import EeSem4MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem4-MDU";
+import EeSem5MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem5-MDU";
+import EeSem6MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem6-MDU";
+import EeSem7MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem7-MDU";
+import EeSem8MDU from "./MyComponents/Branch/MDU/Ee-MDU/EeSem8-MDU";
 
 import CseBranchCDLU from "./MyComponents/Branch/CDLU/Cse-CDLU/CseBranch-CDLU";
 import EceBranchCDLU from "./MyComponents/Branch/CDLU/Ece-CDLU/EceBranch-CDLU";
@@ -140,7 +185,7 @@ import EeBranchKUN from "./MyComponents/Notes/KUN/Ee-KUN/EeBranch-KUN";
 
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate } from "react-router-dom";
-import CookieConsent from "react-cookie-consent";
+// import CookieConsent from "react-cookie-consent";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -217,6 +262,52 @@ function App() {
           <Route path="/CseSem6MDU" element={<CseSem6MDU />} />
           <Route path="/CseSem7MDU" element={<CseSem7MDU />} />
           <Route path="/CseSem8MDU" element={<CseSem8MDU />} />
+
+          <Route path="/MeSem1MDU" element={<MeSem1MDU />} />
+          <Route path="/MeSem2MDU" element={<MeSem2MDU />} />
+          <Route path="/MeSem3MDU" element={<MeSem3MDU />} />
+          <Route path="/MeSem4MDU" element={<MeSem4MDU />} />
+          <Route path="/MeSem5MDU" element={<MeSem5MDU />} />
+          <Route path="/MeSem6MDU" element={<MeSem6MDU />} />
+          <Route path="/MeSem7MDU" element={<MeSem7MDU />} />
+          <Route path="/MeSem8MDU" element={<MeSem8MDU />} />
+
+          <Route path="/EceSem1MDU" element={<EceSem1MDU />} />
+          <Route path="/EceSem2MDU" element={<EceSem2MDU />} />
+          <Route path="/EceSem3MDU" element={<EceSem3MDU />} />
+          <Route path="/EceSem4MDU" element={<EceSem4MDU />} />
+          <Route path="/EceSem5MDU" element={<EceSem5MDU />} />
+          <Route path="/EceSem6MDU" element={<EceSem6MDU />} />
+          <Route path="/EceSem7MDU" element={<EceSem7MDU />} />
+          <Route path="/EceSem8MDU" element={<EceSem8MDU />} />
+
+          <Route path="/CeSem1MDU" element={<CeSem1MDU />} />
+          <Route path="/CeSem2MDU" element={<CeSem2MDU />} />
+          <Route path="/CeSem3MDU" element={<CeSem3MDU />} />
+          <Route path="/CeSem4MDU" element={<CeSem4MDU />} />
+          <Route path="/CeSem5MDU" element={<CeSem5MDU />} />
+          <Route path="/CeSem6MDU" element={<CeSem6MDU />} />
+          <Route path="/CeSem7MDU" element={<CeSem7MDU />} />
+          <Route path="/CeSem8MDU" element={<CeSem8MDU />} />
+
+          <Route path="/BeSem1MDU" element={<BeSem1MDU />} />
+          <Route path="/BeSem2MDU" element={<BeSem2MDU />} />
+          <Route path="/BeSem3MDU" element={<BeSem3MDU />} />
+          <Route path="/BeSem4MDU" element={<BeSem4MDU />} />
+          <Route path="/BeSem5MDU" element={<BeSem5MDU />} />
+          <Route path="/BeSem6MDU" element={<BeSem6MDU />} />
+          <Route path="/BeSem7MDU" element={<BeSem7MDU />} />
+          <Route path="/BeSem8MDU" element={<BeSem8MDU />} />
+
+          <Route path="/EeSem1MDU" element={<EeSem1MDU />} />
+          <Route path="/EeSem2MDU" element={<EeSem2MDU />} />
+          <Route path="/EeSem3MDU" element={<EeSem3MDU />} />
+          <Route path="/EeSem4MDU" element={<EeSem4MDU />} />
+          <Route path="/EeSem5MDU" element={<EeSem5MDU />} />
+          <Route path="/EeSem6MDU" element={<EeSem6MDU />} />
+          <Route path="/EeSem7MDU" element={<EeSem7MDU />} />
+          <Route path="/EeSem8MDU" element={<EeSem8MDU />} />
+
           <Route path="/CseBranchMDU" element={<CseBranchMDU />} />
           <Route path="/EceBranchMDU" element={<EceBranchMDU />} />
           <Route path="/MeBranchMDU" element={<MeBranchMDU />} />

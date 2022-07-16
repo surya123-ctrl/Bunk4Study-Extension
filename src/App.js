@@ -563,6 +563,60 @@ import MeSem6CDLUN from "./MyComponents/Notes/CDLUN/Me-CDLUN/MeSem6-CDLUN";
 import MeSem7CDLUN from "./MyComponents/Notes/CDLUN/Me-CDLUN/MeSem7-CDLUN";
 import MeSem8CDLUN from "./MyComponents/Notes/CDLUN/Me-CDLUN/MeSem8-CDLUN";
 
+import BeSem1DCRUN from "./MyComponents/Notes/DCRUN/Be-DCRUN/BeSem1-DCRUN";
+import BeSem2DCRUN from "./MyComponents/Notes/DCRUN/Be-DCRUN/BeSem2-DCRUN";
+import BeSem3DCRUN from "./MyComponents/Notes/DCRUN/Be-DCRUN/BeSem3-DCRUN";
+import BeSem4DCRUN from "./MyComponents/Notes/DCRUN/Be-DCRUN/BeSem4-DCRUN";
+import BeSem5DCRUN from "./MyComponents/Notes/DCRUN/Be-DCRUN/BeSem5-DCRUN";
+import BeSem6DCRUN from "./MyComponents/Notes/DCRUN/Be-DCRUN/BeSem6-DCRUN";
+import BeSem7DCRUN from "./MyComponents/Notes/DCRUN/Be-DCRUN/BeSem7-DCRUN";
+import BeSem8DCRUN from "./MyComponents/Notes/DCRUN/Be-DCRUN/BeSem8-DCRUN";
+
+import CeSem1DCRUN from "./MyComponents/Notes/DCRUN/Ce-DCRUN/CeSem1-DCRUN";
+import CeSem2DCRUN from "./MyComponents/Notes/DCRUN/Ce-DCRUN/CeSem2-DCRUN";
+import CeSem3DCRUN from "./MyComponents/Notes/DCRUN/Ce-DCRUN/CeSem3-DCRUN";
+import CeSem4DCRUN from "./MyComponents/Notes/DCRUN/Ce-DCRUN/CeSem4-DCRUN";
+import CeSem5DCRUN from "./MyComponents/Notes/DCRUN/Ce-DCRUN/CeSem5-DCRUN";
+import CeSem6DCRUN from "./MyComponents/Notes/DCRUN/Ce-DCRUN/CeSem6-DCRUN";
+import CeSem7DCRUN from "./MyComponents/Notes/DCRUN/Ce-DCRUN/CeSem7-DCRUN";
+import CeSem8DCRUN from "./MyComponents/Notes/DCRUN/Ce-DCRUN/CeSem8-DCRUN";
+
+import CseSem1DCRUN from "./MyComponents/Notes/DCRUN/Cse-DCRUN/CseSem1-DCRUN";
+import CseSem2DCRUN from "./MyComponents/Notes/DCRUN/Cse-DCRUN/CseSem2-DCRUN";
+import CseSem3DCRUN from "./MyComponents/Notes/DCRUN/Cse-DCRUN/CseSem3-DCRUN";
+import CseSem4DCRUN from "./MyComponents/Notes/DCRUN/Cse-DCRUN/CseSem4-DCRUN";
+import CseSem5DCRUN from "./MyComponents/Notes/DCRUN/Cse-DCRUN/CseSem5-DCRUN";
+import CseSem6DCRUN from "./MyComponents/Notes/DCRUN/Cse-DCRUN/CseSem6-DCRUN";
+import CseSem7DCRUN from "./MyComponents/Notes/DCRUN/Cse-DCRUN/CseSem7-DCRUN";
+import CseSem8DCRUN from "./MyComponents/Notes/DCRUN/Cse-DCRUN/CseSem8-DCRUN";
+
+import EceSem1DCRUN from "./MyComponents/Notes/DCRUN/Ece-DCRUN/EceSem1-DCRUN";
+import EceSem2DCRUN from "./MyComponents/Notes/DCRUN/Ece-DCRUN/EceSem2-DCRUN";
+import EceSem3DCRUN from "./MyComponents/Notes/DCRUN/Ece-DCRUN/EceSem3-DCRUN";
+import EceSem4DCRUN from "./MyComponents/Notes/DCRUN/Ece-DCRUN/EceSem4-DCRUN";
+import EceSem5DCRUN from "./MyComponents/Notes/DCRUN/Ece-DCRUN/EceSem5-DCRUN";
+import EceSem6DCRUN from "./MyComponents/Notes/DCRUN/Ece-DCRUN/EceSem6-DCRUN";
+import EceSem7DCRUN from "./MyComponents/Notes/DCRUN/Ece-DCRUN/EceSem7-DCRUN";
+import EceSem8DCRUN from "./MyComponents/Notes/DCRUN/Ece-DCRUN/EceSem8-DCRUN";
+
+import EeSem1DCRUN from "./MyComponents/Notes/DCRUN/Ee-DCRUN/EeSem1-DCRUN";
+import EeSem2DCRUN from "./MyComponents/Notes/DCRUN/Ee-DCRUN/EeSem2-DCRUN";
+import EeSem3DCRUN from "./MyComponents/Notes/DCRUN/Ee-DCRUN/EeSem3-DCRUN";
+import EeSem4DCRUN from "./MyComponents/Notes/DCRUN/Ee-DCRUN/EeSem4-DCRUN";
+import EeSem5DCRUN from "./MyComponents/Notes/DCRUN/Ee-DCRUN/EeSem5-DCRUN";
+import EeSem6DCRUN from "./MyComponents/Notes/DCRUN/Ee-DCRUN/EeSem6-DCRUN";
+import EeSem7DCRUN from "./MyComponents/Notes/DCRUN/Ee-DCRUN/EeSem7-DCRUN";
+import EeSem8DCRUN from "./MyComponents/Notes/DCRUN/Ee-DCRUN/EeSem8-DCRUN";
+
+import MeSem1DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem1-DCRUN";
+import MeSem2DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem2-DCRUN";
+import MeSem3DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem3-DCRUN";
+import MeSem4DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem4-DCRUN";
+import MeSem5DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem5-DCRUN";
+import MeSem6DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem6-DCRUN";
+import MeSem7DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem7-DCRUN";
+import MeSem8DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem8-DCRUN";
+
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate } from "react-router-dom";
 // import CookieConsent from "react-cookie-consent";
@@ -1074,6 +1128,60 @@ function App() {
           <Route path="/MeSem6CDLUN" element={<MeSem6CDLUN />} />
           <Route path="/MeSem7CDLUN" element={<MeSem7CDLUN />} />
           <Route path="/MeSem8CDLUN" element={<MeSem8CDLUN />} />
+
+          <Route path="/BeSem1DCRUN" element={<BeSem1DCRUN />} />
+          <Route path="/BeSem2DCRUN" element={<BeSem2DCRUN />} />
+          <Route path="/BeSem3DCRUN" element={<BeSem3DCRUN />} />
+          <Route path="/BeSem4DCRUN" element={<BeSem4DCRUN />} />
+          <Route path="/BeSem5DCRUN" element={<BeSem5DCRUN />} />
+          <Route path="/BeSem6DCRUN" element={<BeSem6DCRUN />} />
+          <Route path="/BeSem7DCRUN" element={<BeSem7DCRUN />} />
+          <Route path="/BeSem8DCRUN" element={<BeSem8DCRUN />} />
+
+          <Route path="/CeSem1DCRUN" element={<CeSem1DCRUN />} />
+          <Route path="/CeSem2DCRUN" element={<CeSem2DCRUN />} />
+          <Route path="/CeSem3DCRUN" element={<CeSem3DCRUN />} />
+          <Route path="/CeSem4DCRUN" element={<CeSem4DCRUN />} />
+          <Route path="/CeSem5DCRUN" element={<CeSem5DCRUN />} />
+          <Route path="/CeSem6DCRUN" element={<CeSem6DCRUN />} />
+          <Route path="/CeSem7DCRUN" element={<CeSem7DCRUN />} />
+          <Route path="/CeSem8DCRUN" element={<CeSem8DCRUN />} />
+
+          <Route path="/CseSem1DCRUN" element={<CseSem1DCRUN />} />
+          <Route path="/CseSem2DCRUN" element={<CseSem2DCRUN />} />
+          <Route path="/CseSem3DCRUN" element={<CseSem3DCRUN />} />
+          <Route path="/CseSem4DCRUN" element={<CseSem4DCRUN />} />
+          <Route path="/CseSem5DCRUN" element={<CseSem5DCRUN />} />
+          <Route path="/CseSem6DCRUN" element={<CseSem6DCRUN />} />
+          <Route path="/CseSem7DCRUN" element={<CseSem7DCRUN />} />
+          <Route path="/CseSem8DCRUN" element={<CseSem8DCRUN />} />
+
+          <Route path="/EceSem1DCRUN" element={<EceSem1DCRUN />} />
+          <Route path="/EceSem2DCRUN" element={<EceSem2DCRUN />} />
+          <Route path="/EceSem3DCRUN" element={<EceSem3DCRUN />} />
+          <Route path="/EceSem4DCRUN" element={<EceSem4DCRUN />} />
+          <Route path="/EceSem5DCRUN" element={<EceSem5DCRUN />} />
+          <Route path="/EceSem6DCRUN" element={<EceSem6DCRUN />} />
+          <Route path="/EceSem7DCRUN" element={<EceSem7DCRUN />} />
+          <Route path="/EceSem8DCRUN" element={<EceSem8DCRUN />} />
+
+          <Route path="/EeSem1DCRUN" element={<EeSem1DCRUN />} />
+          <Route path="/EeSem2DCRUN" element={<EeSem2DCRUN />} />
+          <Route path="/EeSem3DCRUN" element={<EeSem3DCRUN />} />
+          <Route path="/EeSem4DCRUN" element={<EeSem4DCRUN />} />
+          <Route path="/EeSem5DCRUN" element={<EeSem5DCRUN />} />
+          <Route path="/EeSem6DCRUN" element={<EeSem6DCRUN />} />
+          <Route path="/EeSem7DCRUN" element={<EeSem7DCRUN />} />
+          <Route path="/EeSem8DCRUN" element={<EeSem8DCRUN />} />
+
+          <Route path="/MeSem1DCRUN" element={<MeSem1DCRUN />} />
+          <Route path="/MeSem2DCRUN" element={<MeSem2DCRUN />} />
+          <Route path="/MeSem3DCRUN" element={<MeSem3DCRUN />} />
+          <Route path="/MeSem4DCRUN" element={<MeSem4DCRUN />} />
+          <Route path="/MeSem5DCRUN" element={<MeSem5DCRUN />} />
+          <Route path="/MeSem6DCRUN" element={<MeSem6DCRUN />} />
+          <Route path="/MeSem7DCRUN" element={<MeSem7DCRUN />} />
+          <Route path="/MeSem8DCRUN" element={<MeSem8DCRUN />} />
 
           <Route path="/CseBranchMDU" element={<CseBranchMDU />} />
           <Route path="/EceBranchMDU" element={<EceBranchMDU />} />

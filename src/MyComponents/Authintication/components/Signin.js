@@ -78,7 +78,7 @@ const Signin = () => {
                                     <label>Create Password</label>
                                 </div>
                                 
-                                <div className="pass1">forget<a className="link" href="#">Password?</a></div>
+                                <div className="pass1"><a className="link" href="#">Forget Password?</a></div>
                                 <button onClick={signIn} className="signin_pointer">Sign In</button>
                                 {/* <h6 className="h6">Don't have an account?<span onClick={signUp} className="signin_link"><Signup/></span></h6> */}
                                 <h6 className="h6">Don't have an account?<span className="signin_link">

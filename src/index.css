@@ -228,15 +228,16 @@ i {
 
 .qta {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 1rem;
 }
 
 .ans-bank p {
-  font-size: 13px;
+  font-size: 25px;
   margin-left: 5rem;
   margin-right: 5rem;
   text-align: left;
+  margin-bottom: 0;
 }
 
 @media (max-width: 300px) {

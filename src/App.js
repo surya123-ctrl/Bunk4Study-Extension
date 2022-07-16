@@ -617,6 +617,60 @@ import MeSem6DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem6-DCRUN";
 import MeSem7DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem7-DCRUN";
 import MeSem8DCRUN from "./MyComponents/Notes/DCRUN/Me-DCRUN/MeSem8-DCRUN";
 
+import BeSem1GJUN from "./MyComponents/Notes/GJUN/Be-GJUN/BeSem1-GJUN";
+import BeSem2GJUN from "./MyComponents/Notes/GJUN/Be-GJUN/BeSem2-GJUN";
+import BeSem3GJUN from "./MyComponents/Notes/GJUN/Be-GJUN/BeSem3-GJUN";
+import BeSem4GJUN from "./MyComponents/Notes/GJUN/Be-GJUN/BeSem4-GJUN";
+import BeSem5GJUN from "./MyComponents/Notes/GJUN/Be-GJUN/BeSem5-GJUN";
+import BeSem6GJUN from "./MyComponents/Notes/GJUN/Be-GJUN/BeSem6-GJUN";
+import BeSem7GJUN from "./MyComponents/Notes/GJUN/Be-GJUN/BeSem7-GJUN";
+import BeSem8GJUN from "./MyComponents/Notes/GJUN/Be-GJUN/BeSem8-GJUN";
+
+import CeSem1GJUN from "./MyComponents/Notes/GJUN/Ce-GJUN/CeSem1-GJUN";
+import CeSem2GJUN from "./MyComponents/Notes/GJUN/Ce-GJUN/CeSem2-GJUN";
+import CeSem3GJUN from "./MyComponents/Notes/GJUN/Ce-GJUN/CeSem3-GJUN";
+import CeSem4GJUN from "./MyComponents/Notes/GJUN/Ce-GJUN/CeSem4-GJUN";
+import CeSem5GJUN from "./MyComponents/Notes/GJUN/Ce-GJUN/CeSem5-GJUN";
+import CeSem6GJUN from "./MyComponents/Notes/GJUN/Ce-GJUN/CeSem6-GJUN";
+import CeSem7GJUN from "./MyComponents/Notes/GJUN/Ce-GJUN/CeSem7-GJUN";
+import CeSem8GJUN from "./MyComponents/Notes/GJUN/Ce-GJUN/CeSem8-GJUN";
+
+import CseSem1GJUN from "./MyComponents/Notes/GJUN/Cse-GJUN/CseSem1-GJUN";
+import CseSem2GJUN from "./MyComponents/Notes/GJUN/Cse-GJUN/CseSem2-GJUN";
+import CseSem3GJUN from "./MyComponents/Notes/GJUN/Cse-GJUN/CseSem3-GJUN";
+import CseSem4GJUN from "./MyComponents/Notes/GJUN/Cse-GJUN/CseSem4-GJUN";
+import CseSem5GJUN from "./MyComponents/Notes/GJUN/Cse-GJUN/CseSem5-GJUN";
+import CseSem6GJUN from "./MyComponents/Notes/GJUN/Cse-GJUN/CseSem6-GJUN";
+import CseSem7GJUN from "./MyComponents/Notes/GJUN/Cse-GJUN/CseSem7-GJUN";
+import CseSem8GJUN from "./MyComponents/Notes/GJUN/Cse-GJUN/CseSem8-GJUN";
+
+import EceSem1GJUN from "./MyComponents/Notes/GJUN/Ece-GJUN/EceSem1-GJUN";
+import EceSem2GJUN from "./MyComponents/Notes/GJUN/Ece-GJUN/EceSem2-GJUN";
+import EceSem3GJUN from "./MyComponents/Notes/GJUN/Ece-GJUN/EceSem3-GJUN";
+import EceSem4GJUN from "./MyComponents/Notes/GJUN/Ece-GJUN/EceSem4-GJUN";
+import EceSem5GJUN from "./MyComponents/Notes/GJUN/Ece-GJUN/EceSem5-GJUN";
+import EceSem6GJUN from "./MyComponents/Notes/GJUN/Ece-GJUN/EceSem6-GJUN";
+import EceSem7GJUN from "./MyComponents/Notes/GJUN/Ece-GJUN/EceSem7-GJUN";
+import EceSem8GJUN from "./MyComponents/Notes/GJUN/Ece-GJUN/EceSem8-GJUN";
+
+import EeSem1GJUN from "./MyComponents/Notes/GJUN/Ee-GJUN/EeSem1-GJUN";
+import EeSem2GJUN from "./MyComponents/Notes/GJUN/Ee-GJUN/EeSem2-GJUN";
+import EeSem3GJUN from "./MyComponents/Notes/GJUN/Ee-GJUN/EeSem3-GJUN";
+import EeSem4GJUN from "./MyComponents/Notes/GJUN/Ee-GJUN/EeSem4-GJUN";
+import EeSem5GJUN from "./MyComponents/Notes/GJUN/Ee-GJUN/EeSem5-GJUN";
+import EeSem6GJUN from "./MyComponents/Notes/GJUN/Ee-GJUN/EeSem6-GJUN";
+import EeSem7GJUN from "./MyComponents/Notes/GJUN/Ee-GJUN/EeSem7-GJUN";
+import EeSem8GJUN from "./MyComponents/Notes/GJUN/Ee-GJUN/EeSem8-GJUN";
+
+import MeSem1GJUN from "./MyComponents/Notes/GJUN/Me-GJUN/MeSem1-GJUN";
+import MeSem2GJUN from "./MyComponents/Notes/GJUN/Me-GJUN/MeSem2-GJUN";
+import MeSem3GJUN from "./MyComponents/Notes/GJUN/Me-GJUN/MeSem3-GJUN";
+import MeSem4GJUN from "./MyComponents/Notes/GJUN/Me-GJUN/MeSem4-GJUN";
+import MeSem5GJUN from "./MyComponents/Notes/GJUN/Me-GJUN/MeSem5-GJUN";
+import MeSem6GJUN from "./MyComponents/Notes/GJUN/Me-GJUN/MeSem6-GJUN";
+import MeSem7GJUN from "./MyComponents/Notes/GJUN/Me-GJUN/MeSem7-GJUN";
+import MeSem8GJUN from "./MyComponents/Notes/GJUN/Me-GJUN/MeSem8-GJUN";
+
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate } from "react-router-dom";
 // import CookieConsent from "react-cookie-consent";
@@ -1182,6 +1236,60 @@ function App() {
           <Route path="/MeSem6DCRUN" element={<MeSem6DCRUN />} />
           <Route path="/MeSem7DCRUN" element={<MeSem7DCRUN />} />
           <Route path="/MeSem8DCRUN" element={<MeSem8DCRUN />} />
+
+          <Route path="/BeSem1GJUN" element={<BeSem1GJUN />} />
+          <Route path="/BeSem2GJUN" element={<BeSem2GJUN />} />
+          <Route path="/BeSem3GJUN" element={<BeSem3GJUN />} />
+          <Route path="/BeSem4GJUN" element={<BeSem4GJUN />} />
+          <Route path="/BeSem5GJUN" element={<BeSem5GJUN />} />
+          <Route path="/BeSem6GJUN" element={<BeSem6GJUN />} />
+          <Route path="/BeSem7GJUN" element={<BeSem7GJUN />} />
+          <Route path="/BeSem8GJUN" element={<BeSem8GJUN />} />
+
+          <Route path="/CeSem1GJUN" element={<CeSem1GJUN />} />
+          <Route path="/CeSem2GJUN" element={<CeSem2GJUN />} />
+          <Route path="/CeSem3GJUN" element={<CeSem3GJUN />} />
+          <Route path="/CeSem4GJUN" element={<CeSem4GJUN />} />
+          <Route path="/CeSem5GJUN" element={<CeSem5GJUN />} />
+          <Route path="/CeSem6GJUN" element={<CeSem6GJUN />} />
+          <Route path="/CeSem7GJUN" element={<CeSem7GJUN />} />
+          <Route path="/CeSem8GJUN" element={<CeSem8GJUN />} />
+
+          <Route path="/CseSem1GJUN" element={<CseSem1GJUN />} />
+          <Route path="/CseSem2GJUN" element={<CseSem2GJUN />} />
+          <Route path="/CseSem3GJUN" element={<CseSem3GJUN />} />
+          <Route path="/CseSem4GJUN" element={<CseSem4GJUN />} />
+          <Route path="/CseSem5GJUN" element={<CseSem5GJUN />} />
+          <Route path="/CseSem6GJUN" element={<CseSem6GJUN />} />
+          <Route path="/CseSem7GJUN" element={<CseSem7GJUN />} />
+          <Route path="/CseSem8GJUN" element={<CseSem8GJUN />} />
+
+          <Route path="/EceSem1GJUN" element={<EceSem1GJUN />} />
+          <Route path="/EceSem2GJUN" element={<EceSem2GJUN />} />
+          <Route path="/EceSem3GJUN" element={<EceSem3GJUN />} />
+          <Route path="/EceSem4GJUN" element={<EceSem4GJUN />} />
+          <Route path="/EceSem5GJUN" element={<EceSem5GJUN />} />
+          <Route path="/EceSem6GJUN" element={<EceSem6GJUN />} />
+          <Route path="/EceSem7GJUN" element={<EceSem7GJUN />} />
+          <Route path="/EceSem8GJUN" element={<EceSem8GJUN />} />
+
+          <Route path="/EeSem1GJUN" element={<EeSem1GJUN />} />
+          <Route path="/EeSem2GJUN" element={<EeSem2GJUN />} />
+          <Route path="/EeSem3GJUN" element={<EeSem3GJUN />} />
+          <Route path="/EeSem4GJUN" element={<EeSem4GJUN />} />
+          <Route path="/EeSem5GJUN" element={<EeSem5GJUN />} />
+          <Route path="/EeSem6GJUN" element={<EeSem6GJUN />} />
+          <Route path="/EeSem7GJUN" element={<EeSem7GJUN />} />
+          <Route path="/EeSem8GJUN" element={<EeSem8GJUN />} />
+
+          <Route path="/MeSem1GJUN" element={<MeSem1GJUN />} />
+          <Route path="/MeSem2GJUN" element={<MeSem2GJUN />} />
+          <Route path="/MeSem3GJUN" element={<MeSem3GJUN />} />
+          <Route path="/MeSem4GJUN" element={<MeSem4GJUN />} />
+          <Route path="/MeSem5GJUN" element={<MeSem5GJUN />} />
+          <Route path="/MeSem6GJUN" element={<MeSem6GJUN />} />
+          <Route path="/MeSem7GJUN" element={<MeSem7GJUN />} />
+          <Route path="/MeSem8GJUN" element={<MeSem8GJUN />} />
 
           <Route path="/CseBranchMDU" element={<CseBranchMDU />} />
           <Route path="/EceBranchMDU" element={<EceBranchMDU />} />

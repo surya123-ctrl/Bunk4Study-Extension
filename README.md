@@ -1,4 +1,4 @@
-# <a href="https://bunk4stud.netlify.app/"><img src="https://img.shields.io/github/deployments/surya123-ctrl/Bunk4Study-Extension/?style=for-the-badge"></a>
+# <a href="https://bunk4stud.netlify.app"><img width="110" alt="image" src="https://user-images.githubusercontent.com/88888678/179461906-f69f6623-1984-4f39-9a83-e5729810e98c.png"></a>
 
 # Getting Started with Create React App
 

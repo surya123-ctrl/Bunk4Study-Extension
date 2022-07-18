@@ -78,9 +78,9 @@ import BeBranchGJU from "./MyComponents/Branch/GJU/Be-GJU/BeBranch-GJU";
 import CseBranchJCBU from "./MyComponents/Branch/JCBU/Cse-JCBU/CseBranch-JCBU";
 import EceBranchJCBU from "./MyComponents/Branch/JCBU/Ece-JCBU/EceBranch-JCBU";
 import MeBranchJCBU from "./MyComponents/Branch/JCBU/Me-JCBU/MeBranch-JCBU";
-import CeBranchJCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeBranch-JCBU";
+import CeBranchJCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeBranch-JCBU";
 import EeBranchJCBU from "./MyComponents/Branch/JCBU/Ee-JCBU/EeBranch-JCBU";
-import BeBranchJCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeBranch-JCBU";
+import BeBranchJCBU from "./MyComponents/Branch/JCBU/BeJCBU/BeBranchJCBU";
 
 import CseBranchKU from "./MyComponents/Branch/KU/Cse-KU/CseBranch-KU";
 import EceBranchKU from "./MyComponents/Branch/KU/Ece-KU/EceBranch-KU";
@@ -347,23 +347,23 @@ import MeSem6GJU from "./MyComponents/Branch/GJU/Me-GJU/MeSem6-GJU";
 import MeSem7GJU from "./MyComponents/Branch/GJU/Me-GJU/MeSem7-GJU";
 import MeSem8GJU from "./MyComponents/Branch/GJU/Me-GJU/MeSem8-GJU";
 
-import BeSem1JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem1-JCBU";
-import BeSem2JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem2-JCBU";
-import BeSem3JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem3-JCBU";
-import BeSem4JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem4-JCBU";
-import BeSem5JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem5-JCBU";
-import BeSem6JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem6-JCBU";
-import BeSem7JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem7-JCBU";
-import BeSem8JCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeSem8-JCBU";
+import BeSem1JCBU from "./MyComponents/Branch/JCBU/BeJCBU/BeSem1JCBU";
+import BeSem2JCBU from "./MyComponents/Branch/JCBU/BeJCBU/BeSem2-JCBU";
+import BeSem3JCBU from "./MyComponents/Branch/JCBU/BeJCBU/BeSem3-JCBU";
+import BeSem4JCBU from "./MyComponents/Branch/JCBU/BeJCBU/BeSem4-JCBU";
+import BeSem5JCBU from "./MyComponents/Branch/JCBU/BeJCBU/BeSem5-JCBU";
+import BeSem6JCBU from "./MyComponents/Branch/JCBU/BeJCBU/BeSem6-JCBU";
+import BeSem7JCBU from "./MyComponents/Branch/JCBU/BeJCBU/BeSem7-JCBU";
+import BeSem8JCBU from "./MyComponents/Branch/JCBU/BeJCBU/BeSem8-JCBU";
 
-import CeSem1JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem1-JCBU";
-import CeSem2JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem2-JCBU";
-import CeSem3JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem3-JCBU";
-import CeSem4JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem4-JCBU";
-import CeSem5JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem5-JCBU";
-import CeSem6JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem6-JCBU";
-import CeSem7JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem7-JCBU";
-import CeSem8JCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeSem8-JCBU";
+import CeSem1JCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeSem1-JCBU";
+import CeSem2JCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeSem2-JCBU";
+import CeSem3JCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeSem3-JCBU";
+import CeSem4JCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeSem4-JCBU";
+import CeSem5JCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeSem5-JCBU";
+import CeSem6JCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeSem6-JCBU";
+import CeSem7JCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeSem7-JCBU";
+import CeSem8JCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeSem8-JCBU";
 
 import CseSem1JCBU from "./MyComponents/Branch/JCBU/Cse-JCBU/CseSem1-JCBU";
 import CseSem2JCBU from "./MyComponents/Branch/JCBU/Cse-JCBU/CseSem2-JCBU";
@@ -785,7 +785,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
   const [user, setUser] = useState(null);
-  
+
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((userAuth) => {
       const user = {
@@ -1541,59 +1541,59 @@ function App() {
           <Route path="/CeBranchJCBU" element={<CeBranchJCBU />} />
           <Route path="/EeBranchJCBU" element={<EeBranchJCBU />} />
           <Route path="/BeBranchJCBU" element={<BeBranchJCBU />} />
-          
+
           <Route path="/CseBranchKU" element={<CseBranchKU />} />
           <Route path="/EceBranchKU" element={<EceBranchKU />} />
           <Route path="/MeBranchKU" element={<MeBranchKU />} />
           <Route path="/CeBranchKU" element={<CeBranchKU />} />
           <Route path="/EeBranchKU" element={<EeBranchKU />} />
           <Route path="/BeBranchKU" element={<BeBranchKU />} />
-          
-          <Route path="/CseBranchMDUN" element={<CseBranchMDUN/>}/>
-          <Route path="/BeBranchMDUN" element={<BeBranchMDUN/>}/>
-          <Route path="/CeBranchMDUN" element={<CeBranchMDUN/>}/>
-          <Route path="/MeBranchMDUN" element={<MeBranchMDUN/>}/>
-          <Route path="/EceBranchMDUN" element={<EceBranchMDUN/>}/>
-          <Route path="/EeBranchMDUN" element={<EeBranchMDUN/>}/>
 
-          <Route path="/CseBranchCDLUN" element={<CseBranchCDLUN/>}/>
-          <Route path="/BeBranchCDLUN" element={<BeBranchCDLUN/>}/>
-          <Route path="/CeBranchCDLUN" element={<CeBranchCDLUN/>}/>
-          <Route path="/MeBranchCDLUN" element={<MeBranchCDLUN/>}/>
-          <Route path="/EceBranchCDLUN" element={<EceBranchCDLUN/>}/>
-          <Route path="/EeBranchCDLUN" element={<EeBranchCDLUN/>}/>
+          <Route path="/CseBranchMDUN" element={<CseBranchMDUN />} />
+          <Route path="/BeBranchMDUN" element={<BeBranchMDUN />} />
+          <Route path="/CeBranchMDUN" element={<CeBranchMDUN />} />
+          <Route path="/MeBranchMDUN" element={<MeBranchMDUN />} />
+          <Route path="/EceBranchMDUN" element={<EceBranchMDUN />} />
+          <Route path="/EeBranchMDUN" element={<EeBranchMDUN />} />
 
-          <Route path="/CseBranchDCRUN" element={<CseBranchDCRUN/>}/>
-          <Route path="/BeBranchDCRUN" element={<BeBranchDCRUN/>}/>
-          <Route path="/CeBranchDCRUN" element={<CeBranchDCRUN/>}/>
-          <Route path="/MeBranchDCRUN" element={<MeBranchDCRUN/>}/>
-          <Route path="/EceBranchDCRUN" element={<EceBranchDCRUN/>}/>
-          <Route path="/EeBranchDCRUN" element={<EeBranchDCRUN/>}/>
+          <Route path="/CseBranchCDLUN" element={<CseBranchCDLUN />} />
+          <Route path="/BeBranchCDLUN" element={<BeBranchCDLUN />} />
+          <Route path="/CeBranchCDLUN" element={<CeBranchCDLUN />} />
+          <Route path="/MeBranchCDLUN" element={<MeBranchCDLUN />} />
+          <Route path="/EceBranchCDLUN" element={<EceBranchCDLUN />} />
+          <Route path="/EeBranchCDLUN" element={<EeBranchCDLUN />} />
 
-          <Route path="/CseBranchGJUN" element={<CseBranchGJUN/>}/>
-          <Route path="/BeBranchGJUN" element={<BeBranchGJUN/>}/>
-          <Route path="/CeBranchGJUN" element={<CeBranchGJUN/>}/>
-          <Route path="/MeBranchGJUN" element={<MeBranchGJUN/>}/>
-          <Route path="/EceBranchGJUN" element={<EceBranchGJUN/>}/>
-          <Route path="/EeBranchGJUN" element={<EeBranchGJUN/>}/>
+          <Route path="/CseBranchDCRUN" element={<CseBranchDCRUN />} />
+          <Route path="/BeBranchDCRUN" element={<BeBranchDCRUN />} />
+          <Route path="/CeBranchDCRUN" element={<CeBranchDCRUN />} />
+          <Route path="/MeBranchDCRUN" element={<MeBranchDCRUN />} />
+          <Route path="/EceBranchDCRUN" element={<EceBranchDCRUN />} />
+          <Route path="/EeBranchDCRUN" element={<EeBranchDCRUN />} />
 
-          <Route path="/CseBranchJCBUN" element={<CseBranchJCBUN/>}/>
-          <Route path="/CeBranchJCBUN" element={<CeBranchJCBUN/>}/>
-          <Route path="/MeBranchJCBUN" element={<MeBranchJCBUN/>}/>
-          <Route path="/BeBranchJCBUN" element={<BeBranchJCBUN/>}/>
-          <Route path="/EceBranchJCBUN" element={<EceBranchJCBUN/>}/>
-          <Route path="/EeBranchJCBUN" element={<EeBranchJCBUN/>}/>
+          <Route path="/CseBranchGJUN" element={<CseBranchGJUN />} />
+          <Route path="/BeBranchGJUN" element={<BeBranchGJUN />} />
+          <Route path="/CeBranchGJUN" element={<CeBranchGJUN />} />
+          <Route path="/MeBranchGJUN" element={<MeBranchGJUN />} />
+          <Route path="/EceBranchGJUN" element={<EceBranchGJUN />} />
+          <Route path="/EeBranchGJUN" element={<EeBranchGJUN />} />
 
-          <Route path="/CseBranchKUN" element={<CseBranchKUN/>}/>
-          <Route path="/BeBranchKUN" element={<BeBranchKUN/>}/>
-          <Route path="/CeBranchKUN" element={<CeBranchKUN/>}/>
-          <Route path="/MeBranchKUN" element={<MeBranchKUN/>}/>
-          <Route path="/EceBranchKUN" element={<EceBranchKUN/>}/>
-          <Route path="/EeBranchKUN" element={<EeBranchKUN/>}/>
+          <Route path="/CseBranchJCBUN" element={<CseBranchJCBUN />} />
+          <Route path="/CeBranchJCBUN" element={<CeBranchJCBUN />} />
+          <Route path="/MeBranchJCBUN" element={<MeBranchJCBUN />} />
+          <Route path="/BeBranchJCBUN" element={<BeBranchJCBUN />} />
+          <Route path="/EceBranchJCBUN" element={<EceBranchJCBUN />} />
+          <Route path="/EeBranchJCBUN" element={<EeBranchJCBUN />} />
+
+          <Route path="/CseBranchKUN" element={<CseBranchKUN />} />
+          <Route path="/BeBranchKUN" element={<BeBranchKUN />} />
+          <Route path="/CeBranchKUN" element={<CeBranchKUN />} />
+          <Route path="/MeBranchKUN" element={<MeBranchKUN />} />
+          <Route path="/EceBranchKUN" element={<EceBranchKUN />} />
+          <Route path="/EeBranchKUN" element={<EeBranchKUN />} />
 
 
           <Route path="/Signup" element={<Signup />} />
-          <Route path="/Signout" element={<Signout User={user}/>} />
+          <Route path="/Signout" element={<Signout User={user} />} />
           <Route path="/Signin" element={<Signin />} />
 
           <Route path="/user" element={<Navigate to="/" />} />

@@ -510,13 +510,6 @@ import MeSem7MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem7-MDUN";
 import MeSem8MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem8-MDUN";
 
 import BeSem1CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem1CDLUN";
-import BeSem2CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem2-CDLUN";
-import BeSem3CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem3-CDLUN";
-import BeSem4CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem4-CDLUN";
-import BeSem5CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem5-CDLUN";
-import BeSem6CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem6-CDLUN";
-import BeSem7CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem7-CDLUN";
-
 import BeSem2CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem2CDLUN";
 import BeSem3CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem3CDLUN";
 import BeSem4CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem4CDLUN";

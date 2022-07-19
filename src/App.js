@@ -82,12 +82,12 @@ import CeBranchJCBU from "./MyComponents/Branch/JCBU/Ce-JCBU/CeBranch-JCBU";
 import EeBranchJCBU from "./MyComponents/Branch/JCBU/Ee-JCBU/EeBranch-JCBU";
 import BeBranchJCBU from "./MyComponents/Branch/JCBU/Be-JCBU/BeBranch-JCBU";
 
-import CseBranchKU from "./MyComponents/Branch/KU/Cse-KU/CseBranch-KU";
-import EceBranchKU from "./MyComponents/Branch/KU/Ece-KU/EceBranch-KU";
-import MeBranchKU from "./MyComponents/Branch/KU/Me-KU/MeBranch-KU";
-import CeBranchKU from "./MyComponents/Branch/KU/Ce-KU/CeBranch-KU";
-import EeBranchKU from "./MyComponents/Branch/KU/Ee-KU/EeBranch-KU";
-import BeBranchKU from "./MyComponents/Branch/KU/Be-KU/BeBranch-KU";
+import CseBranchKU from "./MyComponents/Branch/KU/Cse-KU/CseBranchKU";
+import EceBranchKU from "./MyComponents/Branch/KU/Ece-KU/EceBranchKU";
+import MeBranchKU from "./MyComponents/Branch/KU/Me-KU/MeBranchKU";
+import CeBranchKU from "./MyComponents/Branch/KU/Ce-KU/CeBranchKU";
+import EeBranchKU from "./MyComponents/Branch/KU/Ee-KU/EeBranchKU";
+import BeBranchKU from "./MyComponents/Branch/KU/Be-KU/BeBranchKU";
 
 import CseBranchMDUN from "./MyComponents/Notes/MDUN/Cse-MDUN/CseBranch-MDUN";
 import BeBranchMDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeBranch-MDUN";
@@ -124,12 +124,12 @@ import MeBranchJCBUN from "./MyComponents/Notes/JCBUN/Me-JCBUN/MeBranch-JCBUN";
 import EceBranchJCBUN from "./MyComponents/Notes/JCBUN/Ece-JCBUN/EceBranch-JCBUN";
 import EeBranchJCBUN from "./MyComponents/Notes/JCBUN/Ee-JCBUN/EeBranch-JCBUN";
 
-import CseBranchKUN from "./MyComponents/Notes/KUN/Cse-KUN/CseBranch-KUN";
-import BeBranchKUN from "./MyComponents/Notes/KUN/Be-KUN/BeBranch-KUN";
-import CeBranchKUN from "./MyComponents/Notes/KUN/Ce-KUN/CeBranch-KUN";
-import MeBranchKUN from "./MyComponents/Notes/KUN/Me-KUN/MeBranch-KUN";
-import EceBranchKUN from "./MyComponents/Notes/KUN/Ece-KUN/EceBranch-KUN";
-import EeBranchKUN from "./MyComponents/Notes/KUN/Ee-KUN/EeBranch-KUN";
+import CseBranchKUN from "./MyComponents/Notes/KUN/Cse-KUN/CseBranchKUN";
+import BeBranchKUN from "./MyComponents/Notes/KUN/Be-KUN/BeBranchKUN";
+import CeBranchKUN from "./MyComponents/Notes/KUN/Ce-KUN/CeBranchKUN";
+import MeBranchKUN from "./MyComponents/Notes/KUN/Me-KUN/MeBranchKUN";
+import EceBranchKUN from "./MyComponents/Notes/KUN/Ece-KUN/EceBranchKUN";
+import EeBranchKUN from "./MyComponents/Notes/KUN/Ee-KUN/EeBranchKUN";
 
 import CseSem1MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem1-MDU";
 import CseSem2MDU from "./MyComponents/Branch/MDU/Cse-MDU/CseSem2-MDU";
@@ -401,59 +401,59 @@ import MeSem6JCBU from "./MyComponents/Branch/JCBU/Me-JCBU/MeSem6-JCBU";
 import MeSem7JCBU from "./MyComponents/Branch/JCBU/Me-JCBU/MeSem7-JCBU";
 import MeSem8JCBU from "./MyComponents/Branch/JCBU/Me-JCBU/MeSem8-JCBU";
 
-import BeSem1KU from "./MyComponents/Branch/KU/Be-KU/BeSem1-KU";
-import BeSem2KU from "./MyComponents/Branch/KU/Be-KU/BeSem2-KU";
-import BeSem3KU from "./MyComponents/Branch/KU/Be-KU/BeSem3-KU";
-import BeSem4KU from "./MyComponents/Branch/KU/Be-KU/BeSem4-KU";
-import BeSem5KU from "./MyComponents/Branch/KU/Be-KU/BeSem5-KU";
-import BeSem6KU from "./MyComponents/Branch/KU/Be-KU/BeSem6-KU";
-import BeSem7KU from "./MyComponents/Branch/KU/Be-KU/BeSem7-KU";
-import BeSem8KU from "./MyComponents/Branch/KU/Be-KU/BeSem8-KU";
+import BeSem1KU from "./MyComponents/Branch/KU/Be-KU/BeSem1KU";
+import BeSem2KU from "./MyComponents/Branch/KU/Be-KU/BeSem2KU";
+import BeSem3KU from "./MyComponents/Branch/KU/Be-KU/BeSem3KU";
+import BeSem4KU from "./MyComponents/Branch/KU/Be-KU/BeSem4KU";
+import BeSem5KU from "./MyComponents/Branch/KU/Be-KU/BeSem5KU";
+import BeSem6KU from "./MyComponents/Branch/KU/Be-KU/BeSem6KU";
+import BeSem7KU from "./MyComponents/Branch/KU/Be-KU/BeSem7KU";
+import BeSem8KU from "./MyComponents/Branch/KU/Be-KU/BeSem8KU";
 
-import CeSem1KU from "./MyComponents/Branch/KU/Ce-KU/CeSem1-KU";
-import CeSem2KU from "./MyComponents/Branch/KU/Ce-KU/CeSem2-KU";
-import CeSem3KU from "./MyComponents/Branch/KU/Ce-KU/CeSem3-KU";
-import CeSem4KU from "./MyComponents/Branch/KU/Ce-KU/CeSem4-KU";
-import CeSem5KU from "./MyComponents/Branch/KU/Ce-KU/CeSem5-KU";
-import CeSem6KU from "./MyComponents/Branch/KU/Ce-KU/CeSem6-KU";
-import CeSem7KU from "./MyComponents/Branch/KU/Ce-KU/CeSem7-KU";
-import CeSem8KU from "./MyComponents/Branch/KU/Ce-KU/CeSem8-KU";
+import CeSem1KU from "./MyComponents/Branch/KU/Ce-KU/CeSem1KU";
+import CeSem2KU from "./MyComponents/Branch/KU/Ce-KU/CeSem2KU";
+import CeSem3KU from "./MyComponents/Branch/KU/Ce-KU/CeSem3KU";
+import CeSem4KU from "./MyComponents/Branch/KU/Ce-KU/CeSem4KU";
+import CeSem5KU from "./MyComponents/Branch/KU/Ce-KU/CeSem5KU";
+import CeSem6KU from "./MyComponents/Branch/KU/Ce-KU/CeSem6KU";
+import CeSem7KU from "./MyComponents/Branch/KU/Ce-KU/CeSem7KU";
+import CeSem8KU from "./MyComponents/Branch/KU/Ce-KU/CeSem8KU";
 
-import CseSem1KU from "./MyComponents/Branch/KU/Cse-KU/CseSem1-KU";
-import CseSem2KU from "./MyComponents/Branch/KU/Cse-KU/CseSem2-KU";
-import CseSem3KU from "./MyComponents/Branch/KU/Cse-KU/CseSem3-KU";
-import CseSem4KU from "./MyComponents/Branch/KU/Cse-KU/CseSem4-KU";
-import CseSem5KU from "./MyComponents/Branch/KU/Cse-KU/CseSem5-KU";
-import CseSem6KU from "./MyComponents/Branch/KU/Cse-KU/CseSem6-KU";
-import CseSem7KU from "./MyComponents/Branch/KU/Cse-KU/CseSem7-KU";
-import CseSem8KU from "./MyComponents/Branch/KU/Cse-KU/CseSem8-KU";
+import CseSem1KU from "./MyComponents/Branch/KU/CSE-KU/CseSem1KU";
+import CseSem2KU from "./MyComponents/Branch/KU/CSE-KU/CseSem2KU";
+import CseSem3KU from "./MyComponents/Branch/KU/CSE-KU/CseSem3KU";
+import CseSem4KU from "./MyComponents/Branch/KU/CSE-KU/CseSem4KU";
+import CseSem5KU from "./MyComponents/Branch/KU/CSE-KU/CseSem5KU";
+import CseSem6KU from "./MyComponents/Branch/KU/CSE-KU/CseSem6KU";
+import CseSem7KU from "./MyComponents/Branch/KU/CSE-KU/CseSem7KU";
+import CseSem8KU from "./MyComponents/Branch/KU/CSE-KU/CseSem8KU";
 
-import EceSem1KU from "./MyComponents/Branch/KU/Ece-KU/EceSem1-KU";
-import EceSem2KU from "./MyComponents/Branch/KU/Ece-KU/EceSem2-KU";
-import EceSem3KU from "./MyComponents/Branch/KU/Ece-KU/EceSem3-KU";
-import EceSem4KU from "./MyComponents/Branch/KU/Ece-KU/EceSem4-KU";
-import EceSem5KU from "./MyComponents/Branch/KU/Ece-KU/EceSem5-KU";
-import EceSem6KU from "./MyComponents/Branch/KU/Ece-KU/EceSem6-KU";
-import EceSem7KU from "./MyComponents/Branch/KU/Ece-KU/EceSem7-KU";
-import EceSem8KU from "./MyComponents/Branch/KU/Ece-KU/EceSem8-KU";
+import EceSem1KU from "./MyComponents/Branch/KU/ECE-KU/EceSem1KU";
+import EceSem2KU from "./MyComponents/Branch/KU/ECE-KU/EceSem2KU";
+import EceSem3KU from "./MyComponents/Branch/KU/ECE-KU/EceSem3KU";
+import EceSem4KU from "./MyComponents/Branch/KU/ECE-KU/EceSem4KU";
+import EceSem5KU from "./MyComponents/Branch/KU/ECE-KU/EceSem5KU";
+import EceSem6KU from "./MyComponents/Branch/KU/ECE-KU/EceSem6KU";
+import EceSem7KU from "./MyComponents/Branch/KU/ECE-KU/EceSem7KU";
+import EceSem8KU from "./MyComponents/Branch/KU/ECE-KU/EceSem8KU";
 
-import EeSem1KU from "./MyComponents/Branch/KU/Ee-KU/EeSem1-KU";
-import EeSem2KU from "./MyComponents/Branch/KU/Ee-KU/EeSem2-KU";
-import EeSem3KU from "./MyComponents/Branch/KU/Ee-KU/EeSem3-KU";
-import EeSem4KU from "./MyComponents/Branch/KU/Ee-KU/EeSem4-KU";
-import EeSem5KU from "./MyComponents/Branch/KU/Ee-KU/EeSem5-KU";
-import EeSem6KU from "./MyComponents/Branch/KU/Ee-KU/EeSem6-KU";
-import EeSem7KU from "./MyComponents/Branch/KU/Ee-KU/EeSem7-KU";
-import EeSem8KU from "./MyComponents/Branch/KU/Ee-KU/EeSem8-KU";
+import EeSem1KU from "./MyComponents/Branch/KU/Ee-KU/EeSem1KU";
+import EeSem2KU from "./MyComponents/Branch/KU/Ee-KU/EeSem2KU";
+import EeSem3KU from "./MyComponents/Branch/KU/Ee-KU/EeSem3KU";
+import EeSem4KU from "./MyComponents/Branch/KU/Ee-KU/EeSem4KU";
+import EeSem5KU from "./MyComponents/Branch/KU/Ee-KU/EeSem5KU";
+import EeSem6KU from "./MyComponents/Branch/KU/Ee-KU/EeSem6KU";
+import EeSem7KU from "./MyComponents/Branch/KU/Ee-KU/EeSem7KU";
+import EeSem8KU from "./MyComponents/Branch/KU/Ee-KU/EeSem8KU";
 
-import MeSem1KU from "./MyComponents/Branch/KU/Me-KU/MeSem1-KU";
-import MeSem2KU from "./MyComponents/Branch/KU/Me-KU/MeSem2-KU";
-import MeSem3KU from "./MyComponents/Branch/KU/Me-KU/MeSem3-KU";
-import MeSem4KU from "./MyComponents/Branch/KU/Me-KU/MeSem4-KU";
-import MeSem5KU from "./MyComponents/Branch/KU/Me-KU/MeSem5-KU";
-import MeSem6KU from "./MyComponents/Branch/KU/Me-KU/MeSem6-KU";
-import MeSem7KU from "./MyComponents/Branch/KU/Me-KU/MeSem7-KU";
-import MeSem8KU from "./MyComponents/Branch/KU/Me-KU/MeSem8-KU";
+import MeSem1KU from "./MyComponents/Branch/KU/Me-KU/MeSem1KU";
+import MeSem2KU from "./MyComponents/Branch/KU/Me-KU/MeSem2KU";
+import MeSem3KU from "./MyComponents/Branch/KU/Me-KU/MeSem3KU";
+import MeSem4KU from "./MyComponents/Branch/KU/Me-KU/MeSem4KU";
+import MeSem5KU from "./MyComponents/Branch/KU/Me-KU/MeSem5KU";
+import MeSem6KU from "./MyComponents/Branch/KU/Me-KU/MeSem6KU";
+import MeSem7KU from "./MyComponents/Branch/KU/Me-KU/MeSem7KU";
+import MeSem8KU from "./MyComponents/Branch/KU/Me-KU/MeSem8KU";
 
 import BeSem1MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem1-MDUN";
 import BeSem2MDUN from "./MyComponents/Notes/MDUN/Be-MDUN/BeSem2-MDUN";
@@ -509,7 +509,7 @@ import MeSem6MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem6-MDUN";
 import MeSem7MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem7-MDUN";
 import MeSem8MDUN from "./MyComponents/Notes/MDUN/Me-MDUN/MeSem8-MDUN";
 
-import BeSem1CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem1-CDLUN";
+import BeSem1CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem1CDLUN";
 import BeSem2CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem2-CDLUN";
 import BeSem3CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem3-CDLUN";
 import BeSem4CDLUN from "./MyComponents/Notes/CDLUN/Be-CDLUN/BeSem4-CDLUN";
@@ -725,59 +725,59 @@ import MeSem6JCBUN from "./MyComponents/Notes/JCBUN/Me-JCBUN/MeSem6-JCBUN";
 import MeSem7JCBUN from "./MyComponents/Notes/JCBUN/Me-JCBUN/MeSem7-JCBUN";
 import MeSem8JCBUN from "./MyComponents/Notes/JCBUN/Me-JCBUN/MeSem8-JCBUN";
 
-import BeSem1KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem1-KUN";
-import BeSem2KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem2-KUN";
-import BeSem3KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem3-KUN";
-import BeSem4KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem4-KUN";
-import BeSem5KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem5-KUN";
-import BeSem6KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem6-KUN";
-import BeSem7KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem7-KUN";
-import BeSem8KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem8-KUN";
+import BeSem1KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem1KUN";
+import BeSem2KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem2KUN";
+import BeSem3KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem3KUN";
+import BeSem4KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem4KUN";
+import BeSem5KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem5KUN";
+import BeSem6KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem6KUN";
+import BeSem7KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem7KUN";
+import BeSem8KUN from "./MyComponents/Notes/KUN/Be-KUN/BeSem8KUN";
 
-import CeSem1KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem1-KUN";
-import CeSem2KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem2-KUN";
-import CeSem3KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem3-KUN";
-import CeSem4KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem4-KUN";
-import CeSem5KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem5-KUN";
-import CeSem6KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem6-KUN";
-import CeSem7KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem7-KUN";
-import CeSem8KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem8-KUN";
+import CeSem1KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem1KUN";
+import CeSem2KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem2KUN";
+import CeSem3KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem3KUN";
+import CeSem4KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem4KUN";
+import CeSem5KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem5KUN";
+import CeSem6KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem6KUN";
+import CeSem7KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem7KUN";
+import CeSem8KUN from "./MyComponents/Notes/KUN/Ce-KUN/CeSem8KUN";
 
-import CseSem1KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem1-KUN";
-import CseSem2KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem2-KUN";
-import CseSem3KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem3-KUN";
-import CseSem4KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem4-KUN";
-import CseSem5KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem5-KUN";
-import CseSem6KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem6-KUN";
-import CseSem7KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem7-KUN";
-import CseSem8KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem8-KUN";
+import CseSem1KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem1KUN";
+import CseSem2KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem2KUN";
+import CseSem3KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem3KUN";
+import CseSem4KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem4KUN";
+import CseSem5KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem5KUN";
+import CseSem6KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem6KUN";
+import CseSem7KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem7KUN";
+import CseSem8KUN from "./MyComponents/Notes/KUN/Cse-KUN/CseSem8KUN";
 
-import EceSem1KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem1-KUN";
-import EceSem2KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem2-KUN";
-import EceSem3KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem3-KUN";
-import EceSem4KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem4-KUN";
-import EceSem5KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem5-KUN";
-import EceSem6KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem6-KUN";
-import EceSem7KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem7-KUN";
-import EceSem8KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem8-KUN";
+import EceSem1KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem1KUN";
+import EceSem2KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem2KUN";
+import EceSem3KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem3KUN";
+import EceSem4KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem4KUN";
+import EceSem5KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem5KUN";
+import EceSem6KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem6KUN";
+import EceSem7KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem7KUN";
+import EceSem8KUN from "./MyComponents/Notes/KUN/Ece-KUN/EceSem8KUN";
 
-import EeSem1KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem1-KUN";
-import EeSem2KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem2-KUN";
-import EeSem3KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem3-KUN";
-import EeSem4KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem4-KUN";
-import EeSem5KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem5-KUN";
-import EeSem6KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem6-KUN";
-import EeSem7KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem7-KUN";
-import EeSem8KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem8-KUN";
+import EeSem1KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem1KUN";
+import EeSem2KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem2KUN";
+import EeSem3KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem3KUN";
+import EeSem4KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem4KUN";
+import EeSem5KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem5KUN";
+import EeSem6KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem6KUN";
+import EeSem7KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem7KUN";
+import EeSem8KUN from "./MyComponents/Notes/KUN/Ee-KUN/EeSem8KUN";
 
-import MeSem1KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem1-KUN";
-import MeSem2KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem2-KUN";
-import MeSem3KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem3-KUN";
-import MeSem4KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem4-KUN";
-import MeSem5KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem5-KUN";
-import MeSem6KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem6-KUN";
-import MeSem7KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem7-KUN";
-import MeSem8KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem8-KUN";
+import MeSem1KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem1KUN";
+import MeSem2KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem2KUN";
+import MeSem3KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem3KUN";
+import MeSem4KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem4KUN";
+import MeSem5KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem5KUN";
+import MeSem6KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem6KUN";
+import MeSem7KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem7KUN";
+import MeSem8KUN from "./MyComponents/Notes/KUN/Me-KUN/MeSem8KUN";
 
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -1171,7 +1171,7 @@ function App() {
           <Route path="/EeSem4KU" element={<EeSem4KU />} />
           <Route path="/EeSem5KU" element={<EeSem5KU />} />
           <Route path="/EeSem6KU" element={<EeSem6KU />} />
-          <Route path="/EeSem7KU" element={<EeSem7KU />} />
+          <Route path="/EeSem7KU" element={<EeSem7KU/>} />
           <Route path="/EeSem8KU" element={<EeSem8KU />} />
 
           <Route path="/MeSem1KU" element={<MeSem1KU />} />

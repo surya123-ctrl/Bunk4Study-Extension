@@ -1,7 +1,7 @@
 import React from "react";
 import "..//..//..//Branch/Style/Branch.css";
 
-const BeSem8CDLUN = () => {
+const EceSem8CDLUN = () => {
   return (
     <>
       <div style={{ backgroundColor: "#Dbe6ea" }}>
@@ -46,4 +46,4 @@ const BeSem8CDLUN = () => {
   );
 };
 
-export default BeSem8CDLUN;
+export default EceSem8CDLUN;

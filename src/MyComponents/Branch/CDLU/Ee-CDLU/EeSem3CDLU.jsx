@@ -1,12 +1,12 @@
 import React from "react";
-import "..//..//..//Branch/Style/Branch.css";
+import "..//..//Style/Branch.css";
 
-const BeSem8CDLUN = () => {
+const EeSem3CDLU = () => {
   return (
     <>
       <div style={{ backgroundColor: "#Dbe6ea" }}>
         <h1 class="mb-1">
-          SEMESTER 8 <br />
+          SEMESTER 3 <br />
           Select Your Subject
           <div class="spinner-grow text-primary" role="status">
             <span class="visually-hidden">Loading...</span>
@@ -46,4 +46,4 @@ const BeSem8CDLUN = () => {
   );
 };
 
-export default BeSem8CDLUN;
+export default EeSem3CDLU;

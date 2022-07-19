@@ -1,12 +1,12 @@
 import React from "react";
-import "..//..//..//Branch/Style/Branch.css";
+import "..//..//Style/Branch.css";
 
-const BeSem1CDLUN = () => {
+const MeSem2CDLU = () => {
   return (
     <>
       <div style={{ backgroundColor: "#Dbe6ea" }}>
         <h1 class="mb-1">
-          SEMESTER 1 <br />
+          SEMESTER 2 <br />
           Select Your Subject
           <div class="spinner-grow text-primary" role="status">
             <span class="visually-hidden">Loading...</span>
@@ -34,24 +34,16 @@ const BeSem1CDLUN = () => {
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body" id="sub">
-
-                <button type="button" class="btn btn-primary">
-                  2009
-                </button>
-
               <button type="button" class="btn btn-primary">
                 2009
               </button>
-
               <br />
             </div>
           </div>
         </div>
-
-
       </div>
     </>
   );
 };
 
-export default BeSem1CDLUN;
+export default MeSem2CDLU;

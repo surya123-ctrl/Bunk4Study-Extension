@@ -1,7 +1,7 @@
 import React from "react";
 import "..//..//..//Branch/Style/Branch.css";
 
-const Sem1 = () => {
+const BeSem8CDLUN = () => {
   return (
     <>
       <div style={{ backgroundColor: "#Dbe6ea" }}>
@@ -34,17 +34,16 @@ const Sem1 = () => {
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body" id="sub">
-                <button type="button" class="btn btn-primary">
-                  2009
-                </button>
+              <button type="button" class="btn btn-primary">
+                2009
+              </button>
               <br />
             </div>
           </div>
         </div>
-
       </div>
     </>
   );
 };
 
-export default Sem1;
+export default BeSem8CDLUN;

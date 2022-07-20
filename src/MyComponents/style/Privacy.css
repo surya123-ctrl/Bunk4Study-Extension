@@ -14,13 +14,13 @@ h1 {
   margin: 0;
   color: black;
 }
-@media(max-width:490px){
-  .heads{
+@media (max-width: 490px) {
+  .heads {
     font-size: 35px !important;
   }
 }
-@media(max-width:380px){
-  .heads{
-    font-size: 25px !important;
+@media (max-width: 380px) {
+  .heads {
+    font-size: 17px !important;
   }
 }

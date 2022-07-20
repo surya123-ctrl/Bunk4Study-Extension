@@ -13,3 +13,12 @@ h1 {
 section {
   margin-bottom: -5rem;
 }
+.article-text {
+  text-align: left;
+}
+@media (max-width: 400px) {
+  .article-text {
+    width: 100%;
+    margin-left: 0;
+  }
+}

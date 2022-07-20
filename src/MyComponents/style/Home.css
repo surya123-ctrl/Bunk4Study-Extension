@@ -149,6 +149,7 @@
   border: none;
   border-radius: 15px;
   padding: 15px;
+  width: 110px;
   margin: 5px;
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -193,9 +194,9 @@
   .gift {
     max-width: 22%;
   }
-  .MDU{
-    font-weight: 100;
-    font-size: 25px;
+  .MDU {
+    /* font-weight: 00; */
+    font-size: 35px;
   }
 }
 @media (max-width: 427px) {
@@ -255,5 +256,10 @@
     position: relative;
     left: -6rem;
     padding: 0px 100px;
+  }
+  .short-button {
+    width: 98px;
+    /* font-size: 10px; */
+    padding: 10px !important;
   }
 }

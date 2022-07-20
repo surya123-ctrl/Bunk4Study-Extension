@@ -76,6 +76,11 @@ article {
 .react-read-more-read-less-more {
   font-weight: 500;
 }
+@media (max-width: 1110px) {
+  .blog-buttons {
+    margin-top: 5px;
+  }
+}
 @media (max-width: 390px) {
   .medium-pic,
   .blog-pic {
@@ -85,6 +90,6 @@ article {
     margin-top: 0;
   }
   .heading {
-    font-size: 24px;
+    font-size: 35px !important;
   }
 }

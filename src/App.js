@@ -82,8 +82,8 @@ import CeBranchGJU from "./MyComponents/Branch/GJU/CeGJU/CeBranchGJU";
 import EeBranchGJU from "./MyComponents/Branch/GJU/EeGJU/EeBranchGJU";
 import BeBranchGJU from "./MyComponents/Branch/GJU/BeGJU/BeBranchGJU";
 
-import CseBranchJCBU from "./MyComponents/Branch/JCBU/CSEJCBU/CseBranchJCBU";
-import EceBranchJCBU from "./MyComponents/Branch/JCBU/ECEJCBU/EceBranchJCBU";
+import CseBranchJCBU from "./MyComponents/Branch/JCBU/CseJCBU/CseBranchJCBU";
+import EceBranchJCBU from "./MyComponents/Branch/JCBU/EceJCBU/EceBranchJCBU";
 import MeBranchJCBU from "./MyComponents/Branch/JCBU/MeJCBU/MeBranchJCBU";
 import CeBranchJCBU from "./MyComponents/Branch/JCBU/CeJCBU/CeBranchJCBU";
 import EeBranchJCBU from "./MyComponents/Branch/JCBU/EeJCBU/EeBranchJCBU";

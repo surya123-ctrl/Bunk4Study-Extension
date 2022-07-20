@@ -1,10 +1,16 @@
 import React from "react";
 import "..//..//Style/Branch.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 
 const EeBranchMDU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
+    <Helmet>
+        <title>EeBranchMDU</title>
+        <meta name="description" content="MDU's Electrical Engineering's Semester-wise Papers" />
+      </Helmet>
       <h1>
         Electrical Engineering's Semester-wise Papers
         <div class="spinner-grow text-secondary" role="status">

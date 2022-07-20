@@ -1,10 +1,15 @@
 import React from "react";
 import "../style/Question.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const DCRU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
+      <Helmet>
+        <title>DCRU</title>
+        <meta name="description" content="Deenbandhu Chhotu Ram University Notes" />
+      </Helmet>
       <h1 class="mb-1">
         <b>Deenbandhu Chhotu Ram University</b>
         <div class="spinner-grow text-primary" role="status">

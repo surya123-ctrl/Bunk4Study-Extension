@@ -1,10 +1,15 @@
 import React from "react";
 import "../style/Question.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const JCBU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
+     <Helmet>
+        <title>JCBU</title>
+        <meta name="description" content="J.C. Bose University Notes" />
+      </Helmet>
       <h1 class="mb-1">
         <b>J.C. Bose University</b>
         <div class="spinner-grow text-primary" role="status">

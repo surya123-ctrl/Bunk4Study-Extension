@@ -3,6 +3,7 @@ import { auth, provider} from '../firebase';
 import { useNavigate } from "react-router-dom";
 import './signup.css';
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 // import GoogleButton from "react-google-button";
 
 
@@ -36,6 +37,10 @@ const SignUp = () => {
 
     return (
         <>
+        <Helmet>
+           <title>Signup</title>
+           <meta name="description" content="Signup page of Bunk4Study" />
+        </Helmet>
             <div className="big-div1">
                 <div className="big-div2">
                     <div className="big-div3">

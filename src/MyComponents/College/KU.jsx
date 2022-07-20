@@ -1,10 +1,15 @@
 import React from "react";
 import "../style/Question.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const KU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
+      <Helmet>
+        <title>KU</title>
+        <meta name="description" content="Kurukshetra University Notes" />
+      </Helmet>
       <h1 class="mb-1">
         <b>Kurukshetra University</b>
         <div class="spinner-grow text-primary" role="status">

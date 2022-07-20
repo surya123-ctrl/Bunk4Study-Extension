@@ -1,10 +1,15 @@
 import React from "react";
 import "../style/Question.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const MDU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
+    <Helmet>
+        <title>MDU</title>
+        <meta name="description" content="Maharshi Dayanand University Notes" />
+      </Helmet>
       <h1 class="mb-1">
         <b>Maharshi Dayanand University</b>
         <div class="spinner-grow text-primary" role="status">

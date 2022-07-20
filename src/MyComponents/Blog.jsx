@@ -5,11 +5,14 @@ import "../MyComponents/style/Blog.css";
 const About = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }} className="box">
-      <h1 className="heading">Our Blogs</h1>
+
       <Helmet>
         <title>Blog</title>
         <meta name="description" content="Blogs related to university prepration" />
       </Helmet>
+
+      <h1 className="heading">Our Blogs</h1>
+
       <div className="blog-buttons">
         <a
           href="https://medium.com/@bunk4study/bunk4study-8f9e8579f06f"

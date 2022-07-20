@@ -6,10 +6,12 @@ import { Helmet } from "react-helmet";
 const About = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
+
       <Helmet>
         <title>About</title>
-        <meta name="description" content="Know more about Bunk4study" />
+        <meta name="description" content="Know more about Bunk4Study" />
       </Helmet>
+
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div>

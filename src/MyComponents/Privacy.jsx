@@ -1,8 +1,13 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "../MyComponents/style/Privacy.css";
 const Privacy = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
+      <Helmet>
+        <title>Privacy</title>
+        <meta name="description" content="Privacy policy of our website" />
+      </Helmet>
       <section className="privacy">
         <h1 className="heads">Disclaimer</h1>
         <p>

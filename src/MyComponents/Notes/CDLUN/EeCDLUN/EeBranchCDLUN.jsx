@@ -1,8 +1,8 @@
 import React from "react";
-import "..//..//Style/Branch.css";
+import "..//..//..//Branch/Style/Branch.css";
 import { Link } from "react-router-dom";
 
-const EeBranchJCBU = () => {
+const EeBranchCDLUN = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <h1>
@@ -13,49 +13,49 @@ const EeBranchJCBU = () => {
       </h1>
 
       <div className="sem">
-        <Link to={"/EeSem1JCBU"}>
+        <Link to={"/EeSem1CDLUN"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 1
           </button>
         </Link>
 
-        <Link to={"/EeSem2JCBU"}>
+        <Link to={"/EeSem2CDLUN"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 2
           </button>
         </Link>
 
-        <Link to={"/EeSem3JCBU"}>
+        <Link to={"/EeSem3CDLUN"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 3
           </button>
         </Link>
 
-        <Link to={"/EeSem4JCBU"}>
+        <Link to={"/EeSem4CDLUN"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 4
           </button>
         </Link>
 
-        <Link to={"/EeSem5JCBU"}>
+        <Link to={"/EeSem5CDLUN"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 5
           </button>
         </Link>
 
-        <Link to={"/EeSem6JCBU"}>
+        <Link to={"/EeSem6CDLUN"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 6
           </button>
         </Link>
 
-        <Link to={"/EeSem7JCBU"}>
+        <Link to={"/EeSem7CDLUN"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 7
           </button>
         </Link>
 
-        <Link to={"/EeSem8JCBU"}>
+        <Link to={"/EeSem8CDLUN"}>
           <button type="button" class="btn btn-outline-secondary">
             Semester 8
           </button>
@@ -67,4 +67,4 @@ const EeBranchJCBU = () => {
   );
 };
 
-export default EeBranchJCBU;
+export default EeBranchCDLUN;

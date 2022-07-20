@@ -155,14 +155,24 @@ function NavBar(props) {
         </div>
         <div class="offcanvas-body">
           <h6>
-            <Link to={"/Event"}>
+            <Link to={"/Event"} onClick="handleClick()">
               1. Go To Event Page For Some Amazing Giveaway
             </Link>
             <span class="badge bg-danger">New</span>
           </h6>
           <h6>2. Every Month 5 Tshirt Giveaway</h6>
-          <h6>3. CSE Semester 1 Question Paper Uploaded</h6>
-          <h6>4. CSE Semester 2 Question Paper Uploaded</h6>
+          <h6>3. MDU CSE all semester paper are uploaded</h6>
+          <h6>4. KU is added</h6>
+          <h6>5. CDLU is added</h6>
+          <h6>6. DCRU is added</h6>
+          <h6>7. GJU is added</h6>
+          <h6>8. JCBU is added</h6>
+          <h6>
+            9. Contribute to our site by uploading question papers and notes{" "}
+            <Link to={"/upload"} onClick="handleClick()">
+              Click Here
+            </Link>
+          </h6>
         </div>
       </div>
     </>

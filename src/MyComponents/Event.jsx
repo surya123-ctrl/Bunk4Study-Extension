@@ -2,9 +2,17 @@ import React from "react";
 import "../MyComponents/style/Event.css";
 // import MovingText from "react-moving-text";
 import MovingComponent from "react-moving-text";
+import { Helmet } from "react-helmet";
+
 const Event = () => {
   return (
     <div style={{ backgroundColor: "#f7eecf" }}>
+
+      <Helmet>
+        <title>Event</title>
+        <meta name="description" content="Event and giveaway by Bunk4study" />
+      </Helmet>
+      
       <h1 className="giveaway">
         {" "}
         <span class="giveaway">

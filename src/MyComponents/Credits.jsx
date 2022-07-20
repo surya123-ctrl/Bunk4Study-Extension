@@ -1,9 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "../MyComponents/style/Credits.css";
 const Credits = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
+      <Helmet>
+        <title>Credits</title>
+        <meta name="description" content="Details about our team members" />
+      </Helmet>
       <div class="container">
+
         <h1>
           Welcome to the <br />
           Bunk4Study

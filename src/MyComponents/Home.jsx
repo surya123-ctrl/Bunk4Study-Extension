@@ -5,6 +5,7 @@ import second from "../Images/second.svg";
 import third from "../Images/third.svg";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
+import { Helmet } from "react-helmet";
 const Home = () => {
   return (
     <>
@@ -14,6 +15,12 @@ const Home = () => {
       ></script>
       <section id="header" class="container-fluid">
         <div className="container-fluid nav_bg">
+
+          <Helmet>
+            <title>Home</title>
+            <meta name="description" content="qusetion bank for mdu and other universities" />
+          </Helmet>
+
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="col-md-40 pt-5 pt-lg-0 order-2 order-lg-1">

@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import GoogleButton from "react-google-button";
 // import Signup from "./Signup";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Signin = () => {
     const emailref = useRef(null);
@@ -60,6 +61,11 @@ const Signin = () => {
 
     return (
         <>
+
+        <Helmet>
+           <title>Signin</title>
+           <meta name="description" content="Signin page of Bunk4Study" />
+        </Helmet>
             <div className="big-div1">
                 <div className="big-div2">
                     <div className="big-div3">

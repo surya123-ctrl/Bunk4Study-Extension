@@ -1,10 +1,15 @@
 import React from "react";
 import "..//..//Style/Branch.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const MeBranchDCRU = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
+    <Helmet>
+        <title>MeBranchDCRU</title>
+        <meta name="description" content="DCRU's Mechanical Engineering's Semester-wise Papers" />
+      </Helmet>
       <h1>
         Mechanical Engineering's Semester-wise Papers
         <div class="spinner-grow text-danger" role="status">

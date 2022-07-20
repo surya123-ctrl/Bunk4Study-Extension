@@ -141,6 +141,7 @@ import EeBranchKUN from "./MyComponents/Notes/KUN/EeKUN/EeBranchKUN";
 import ScrollToTop from "./MyComponents/scrollToTop";
 import { Routes, Route, Navigate } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
+import { Helmet } from "react-helmet";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -170,6 +171,14 @@ function App() {
       >
         <ScrollToTop />
         <Header User={user} />
+
+        <Helmet>
+          <title>Bunk4Study</title>
+          <meta name="description"
+            content="Get all the question papers of mdu,cdlu,dcru,gju,jcbu and other universities"
+          />
+          <meta name="keywords" content="bunk4study,college prepration,university exam,MDU question paper,JCBU question paper,DCRU question paper,Notes,papers of university" />
+        </Helmet>
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -251,59 +260,59 @@ function App() {
           <Route path="/CeBranchJCBU" element={<CeBranchJCBU />} />
           <Route path="/EeBranchJCBU" element={<EeBranchJCBU />} />
           <Route path="/BeBranchJCBU" element={<BeBranchJCBU />} />
-          
+
           <Route path="/CseBranchKU" element={<CseBranchKU />} />
           <Route path="/EceBranchKU" element={<EceBranchKU />} />
           <Route path="/MeBranchKU" element={<MeBranchKU />} />
           <Route path="/CeBranchKU" element={<CeBranchKU />} />
           <Route path="/EeBranchKU" element={<EeBranchKU />} />
           <Route path="/BeBranchKU" element={<BeBranchKU />} />
-          
-          <Route path="/CseBranchMDUN" element={<CseBranchMDUN/>}/>
-          <Route path="/BeBranchMDUN" element={<BeBranchMDUN/>}/>
-          <Route path="/CeBranchMDUN" element={<CeBranchMDUN/>}/>
-          <Route path="/MeBranchMDUN" element={<MeBranchMDUN/>}/>
-          <Route path="/EceBranchMDUN" element={<EceBranchMDUN/>}/>
-          <Route path="/EeBranchMDUN" element={<EeBranchMDUN/>}/>
 
-          <Route path="/CseBranchCDLUN" element={<CseBranchCDLUN/>}/>
-          <Route path="/BeBranchCDLUN" element={<BeBranchCDLUN/>}/>
-          <Route path="/CeBranchCDLUN" element={<CeBranchCDLUN/>}/>
-          <Route path="/MeBranchCDLUN" element={<MeBranchCDLUN/>}/>
-          <Route path="/EceBranchCDLUN" element={<EceBranchCDLUN/>}/>
-          <Route path="/EeBranchCDLUN" element={<EeBranchCDLUN/>}/>
+          <Route path="/CseBranchMDUN" element={<CseBranchMDUN />} />
+          <Route path="/BeBranchMDUN" element={<BeBranchMDUN />} />
+          <Route path="/CeBranchMDUN" element={<CeBranchMDUN />} />
+          <Route path="/MeBranchMDUN" element={<MeBranchMDUN />} />
+          <Route path="/EceBranchMDUN" element={<EceBranchMDUN />} />
+          <Route path="/EeBranchMDUN" element={<EeBranchMDUN />} />
 
-          <Route path="/CseBranchDCRUN" element={<CseBranchDCRUN/>}/>
-          <Route path="/BeBranchDCRUN" element={<BeBranchDCRUN/>}/>
-          <Route path="/CeBranchDCRUN" element={<CeBranchDCRUN/>}/>
-          <Route path="/MeBranchDCRUN" element={<MeBranchDCRUN/>}/>
-          <Route path="/EceBranchDCRUN" element={<EceBranchDCRUN/>}/>
-          <Route path="/EeBranchDCRUN" element={<EeBranchDCRUN/>}/>
+          <Route path="/CseBranchCDLUN" element={<CseBranchCDLUN />} />
+          <Route path="/BeBranchCDLUN" element={<BeBranchCDLUN />} />
+          <Route path="/CeBranchCDLUN" element={<CeBranchCDLUN />} />
+          <Route path="/MeBranchCDLUN" element={<MeBranchCDLUN />} />
+          <Route path="/EceBranchCDLUN" element={<EceBranchCDLUN />} />
+          <Route path="/EeBranchCDLUN" element={<EeBranchCDLUN />} />
 
-          <Route path="/CseBranchGJUN" element={<CseBranchGJUN/>}/>
-          <Route path="/BeBranchGJUN" element={<BeBranchGJUN/>}/>
-          <Route path="/CeBranchGJUN" element={<CeBranchGJUN/>}/>
-          <Route path="/MeBranchGJUN" element={<MeBranchGJUN/>}/>
-          <Route path="/EceBranchGJUN" element={<EceBranchGJUN/>}/>
-          <Route path="/EeBranchGJUN" element={<EeBranchGJUN/>}/>
+          <Route path="/CseBranchDCRUN" element={<CseBranchDCRUN />} />
+          <Route path="/BeBranchDCRUN" element={<BeBranchDCRUN />} />
+          <Route path="/CeBranchDCRUN" element={<CeBranchDCRUN />} />
+          <Route path="/MeBranchDCRUN" element={<MeBranchDCRUN />} />
+          <Route path="/EceBranchDCRUN" element={<EceBranchDCRUN />} />
+          <Route path="/EeBranchDCRUN" element={<EeBranchDCRUN />} />
 
-          <Route path="/CseBranchJCBUN" element={<CseBranchJCBUN/>}/>
-          <Route path="/CeBranchJCBUN" element={<CeBranchJCBUN/>}/>
-          <Route path="/MeBranchJCBUN" element={<MeBranchJCBUN/>}/>
-          <Route path="/BeBranchJCBUN" element={<BeBranchJCBUN/>}/>
-          <Route path="/EceBranchJCBUN" element={<EceBranchJCBUN/>}/>
-          <Route path="/EeBranchJCBUN" element={<EeBranchJCBUN/>}/>
+          <Route path="/CseBranchGJUN" element={<CseBranchGJUN />} />
+          <Route path="/BeBranchGJUN" element={<BeBranchGJUN />} />
+          <Route path="/CeBranchGJUN" element={<CeBranchGJUN />} />
+          <Route path="/MeBranchGJUN" element={<MeBranchGJUN />} />
+          <Route path="/EceBranchGJUN" element={<EceBranchGJUN />} />
+          <Route path="/EeBranchGJUN" element={<EeBranchGJUN />} />
 
-          <Route path="/CseBranchKUN" element={<CseBranchKUN/>}/>
-          <Route path="/BeBranchKUN" element={<BeBranchKUN/>}/>
-          <Route path="/CeBranchKUN" element={<CeBranchKUN/>}/>
-          <Route path="/MeBranchKUN" element={<MeBranchKUN/>}/>
-          <Route path="/EceBranchKUN" element={<EceBranchKUN/>}/>
-          <Route path="/EeBranchKUN" element={<EeBranchKUN/>}/>
+          <Route path="/CseBranchJCBUN" element={<CseBranchJCBUN />} />
+          <Route path="/CeBranchJCBUN" element={<CeBranchJCBUN />} />
+          <Route path="/MeBranchJCBUN" element={<MeBranchJCBUN />} />
+          <Route path="/BeBranchJCBUN" element={<BeBranchJCBUN />} />
+          <Route path="/EceBranchJCBUN" element={<EceBranchJCBUN />} />
+          <Route path="/EeBranchJCBUN" element={<EeBranchJCBUN />} />
+
+          <Route path="/CseBranchKUN" element={<CseBranchKUN />} />
+          <Route path="/BeBranchKUN" element={<BeBranchKUN />} />
+          <Route path="/CeBranchKUN" element={<CeBranchKUN />} />
+          <Route path="/MeBranchKUN" element={<MeBranchKUN />} />
+          <Route path="/EceBranchKUN" element={<EceBranchKUN />} />
+          <Route path="/EeBranchKUN" element={<EeBranchKUN />} />
 
 
           <Route path="/Signup" element={<Signup />} />
-          <Route path="/Signout" element={<Signout User={user}/>} />
+          <Route path="/Signout" element={<Signout User={user} />} />
           <Route path="/Signin" element={<Signin />} />
 
           <Route path="/user" element={<Navigate to="/" />} />

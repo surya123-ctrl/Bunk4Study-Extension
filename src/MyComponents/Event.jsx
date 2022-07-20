@@ -5,6 +5,10 @@ import MovingComponent from "react-moving-text";
 const Event = () => {
   return (
     <div style={{ backgroundColor: "#f7eecf" }}>
+      <Helmet>
+        <title>Event</title>
+        <meta name="description" content="Event and giveaway by Bunk4study" />
+      </Helmet>
       <h1 className="giveaway">
         {" "}
         <span class="giveaway">

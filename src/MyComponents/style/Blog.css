@@ -92,4 +92,7 @@ article {
   .heading {
     font-size: 35px !important;
   }
+  article {
+    width: 90%;
+  }
 }

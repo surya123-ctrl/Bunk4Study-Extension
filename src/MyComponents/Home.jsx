@@ -15,10 +15,12 @@ const Home = () => {
       ></script>
       <section id="header" class="container-fluid">
         <div className="container-fluid nav_bg">
-
           <Helmet>
             <title>Home</title>
-            <meta name="description" content="qusetion bank for mdu and other universities" />
+            <meta
+              name="description"
+              content="qusetion bank for mdu and other universities"
+            />
           </Helmet>
 
           <div className="row">
@@ -339,10 +341,14 @@ const Home = () => {
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
                   <p class="leading-relaxed text-lg">
-                    “Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.Excepteur
-                    sint occaecat cupidatat non proident, sunt in culpa qui
-                    officia deserunt mollit anim id est laborum”
+                    “I just wanted to share a quick note and let you know that
+                    you guys do a really good job. I’m glad I decided to visit
+                    this site before my exam. It’s really great how easy your
+                    websites to find and download question paper. I never have
+                    any problem at all. Now it’s almost like having a mentor
+                    right here with me. I just choose the page, choose the
+                    branch then year and click download. It’s so simple. Thanks,
+                    guys!”
                   </p>
                   <span
                     id="blue-line"
@@ -364,17 +370,18 @@ const Home = () => {
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
                   <p class="leading-relaxed text-lg">
-                    “Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.Excepteur
-                    sint occaecat cupidatat non proident, sunt in culpa qui
-                    officia deserunt mollit anim id est laborum”
+                    "I must say I am very impressed after visit to the
+                    Bunk4Study website. The website is well presented , easy to
+                    follow and engaging. I thoroughly enjoyed this website and
+                    helps me a lot in exams by downloading question papers and
+                    study materials. Thank you ! This is the Best Website !"
                   </p>
                   <span
                     id="blue-line"
                     class="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"
                   ></span>
                   <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm sup">
-                    Ram Singh
+                    Rohan
                   </h2>
                   <p class="text-gray-500 sub">College Student</p>
                 </div>
@@ -389,19 +396,19 @@ const Home = () => {
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
                   <p class="leading-relaxed text-lg">
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore”
+                    “For students , Bunk4Study is very helpful and well
+                    organized and easy for all the students to search. This
+                    website is very helpful , supportive throughout in my
+                    college exams. All team members really done a very good job.
+                    It is easy for me to search content through only website
+                    i.e. Bunk4Study. Thank you so much !”
                   </p>
                   <span
                     id="blue-line"
                     class="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"
                   ></span>
                   <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm sup">
-                    Ramesh Singh
+                    Priya
                   </h2>
                   <p class="text-gray-500 mb-4 sub">College Student</p>
                 </div>

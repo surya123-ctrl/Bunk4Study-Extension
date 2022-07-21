@@ -7,6 +7,10 @@
   text-align: left;
   font-size: 12px;
 }
+#agree{
+  font-style: italic;
+  font-weight: bold;
+}
 @media (max-width: 420px) {
   .questions-bank {
     align-items: center;

@@ -48,9 +48,9 @@ const Giveaway = () => {
           The Giveaway hosted by Bunk4Study is in no way sponsored, endorsed,
           administered by, or associated with any Of Social Media.
         </p>
-        <p>
-          ___ By checking here, You, the Entrant, have affirmatively reviewed,
-          accepted, and agreed to all of the Official Rules.
+        <p id="agree">
+          By participating in giveaway, you, the Entrant, have affirmatively
+          reviewed, accepted, and agreed to all the official Rules.
         </p>
       </div>
     </div>

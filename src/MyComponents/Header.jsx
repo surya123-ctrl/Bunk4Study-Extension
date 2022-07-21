@@ -155,7 +155,7 @@ function NavBar(props) {
         </div>
         <div class="offcanvas-body">
           <h6>
-            <Link to={"/Event"} onClick="handleClick()">
+            <Link to={"/Event"} onClick={handleClick}>
               1. Go To Event Page For Some Amazing Giveaway
             </Link>
             <span class="badge bg-danger">New</span>
@@ -169,7 +169,7 @@ function NavBar(props) {
           <h6>8. JCBU is added</h6>
           <h6>
             9. Contribute to our site by uploading question papers and notes{" "}
-            <Link to={"/upload"} onClick="handleClick()">
+            <Link to={"/upload"} onClick={handleClick}>
               Click Here
             </Link>
           </h6>

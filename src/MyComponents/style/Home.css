@@ -181,6 +181,11 @@
     right: 0;
   }
 }
+@media(max-width:783px){
+  .carousel-indicators{
+    right: -3rem;
+  }
+}
 
 @media (max-width: 770px) {
   h1 {
@@ -188,6 +193,37 @@
   }
   .gift {
     margin: auto;
+  }
+}
+@media(max-width:640px){
+  .carousel-inner{
+    top: 0rem;
+  }
+  .carousel-indicators{
+    top: 33rem;
+  }
+}
+@media(max-width:600px){
+  .carousel-inner{
+    top: 0rem;
+  }
+  .carousel-indicators{
+    top: 33rem;
+  }
+}
+@media(max-width:540px){
+  #fc,#sc,#tc{
+    right: 1.5rem;
+  }
+  .carousel-inner {
+    position: relative;
+    top: -5rem;
+    left: 0rem;
+    min-width: 100%;
+  }
+  .carousel-indicators{
+    position: relative;
+    top: 30rem;
   }
 }
 @media (max-width: 520px) {
@@ -199,7 +235,23 @@
     font-size: 35px;
   }
 }
-@media (max-width: 427px) {
+@media(max-width:528px){
+  #fc,
+  #sc,
+  #tc {
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    left: -3rem;
+  }
+  #fc{
+    top: -4rem;
+  }
+  #tc{
+    top: -1.2rem;
+  }
+}
+@media (max-width: 437px) {
   .leading-relaxed {
     margin-bottom: 10px;
   }
@@ -245,17 +297,9 @@
   .carousel-inner {
     position: relative;
     left: -2.5rem;
-    min-width: 10%;
   }
-
-  #fc,
-  #sc,
-  #tc {
-    font-size: 1px;
-    font-weight: 100;
-    position: relative;
-    left: -6rem;
-    padding: 0px 100px;
+  #fc{
+    top: -1rem;
   }
   .short-button {
     width: 98px;

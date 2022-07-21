@@ -154,25 +154,23 @@ function NavBar(props) {
           ></button>
         </div>
         <div class="offcanvas-body">
-          <h6>
+          <h4>
             <Link to={"/Event"}>
-              1. Go To Event Page For Some Amazing Giveaway
+              * Go To Event Page For Some Amazing Giveaway
             </Link>
             <span class="badge bg-danger">New</span>
-          </h6>
-          <h6>2. Every Month 5 Tshirt Giveaway</h6>
-          <h6>3. MDU CSE all semester paper are uploaded</h6>
-          <h6>4. KU is added</h6>
-          <h6>5. CDLU is added</h6>
-          <h6>6. DCRU is added</h6>
-          <h6>7. GJU is added</h6>
-          <h6>8. JCBU is added</h6>
-          <h6>
-            9. Contribute to our site by uploading question papers and notes{" "}
-            <Link to={"/upload"}>
-              Click Here
-            </Link>
-          </h6>
+          </h4>
+          <h4>* Every Month 5 Tshirt Giveaway</h4>
+          <h4>* MDU CSE all semester paper are uploaded</h4>
+          <h4>* KU is added</h4>
+          <h4>* CDLU is added</h4>
+          <h4>* DCRU is added</h4>
+          <h4>* GJU is added</h4>
+          <h4>* JCBU is added</h4>
+          <h4>
+            * Contribute to our site by uploading question papers and notes{" "}
+            <Link to={"/upload"}>"Click Here"</Link>
+          </h4>
         </div>
       </div>
     </>

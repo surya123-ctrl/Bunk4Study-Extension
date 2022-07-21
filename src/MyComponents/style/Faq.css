@@ -1,6 +1,7 @@
 .button {
   border: 2px solid black;
-  font-size: 10px;
+  font-size: 30px;
+  color: #111;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;

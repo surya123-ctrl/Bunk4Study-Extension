@@ -159,7 +159,7 @@ i {
 }
 @media (max-width: 620px) {
   .footer {
-    height: 650px !important;
+    height: 660px !important;
   }
 }
 
@@ -170,13 +170,13 @@ i {
 }
 @media (max-width: 376px) {
   .footer {
-    height: 520px !important;
+    height: 560px !important;
   }
 }
 
 @media (max-width: 320px) {
   .footer {
-    height: 600px !important;
+    height: 700px !important;
   }
 }
 @media (max-width: 991px) {
@@ -192,7 +192,7 @@ i {
 
 @media (max-width: 625px) {
   .footer {
-    height: 600px;
+    height: 700px;
   }
 
   .footer-inside {

@@ -68,7 +68,6 @@
     margin: -5px 0 20px 5px;
     color: #050404;
     cursor: pointer;
-    padding-left: 10rem;
 }
 
 .signin_link {
@@ -115,7 +114,7 @@
         margin-left: -20px;
     }
 }
-@media (max-width: 325px){
+@media (max-width: 345px){
     .center{
         max-width: 312px !important;
         margin-left: -31px;

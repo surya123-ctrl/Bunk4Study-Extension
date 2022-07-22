@@ -303,6 +303,9 @@
   #fc {
     top: -1rem;
   }
+  #tc{
+    top: 1rem;
+  }
   .short-button {
     width: 98px;
     /* font-size: 10px; */

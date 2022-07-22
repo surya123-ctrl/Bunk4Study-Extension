@@ -38,7 +38,7 @@ const ContactUs = () => {
   }, 5000);
 
   return (
-    <form action="" netlify onSubmit={sendEmail} style={{ backgroundColor: "#Dbe6ea" }}>
+    <form action="" onSubmit={sendEmail} style={{ backgroundColor: "#Dbe6ea" }}>
       <Helmet>
         <title>Contact Us</title>
         <meta name="description" content="Contact us by filling the form" />

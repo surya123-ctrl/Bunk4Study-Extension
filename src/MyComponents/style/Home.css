@@ -61,7 +61,7 @@
   min-width: 500px;
   margin: auto;
   max-height: 330px;
-  height: 350px;
+  height: 380px;
   position: relative;
   top: -14rem;
   background: #fff;
@@ -181,7 +181,11 @@
     right: 0;
   }
 }
-
+@media (max-width: 600px) {
+  .carousel-inner {
+    max-height: 500px !important;
+  }
+}
 @media (max-width: 770px) {
   h1 {
     font-size: 40px !important;

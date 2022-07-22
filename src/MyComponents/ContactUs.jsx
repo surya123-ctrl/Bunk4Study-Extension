@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
+
 const Result = () => {
   return <p> Message Sent!, We will contact you soon</p>;
 };
@@ -14,20 +15,18 @@ const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_tjiphpn",
-        "template_c1iy058",
-        e.target,
-        "qcc9pBN0jP8x02hRV"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    .sendForm(
+      "service_whwxx1a",
+      "template_38p2cjo",
+      e.target,
+      "rmQMsp9wSKvrJLBZ1"
+    )
+    .then((result) => {
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });
+  
     e.target.reset();
     showResult(true);
   };

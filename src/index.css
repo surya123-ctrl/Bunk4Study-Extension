@@ -163,7 +163,7 @@ i {
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 446px) {
   .footer {
     height: 700px !important;
   }

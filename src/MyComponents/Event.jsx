@@ -40,12 +40,12 @@ const Event = () => {
           class="w3-grayscale-min w3-opacity-min tshirt"
         />
       </div>
-      <h4>Rules:-</h4>
+      <h3>Rules:-</h3>
       <p className="para">
         1. Register On Google Form By Clicking Below Blue Button <br />
         2. Follow Below Social handle
         <br />
-        a) Instagram -{" "}
+        * Instagram -{" "}
         <a
           href="https://instagram.com/bunk4study?utm_medium=copy_link"
           target="_blank"
@@ -54,7 +54,7 @@ const Event = () => {
           Follow
         </a>
         <br />
-        b) Twitter -
+        * Twitter -
         <a
           href="https://twitter.com/Bunk4Study?t=9MGpXgxPPs7TvQ0xWATLhQ&s=09"
           target="_blank"
@@ -63,7 +63,7 @@ const Event = () => {
           Follow
         </a>
         <br />
-        c) Facebook -{" "}
+        * Facebook -{" "}
         <a
           href="https://www.facebook.com/Bunk4Study-100731219267632"
           target="_blank"
@@ -88,7 +88,7 @@ const Event = () => {
         8. We will send form to winner, they have to fill within 15 days.
         <br />
       </p>
-      <div className="margin">
+      <div className="margin my-0 pb-4">
         <a
           href="https://forms.gle/PVDmNis9Y7V4tAMFA"
           target="_blank"

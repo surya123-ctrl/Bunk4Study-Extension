@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { Helmet } from "react-helmet";
 
 const Result = () => {
   return <p> Message Sent!, We will contact you soon</p>;
@@ -38,21 +37,14 @@ const ContactUs = () => {
   }, 5000);
 
   return (
-    <form action="" netlify onSubmit={sendEmail} style={{ backgroundColor: "#Dbe6ea" }}>
-      <Helmet>
-        <title>Contact Us</title>
-        <meta name="description" content="Contact us by filling the form" />
-      </Helmet>
-      <section class="text-gray-600 body-font relative">
+    <form action="" onSubmit={sendEmail}>
+      <section class="text-gray-600 body-font relative" style={{ backgroundColor: "#Dbe6ea" }}>
         <div class="container px-5 py-8 mx-auto">
           <div class="flex flex-col text-center w-full mb-3">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-0 mt-0 text-gray-900">
               Contact Us
             </h1>
-            <p
-              class="lg:w-2/3 mx-auto leading-relaxed text-base fw-bold "
-              style={{ marginBottom: "5px" }}
-            >
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base fw-bold ">
               Message Any Doubt Below{" "}
               <i class="bi bi-arrow-down-square-fill ms-1"></i>
             </p>
@@ -118,62 +110,52 @@ const ContactUs = () => {
                   class="text-blue-500"
                   href="mailto:contact@bunk4study.com"
                   target="_blank"
-                  text-decoration="none"
-                  rel="noreferrer"
+                  text-decoration="none" rel="noreferrer"
                 >
                   contact@bunk4study.com
                 </a>
                 <br />
                 <br />
-                <span
-                  class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
-                  style={{ fontSize: "20px" }}
-                >
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                   <a
                     class="text-gray-500"
                     href="https://www.facebook.com/Bunk4Study-100731219267632"
-                    target="_blank"
-                    rel="noreferrer"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="bi bi-facebook"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500"
                     href="https://twitter.com/Bunk4Study?t=9MGpXgxPPs7TvQ0xWATLhQ&s=09"
-                    target="_blank"
-                    rel="noreferrer"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="bi bi-twitter"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500"
                     href="https://instagram.com/bunk4study?utm_medium=copy_link"
-                    target="_blank"
-                    rel="noreferrer"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="bi bi-instagram"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500 "
                     href="https://www.linkedin.com/company/bunk4study/?viewAsMember=true"
-                    target="_blank"
-                    rel="noreferrer"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="bi bi-linkedin"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500"
                     href="https://telegram.me/bunk4study"
-                    target="_blank"
-                    rel="noreferrer"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="bi bi-telegram"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500"
                     href="https://discord.gg/jCpBSH8mHF"
-                    target="_blank"
-                    rel="noreferrer"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="bi bi-discord"></i>
                   </a>

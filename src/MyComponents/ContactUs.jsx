@@ -49,7 +49,7 @@ const ContactUs = () => {
           <meta name="description" content="Contact Us Page for Bunk4Study" />
         </Helmet>
         <div class="container px-5 py-8 mx-auto">
-          <div class="flex flex-col text-center w-full mb-3">
+          <div class="flex flex-col text-center w-full mb-3 py-4">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-0 mt-0 text-gray-900">
               Contact Us
             </h1>
@@ -74,7 +74,7 @@ const ContactUs = () => {
               </a>
             </p>
           </div>
-          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+          {/* <div class="lg:w-1/2 md:w-2/3 mx-auto">
             <div class="flex flex-wrap -m-2">
               <div class="p-2 w-1/2">
                 <div class="relative">
@@ -183,7 +183,7 @@ const ContactUs = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </form>

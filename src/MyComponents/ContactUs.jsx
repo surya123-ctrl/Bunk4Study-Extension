@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
+import { Helmet } from "react-helmet";
 import emailjs from "@emailjs/browser";
-
 
 const Result = () => {
   return <p> Message Sent!, We will contact you soon</p>;
@@ -15,18 +15,21 @@ const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-    .sendForm(
-      "service_whwxx1a",
-      "template_38p2cjo",
-      e.target,
-      "rmQMsp9wSKvrJLBZ1"
-    )
-    .then((result) => {
-      console.log(result.text);
-  }, (error) => {
-      console.log(error.text);
-  });
-  
+      .sendForm(
+        "service_whwxx1a",
+        "template_38p2cjo",
+        e.target,
+        "rmQMsp9wSKvrJLBZ1"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
     e.target.reset();
     showResult(true);
   };
@@ -37,15 +40,27 @@ const ContactUs = () => {
 
   return (
     <form action="" onSubmit={sendEmail}>
-      <section class="text-gray-600 body-font relative" style={{ backgroundColor: "#Dbe6ea" }}>
+      <section
+        class="text-gray-600 body-font relative"
+        style={{ backgroundColor: "#Dbe6ea" }}
+      >
+        <Helmet>
+          <title>Contact Us - Bunk4Study</title>
+          <meta name="description" content="Contact Us Page for Bunk4Study" />
+        </Helmet>
         <div class="container px-5 py-8 mx-auto">
           <div class="flex flex-col text-center w-full mb-3">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-0 mt-0 text-gray-900">
               Contact Us
             </h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base fw-bold ">
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base fw-bold my-2 py-2">
               Message Any Doubt Below{" "}
               <i class="bi bi-arrow-down-square-fill ms-1"></i>
+            </p>
+            <p>
+              We love to hear from our adoring fans, but feel free to fling
+              tomatoes in our if you must. We have some vegetarians on staff
+              that we feed those to ( if they're not too badly damaged).
             </p>
           </div>
           <div class="lg:w-1/2 md:w-2/3 mx-auto">
@@ -109,7 +124,8 @@ const ContactUs = () => {
                   class="text-blue-500"
                   href="mailto:contact@bunk4study.com"
                   target="_blank"
-                  text-decoration="none" rel="noreferrer"
+                  text-decoration="none"
+                  rel="noreferrer"
                 >
                   contact@bunk4study.com
                 </a>
@@ -119,42 +135,48 @@ const ContactUs = () => {
                   <a
                     class="text-gray-500"
                     href="https://www.facebook.com/Bunk4Study-100731219267632"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="bi bi-facebook"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500"
                     href="https://twitter.com/Bunk4Study?t=9MGpXgxPPs7TvQ0xWATLhQ&s=09"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="bi bi-twitter"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500"
                     href="https://instagram.com/bunk4study?utm_medium=copy_link"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="bi bi-instagram"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500 "
                     href="https://www.linkedin.com/company/bunk4study/?viewAsMember=true"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="bi bi-linkedin"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500"
                     href="https://telegram.me/bunk4study"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="bi bi-telegram"></i>
                   </a>
                   <a
                     class="ml-3 text-gray-500"
                     href="https://discord.gg/jCpBSH8mHF"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="bi bi-discord"></i>
                   </a>

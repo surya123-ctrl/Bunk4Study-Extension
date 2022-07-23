@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }} className="box">
       <Helmet>
-        <title>Blog</title>
+        <title>Blog - Bunk4Study</title>
         <meta
           name="description"
           content="Blogs related to university prepration"

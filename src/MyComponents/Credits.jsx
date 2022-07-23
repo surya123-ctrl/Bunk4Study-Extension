@@ -5,7 +5,7 @@ const Credits = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <Helmet>
-        <title>Credits</title>
+        <title>Credits - Bunk4Study</title>
         <meta name="description" content="Details about our team members" />
       </Helmet>
       <div class="container">

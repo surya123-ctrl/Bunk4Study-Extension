@@ -5,7 +5,7 @@ const Privacy = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <Helmet>
-        <title>Privacy</title>
+        <title>Privacy Policy - Bunk4Study</title>
         <meta name="description" content="Privacy policy of our website" />
       </Helmet>
       <section className="privacy">

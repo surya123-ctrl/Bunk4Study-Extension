@@ -16,7 +16,7 @@ const Home = () => {
       <section id="header" class="container-fluid">
         <div className="container-fluid nav_bg">
           <Helmet>
-            <title>Home</title>
+            <title>Home - Bunk4Study</title>
             <meta
               name="description"
               content="qusetion bank for mdu and other universities"

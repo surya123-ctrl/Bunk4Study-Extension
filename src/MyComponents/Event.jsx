@@ -9,7 +9,7 @@ const Event = () => {
     <div style={{ backgroundColor: "#f7eecf" }}>
 
       <Helmet>
-        <title>Event</title>
+        <title>Event - Bunk4Study</title>
         <meta name="description" content="Event and giveaway by Bunk4study" />
       </Helmet>
       

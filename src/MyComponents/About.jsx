@@ -8,7 +8,7 @@ const About = () => {
     <div style={{ backgroundColor: "#Dbe6ea" }}>
 
       <Helmet>
-        <title>About</title>
+        <title>About - Bunk4Study</title>
         <meta name="description" content="Know more about Bunk4Study" />
       </Helmet>
 

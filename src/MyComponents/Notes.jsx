@@ -7,7 +7,7 @@ const Notes = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <Helmet>
-        <title>Notes</title>
+        <title>Notes - Bunk4Study</title>
         <meta name="description" content="Notes and papers related to college and university exam prepration" />
       </Helmet>
       <h1>All Notes and Papers are Here!!!</h1>

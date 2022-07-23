@@ -6,7 +6,7 @@ const Faq = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
       <Helmet>
-        <title>FAQ</title>
+        <title>FAQ - Bunk4Study</title>
         <meta name="description" content="FAQ page" />
       </Helmet>
       <p className="center-button mb-0 pb-4">

@@ -8,7 +8,7 @@ const Question = () => {
     <div style={{ backgroundColor: "#Dbe6ea" }}>
 
       <Helmet>
-        <title>Question</title>
+        <title>Select Your College - Bunk4Study</title>
         <meta name="description" content="Question paper related to college exams" />
       </Helmet>
       

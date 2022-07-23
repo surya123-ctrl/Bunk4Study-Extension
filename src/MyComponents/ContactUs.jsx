@@ -62,6 +62,17 @@ const ContactUs = () => {
               tomatoes in our if you must. We have some vegetarians on staff
               that we feed those to ( if they're not too badly damaged).
             </p>
+            <p>
+              <a
+                class="text-blue-500"
+                href="mailto:contact@bunk4study.com"
+                target="_blank"
+                text-decoration="none"
+                rel="noreferrer"
+              >
+                contact@bunk4study.com
+              </a>
+            </p>
           </div>
           <div class="lg:w-1/2 md:w-2/3 mx-auto">
             <div class="flex flex-wrap -m-2">
@@ -120,17 +131,6 @@ const ContactUs = () => {
               <div className="row">{result ? <Result /> : null}</div>
 
               <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a
-                  class="text-blue-500"
-                  href="mailto:contact@bunk4study.com"
-                  target="_blank"
-                  text-decoration="none"
-                  rel="noreferrer"
-                >
-                  contact@bunk4study.com
-                </a>
-                <br />
-                <br />
                 <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                   <a
                     class="text-gray-500"

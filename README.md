@@ -1,4 +1,4 @@
-# <a href="https://bunk4study.com"><img width="110" alt="image" src="https://user-images.githubusercontent.com/88888678/179461906-f69f6623-1984-4f39-9a83-e5729810e98c.png"></a>
+# <a href="https://bunk4study.com"><img src="https://img.shields.io/badge/State-Success-success?style=for-the-badge"></a>
 
 # Getting Started with Create React App
 

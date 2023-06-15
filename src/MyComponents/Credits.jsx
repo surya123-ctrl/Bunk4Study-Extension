@@ -70,7 +70,7 @@ const Credits = () => {
         <div class="card">
           <a
             target="_blank"
-            href="https://github.com/utkarsh-dixit-git/"
+            href="https://github.com/devutkarshdixit/"
             rel="noreferrer"
           >
             <img id="user" src="https://i.imgur.com/yUqCsJd.jpg" alt="Dev" />

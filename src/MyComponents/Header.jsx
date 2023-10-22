@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../Images/Logo1.png"
 import { NavLink } from "react-router-dom";
 import "../MyComponents/style/Navbar.css";
 import { Link } from "react-router-dom";
@@ -20,7 +21,7 @@ function NavBar(props) {
             to="/"
           >
             <img
-              src="https://i.imgur.com/8w7Vp9R.png"
+              src={logo}
               alt="op"
               width="150"
               height="200"
@@ -72,6 +73,17 @@ function NavBar(props) {
                 onClick={handleClick}
               >
                 Notes
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/credits"
+                activeClassName="active"
+                className="nav-link me-2"
+                onClick={handleClick}
+              >
+                Credits
               </NavLink>
             </li>
             <li className="nav-item">

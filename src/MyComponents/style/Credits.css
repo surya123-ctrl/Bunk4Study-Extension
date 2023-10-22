@@ -48,8 +48,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 44%;
-  height: 13rem;
+  width: 200px;
+  height: 200px;
   max-width: 100%;
   border-radius: 50%;
 }

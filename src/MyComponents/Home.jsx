@@ -3,6 +3,7 @@ import "../MyComponents/style/Home.css";
 import first from "../Images/first.svg";
 import second from "../Images/second.svg";
 import third from "../Images/third.svg";
+import tee from "../Images/Tshirt.jpeg"
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 import { Helmet } from "react-helmet";
@@ -32,7 +33,7 @@ const Home = () => {
                   <div className="gift-container">
                     <Link to={"/Event"}>
                       <img
-                        src="https://i.imgur.com/QhuCNop.png"
+                        src={tee}
                         alt=""
                         className="gift"
                       />

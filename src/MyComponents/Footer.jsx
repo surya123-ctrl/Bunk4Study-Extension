@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../Images/Logo1.png";
 const Footer = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
@@ -8,7 +9,7 @@ const Footer = () => {
           <div className="left-footer">
             <img
               className="image"
-              src="https://i.imgur.com/8w7Vp9R.png"
+              src={logo}
               alt="logo"
               href="/"
             />

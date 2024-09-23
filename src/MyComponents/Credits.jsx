@@ -1,6 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "../MyComponents/style/Credits.css";
+import utkarsh from "../Images/Credits/Utkarsh.jpg";
+import surya from "../Images/Credits/Surya.jpg";
+import pritom from "../Images/Credits/Pritom.jpg";
+import asmita from "../Images/Credits/Asmita.jpg";
+import aditya from "../Images/Credits/Aditya.jpg";
 const Credits = () => {
   return (
     <div style={{ backgroundColor: "#Dbe6ea" }}>
@@ -44,8 +49,8 @@ const Credits = () => {
           >
             <img
               id="user"
-              src="https://media.licdn.com/dms/image/D4D35AQE3tMiQCTcuZQ/profile-framedphoto-shrink_400_400/0/1697486015971?e=1698562800&v=beta&t=Yneyec20fxw8duAeGmr7mAQ7VBtW5kEeU9DyFRg6ztg"
-              alt="Team Lead"
+              src={surya}
+              alt="Dev"
             />
 
             <div class="card-content">
@@ -64,13 +69,13 @@ const Credits = () => {
           >
             <img
               id="user"
-              src="https://media.licdn.com/dms/image/D4D35AQH3EOL2Nu9w2A/profile-framedphoto-shrink_400_400/0/1697957058917?e=1698562800&v=beta&t=DgsstykCLUMR-49QiC8A6GEMpbhvT6SFZBX4f1rp09s"
+              src={utkarsh}
               alt="Dev"
             />
 
             <div class="card-content">
               <h4>Utkarsh Dixit</h4>
-              <h5>Frontend Developer</h5>
+              <h5>Frontend Developer and Team Lead</h5>
               <p>O.P. Jindal University, Raigarh</p>
             </div>
           </a>
@@ -81,7 +86,7 @@ const Credits = () => {
             href="https://github.com/asmitaporwal/"
             rel="noreferrer"
           >
-            <img id="user" src="https://media.licdn.com/dms/image/D5635AQFqciQM3SbzFw/profile-framedphoto-shrink_400_400/0/1640184848498?e=1698562800&v=beta&t=k3rialpMQEQsvREFV96tyYi89i-Jv4eFGRNdhvrcFYo" alt="Dev" />
+            <img id="user" src= {asmita} alt="Dev" />
 
             <div class="card-content">
               <h4>Asmita Porwal</h4>
@@ -96,7 +101,7 @@ const Credits = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img id="user" src="https://media.licdn.com/dms/image/D4E35AQFeKvuAUfl0sg/profile-framedphoto-shrink_400_400/0/1690313324532?e=1698562800&v=beta&t=1dJZFiaWJ9lP_cdD9ZlgqiV21clWSSdqqb9yS8Bx6rg" alt="Dev" />
+            <img id="user" src={pritom} alt="Dev" />
 
             <div class="card-content">
               <h4>Pritom Dutta</h4>
@@ -105,25 +110,6 @@ const Credits = () => {
             </div>
           </a>
         </div>
-        <div class="card">
-          <img id="user" src="https://i.imgur.com/eVCnHDX.png" alt="Dev" />
-
-          <div class="card-content">
-            <h4>Kunal Bhardwaj</h4>
-            <h5>UI Developer</h5>
-            <p>Gautam Buddha University, Noida</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <img id="user" src="https://i.imgur.com/ExsggMZ.png" alt="Dev" />
-
-          <div class="card-content">
-            <h4>Aditya Shivaji Devdhe</h4>
-            <h5>UI Developer</h5>
-            <p>Modern Education society's college of engineering pune </p>
-          </div>
-        </div>
 
         <div class="card">
           <a
@@ -131,35 +117,16 @@ const Credits = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img id="user" src="https://i.imgur.com/KOpFNqB.png" alt="Dev" />
+            <img id="user" src={aditya} alt="Dev" />
 
             <div class="card-content">
               <h4>Aditya Singh</h4>
-              <h5>Frontend Developer</h5>
+              <h5>Jr. Frontend Developer</h5>
               <p>Dr B R Ambedkar National Institute of Technology, Jalandhar</p>
             </div>
           </a>
         </div>
 
-        <div class="card">
-          <img id="user" src="https://i.imgur.com/ZUUpvvX.png" alt="Dev" />
-
-          <div class="card-content">
-            <h4>Pranay Shah</h4>
-            <h5>Frontend Developer</h5>
-            <p>Indus University</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <img id="user" src="https://i.imgur.com/NJGIbwy.png" alt="Dev" />
-
-          <div class="card-content">
-            <h4>Zafeer Rangoonwala </h4>
-            <h5>Frontend Developer</h5>
-            <p>Indus University</p>
-          </div>
-        </div>
       </div>
     </div>
   );
